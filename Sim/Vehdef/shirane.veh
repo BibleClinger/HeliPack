@@ -1,0 +1,39 @@
+# Title: DDH Shirane
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.8 Date: 4/27/2019 9:42:40 AM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 110
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 1  -224.58 -0.33 -20.41
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 0 
+ExhaustSmokeMinAlpha 0.1
+ExhaustSmokeMaxAlpha 1
+ExhaustSmokeMinSize 1
+ExhaustSmokeMaxSize 1
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+DecalSwitchIdx 2
+
+#
+#
+# End of Additional
+#

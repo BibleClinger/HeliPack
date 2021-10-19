@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RWDRecords>
+    <RWD Num="0">
+        <Name>RWR 0</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="1">
+        <Name>AGM-45</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="2">
+        <Name>RWR 2</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>60.0</ScanAngleTop>
+        <ScanAngleBottom>-60.0</ScanAngleBottom>
+        <ScanAngleLeft>-60.0</ScanAngleLeft>
+        <ScanAngleRight>60.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="3">
+        <Name>RWR 3</Name>
+        <DetectionRange>2.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="4">
+        <Name>AGM-88</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>35.0</ScanAngleTop>
+        <ScanAngleBottom>-35.0</ScanAngleBottom>
+        <ScanAngleLeft>-35.0</ScanAngleLeft>
+        <ScanAngleRight>35.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="5">
+        <Name>RWR 5</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="6">
+        <Name>BOW-21</Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="7">
+        <Name>RWR 7</Name>
+        <DetectionRange>0.7</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="8">
+        <Name>AN/AAR-44A</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="9">
+        <Name>AN/ALR-82</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="10">
+        <Name>RWR 10</Name>
+        <DetectionRange>0.5</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="11">
+        <Name>SPO-15L Beroza</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="12">
+        <Name>SPO-15LM Beroza</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="13">
+        <Name>SPO-32, Tu-95M</Name>
+        <DetectionRange>1.7</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="14">
+        <Name>RWR 14</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="15">
+        <Name>RWR 15</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="16">
+        <Name>SPO-29 Pastel</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-120.0</ScanAngleLeft>
+        <ScanAngleRight>120.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="17">
+        <Name>F-16A/C</Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="18">
+        <Name>Baykal</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="19">
+        <Name>J-7G</Name>
+        <DetectionRange>0.5</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="20">
+        <Name>SPO-32, Su-33</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="21">
+        <Name>Su-34</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="22">
+        <Name>Su-35-37</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="23">
+        <Name>E-8C</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="24">
+        <Name>SPO-29 Pastel, Su-30MKK</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="25">
+        <Name>Tarang</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="26">
+        <Name>Su-7BKL</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="27">
+        <Name>SPO-15LE Sirena</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="28">
+        <Name>AN/ALR-45</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-120.0</ScanAngleLeft>
+        <ScanAngleRight>120.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="29">
+        <Name>M2K, C-160R</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>60.0</ScanAngleTop>
+        <ScanAngleBottom>-60.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="30">
+        <Name>AN/ALR-59</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="31">
+        <Name>AN/ALR-67(v)2</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="32">
+        <Name>AN/APR-50</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="33">
+        <Name>Avtomat 3</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="34">
+        <Name>AN/ALR-50</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-120.0</ScanAngleLeft>
+        <ScanAngleRight>120.0</ScanAngleRight>
+        <Flags>6</Flags>
+    </RWD>
+    <RWD Num="35">
+        <Name>RWR 35</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-120.0</ScanAngleLeft>
+        <ScanAngleRight>120.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="36">
+        <Name>AN/ALR-19</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-120.0</ScanAngleLeft>
+        <ScanAngleRight>120.0</ScanAngleRight>
+        <Flags>6</Flags>
+    </RWD>
+    <RWD Num="37">
+        <Name>Su-39</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="38">
+        <Name>RWR 38</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="39">
+        <Name>F-4E, Vigen</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="40">
+        <Name>RWR 40</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>0</Flags>
+    </RWD>
+    <RWD Num="41">
+        <Name>AN/APR-47</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>26.3</ScanAngleTop>
+        <ScanAngleBottom>-26.3</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="42">
+        <Name>SPO-2 Sirena-2</Name>
+        <DetectionRange>0.5</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="43">
+        <Name>SPO-10 Siren</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="44">
+        <Name>AN/ALR-69</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>9</Flags>
+    </RWD>
+    <RWD Num="45">
+        <Name>ALR-56M</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="46">
+        <Name>AN/ALR-46</Name>
+        <DetectionRange>1.8</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="47">
+        <Name>AN/ALR-42</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="48">
+        <Name>AN/ALR-23</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="49">
+        <Name>RLS, F-117A </Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="50">
+        <Name>AN/ALR-56M</Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="51">
+        <Name>AMX, G-4</Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="52">
+        <Name>RWR 52</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="53">
+        <Name>AN/ALR-56</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="54">
+        <Name>RWR 54</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="55">
+        <Name>RWR 55</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="56">
+        <Name>RWR 56</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="57">
+        <Name>F-104DJ, S</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="58">
+        <Name>Mirage 3, F1</Name>
+        <DetectionRange>0.6</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>10</Flags>
+    </RWD>
+    <RWD Num="59">
+        <Name>AN/ALR-67(v)3</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>60.0</ScanAngleTop>
+        <ScanAngleBottom>-60.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="60">
+        <Name>AN/ALR-56C</Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>60.0</ScanAngleTop>
+        <ScanAngleBottom>-60.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="61">
+        <Name>AN/ALR-94</Name>
+        <DetectionRange>1.0</DetectionRange>
+        <ScanAngleTop>80.3</ScanAngleTop>
+        <ScanAngleBottom>-80.3</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+    <RWD Num="62">
+        <Name>DASS</Name>
+        <DetectionRange>0.9</DetectionRange>
+        <ScanAngleTop>80.3</ScanAngleTop>
+        <ScanAngleBottom>-80.3</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+        <Flags>5</Flags>
+    </RWD>
+</RWDRecords>

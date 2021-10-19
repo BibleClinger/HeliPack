@@ -1,0 +1,68 @@
+# GroundAvoidMode
+1
+0.5 0.0 0.0
+# CollisionAvoidMode
+1
+0.5 0.0 0.0
+# GunsJinkMode
+1
+1.0 0.0 0.0
+# MissileDefeatMode
+1
+0.5 0.0 0.0
+#Defensive Modes - This is a tag
+0
+0.0 0.0 0.0
+#FollowOrdersMode
+1
+0.0 0.0 0.0
+# AccelerateMode
+1
+2.0 0.0 0.0
+# GunsEngageMode
+1
+1.0 6000.0 45.0
+# MissileEngageMode
+0
+3.0  0.0 0.0
+# OvershootMode
+0
+3.0 0.0 0.0
+# WVREngageMode
+1
+3.0 50000.0 180.0
+# BVREngageMode
+1
+3.0 250000.0 180.0
+# RunAwayMode
+1
+5.0 0.0 0.0
+# LoiterMode
+1
+10.0 0.0 0.0
+# SeparateMode
+1
+5.0 0.0 0.0
+# RTBMode
+1
+10.0 0.0 0.0
+# WingyMode
+1
+10.0 0.0 0.0
+# WaypointMode
+1
+10.0 0.0 0.0
+# RoopMode
+0
+0.0 0.0 0.0
+# OverBMode
+0
+0.0 0.0 0.0
+# GroundMnvr
+0
+0.0 0.0 0.0
+# LastValidMode
+0
+123.0 456.0 789.0
+# Max Gs
+9

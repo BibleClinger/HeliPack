@@ -1,0 +1,58 @@
+#------------------
+# Korean TDF file
+#------------------
+
+# shown in the pick list
+name HeliPack 0.1
+
+# Title shown on theater page
+desc HeliPack Theater of Operations - WARNING: Restart BMS after any theatre change.
+
+# bitmap to display on theater page
+bitmap Add-On HeliPack\Terrdata\theaterdefinition\HeliPack.tga
+
+# in general, you can miss out most of these, and it
+# will use the default, unless another theater changes it
+# so probably best to put in explicitly.
+ 
+# Where the campaign directory is
+campaigndir Add-On HeliPack\Campaign
+
+# where the terrain data is
+# terraindir Add-On HeliPack\Terrdata
+
+# which tileset to use - overrides the global setting in the cfg file
+# tileset POLAK
+
+# where art is loaded from
+artdir Add-On HeliPack
+
+# movies
+# moviedir Add-On HeliPack
+ 
+# uisounds 
+# uisounddir Add-On HeliPack
+
+# default objects
+objectdir Add-On HeliPack\Terrdata\objects
+
+# misc textures
+# misctexdir Add-On HeliPack\Terrdata\misctex
+
+# 3d object files
+# 3ddatadir Add-On HeliPack\Terrdata\objects
+
+# sounds dir
+# sounddir Add-On HeliPack\Sounds
+
+# simdata dir
+simdatadir Add-On HeliPack\Sim
+
+# minimum tacan channel
+mintacan 1
+
+# use double resolution 2D UI map
+doubleres2dmap 1
+
+# magnetic declination
+magneticdeclination 0

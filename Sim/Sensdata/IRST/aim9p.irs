@@ -1,0 +1,11 @@
+#Aim 9P data file
+#azimuth limit (Degrees)
+60.0
+#elevation limit (Degrees)
+60.0
+# Nominal Range (NM)
+2.0
+# ground Factor
+0.001
+# flare chance
+0.4

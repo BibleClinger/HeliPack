@@ -1,0 +1,86 @@
+Indx 35 - SKYGUARD RDR
+Prf 4600 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 100
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 3200
+Timetosearch2 3200
+Timetosearch3 3200
+Timetoacuire 1000
+Timetoguide 1500
+
+Timetocoast 4000
+
+Rangetosearch1 53000
+Rangetosearch2 51000
+Rangetosearch3 51000
+Rangetoacuire 47960
+Rangetoguide 45648
+
+Sweeptimesearch1 1000
+Sweeptimesearch2 1000
+Sweeptimesearch3 1000
+Sweeptimeacuire 550
+Sweeptimeguide 10
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 200
+Rwrsoundsearch2 200
+Rwrsoundsearch3 200
+Rwrsoundacuire 200
+Rwrsoundguide 200
+
+Rwrsymbolsearch1 25
+Rwrsymbolsearch2 25
+Rwrsymbolsearch3 25
+Rwrsymbolacuire 25
+Rwrsymbolguide 25
+
+Bandsearch1 I
+Bandsearch2 I
+Bandsearch3 I
+Bandacuire I
+Bandguide I
+
+Typesearch1 D
+Typesearch2 D
+Typesearch3 D
+Typeacuire D
+Typeguide C
+
+PRIsearch1 217
+PRIsearch2 217
+PRIsearch3 217
+PRIacuire 217
+PRIguide 106
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 10000
+AirSalvoRate 30000
+Maxmissilesintheair 2
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 10
+Elevationbumpamountb 10
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 15
+MinEngagementRange 3030

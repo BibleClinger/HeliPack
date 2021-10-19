@@ -1,0 +1,16 @@
+# Version 1.0
+# Author Ratty/MRivers
+
+0 # Data Format Version
+
+# Data
+# lauSalvoSize -1
+# lauWeaponId 0
+# lauRounds 0
+# lauAzimuth 0
+# lauElevation 0
+# lauRippleTimeMS 10
+
+# Particle Sys
+psFeatureImpact $rocket_burst
+psBombImpact $rocket_burst

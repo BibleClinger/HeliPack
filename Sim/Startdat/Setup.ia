@@ -1,0 +1,172 @@
+#Num Levels
+6
+#
+#Level 0 Recruit
+#Start Vehicles
+16
+#5
+#Max Vehicles
+16
+#1
+#Num Points for next level
+50000
+#Level Starting Bonus
+0
+#Score Multiplier
+.8
+#Regen Delay
+25.000000
+#AI Level 0 Percentage
+0.750000
+#AI Level 1 Percentage
+0.240000
+#AI Level 2 Percentage
+0.100000
+#Vehicle Type 0 Percentage
+0.750000
+#Vehicle Type 1 Percentage
+0.250000
+#A/G Percentage
+0.700000
+#Threat Percentage
+0.000000
+#
+#Level 1 Cadet
+#Start Vehicles
+66
+#Max Vehicles
+16
+#Num Points for next level
+150000
+#Level Starting Bonus
+50000
+#Score Multiplier
+1.0
+#Regen Delay
+25.000000
+#AI Level 0 Percentage
+0.550000
+#AI Level 1 Percentage
+0.440000
+#AI Level 2 Percentage
+0.100000
+#Vehicle Type 0 Percentage
+0.750000
+#Vehicle Type 1 Percentage
+0.250000
+#A/G Percentage
+0.650000
+#Threat Percentage
+0.200000
+#
+#Level 2 Rookie
+#Start Vehicles
+16
+#Max Vehicles
+16
+#Num Points for next level
+200000
+#Level Starting Bonus
+100000
+#Score Multiplier
+1.8
+#Regen Delay
+25.000000
+#AI Level 0 Percentage
+0.500000
+#AI Level 1 Percentage
+0.400000
+#AI Level 2 Percentage
+0.100000
+#Vehicle Type 0 Percentage
+0.500000
+#Vehicle Type 1 Percentage
+0.500000
+#A/G Percentage
+0.50000
+#Threat Percentage
+0.400000
+#
+#Level 3 Veteran
+#Start Vehicles
+16
+#Max Vehicles
+16
+#Num Points for next level
+300000
+#Level Starting Bonus
+250000
+#Score Multiplier
+3.0
+#Regen Delay
+25.000000
+#AI Level 0 Percentage
+0.500000
+#AI Level 1 Percentage
+0.400000
+#AI Level 2 Percentage
+0.100000
+#Vehicle Type 0 Percentage
+0.500000
+#Vehicle Type 1 Percentage
+0.500000
+#A/G Percentage
+0.650000
+#Threat Percentage
+0.500000
+#
+#Level 4 Ace
+#Start Vehicles
+16
+#Max Vehicles
+16
+#Num Points for next level
+1000000
+#Level Starting Bonus
+500000
+#Score Multiplier
+4.0
+#Regen Delay
+35.000000
+#AI Level 0 Percentage
+0.100000
+#AI Level 1 Percentage
+0.400000
+#AI Level 2 Percentage
+0.500000
+#Vehicle Type 0 Percentage
+0.200000
+#Vehicle Type 1 Percentage
+0.800000
+#A/G Percentage
+0.30000
+#Threat Percentage
+0.600000
+#
+#Level 5
+#Start Vehicles
+16
+#Max Vehicles
+16
+#Num Points for next level
+4000000
+#Level Starting Bonus
+2000000
+#Score Multiplier
+3.5
+#Regen Delay
+5.000000
+#AI Level 0 Percentage
+0.100000
+#AI Level 1 Percentage
+0.400000
+#AI Level 2 Percentage
+0.500000
+#Vehicle Type 0 Percentage
+0.500000
+#Vehicle Type 1 Percentage
+0.500000
+#A/G Percentage
+0.550000
+#Threat Percentage
+0.800000

@@ -1,0 +1,80 @@
+Indx 28 - Nike RDR - HIPAR/TTR/TRR (MIM-14 Nike)
+Prf 500 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 2840
+MaxTwstargets 16
+Timeskillfactor 100
+
+Timetosearch1 2405
+Timetosearch2 3050
+Timetosearch3 1670
+Timetoacuire 1230
+Timetoguide 1358
+
+Timetocoast 4000
+
+Rangetosearch1 380000
+Rangetosearch2 380000
+Rangetosearch3 380000
+Rangetoacuire 384400
+Rangetoguide 324720
+
+Sweeptimesearch1 10000
+Sweeptimesearch2 10000
+Sweeptimesearch3 10000
+Sweeptimeacuire 600
+Sweeptimeguide 10
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 87
+Rwrsoundsearch2 87
+Rwrsoundsearch3 87
+Rwrsoundacuire 90
+Rwrsoundguide 91
+
+Rwrsymbolsearch1 26
+Rwrsymbolsearch2 26
+Rwrsymbolsearch3 26
+Rwrsymbolacuire 21
+Rwrsymbolguide 21
+
+Bandsearch1 D
+Bandsearch2 D
+Bandsearch3 D
+Bandacuire F
+Bandguide I
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+PRIsearch1 2000
+PRIsearch2 2000
+PRIsearch3 2000
+PRIacuire 5000
+PRIguide 300
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 20000
+Maxmissilesintheair 1
+
+Elevationbumpamounta 10
+Elevationbumpamountb 10
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 17606
+MinEngagementRange 29000

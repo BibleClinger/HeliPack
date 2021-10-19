@@ -1,0 +1,85 @@
+//Delay for freeze
+ WAIT 1
+
+//Start sim in paused mode
+ SimCommand SimMotionFreeze
+ 
+//Text layout setup
+ SetColor 0xffffffff
+ SetTextBoxed 2
+ SetFont 3
+ SetTextOrientation 0
+ SetFlash 0
+
+ //Some text
+ SetCursor -0.98 0.08
+ Print 2 "Welcome to the BMS In-flight failure training mission"
+
+ MoveCursor 0 -0.08
+ WaitPrint 3 "Please wait until your cockpit is set up."
+
+// Fuel load to 7400 dry balanced
+SetFuel 480 480 1385 1385 2330 450 450 0 0 0 0 0 0 0 
+
+  //Set COM 1 to Tactical, COM 2 to 15
+SimCommand SimICPCom1
+SimCommand SimICPSIX
+SimCommand SimICPEnter
+SimCommand SimICPCom2
+SimCommand SimICPTILS
+SimCommand SimICPCrus
+SimCommand SimICPEnter
+ 
+ // Fuel Trans to AFT to augment Imbalance from HYDA
+ SimCommand SimFuelPumpAft
+ 
+ // HMCS to OFF
+ SimCommand SimHmsOff
+ 
+  // ANTI-ICE to OFF to see the Icing develop
+ SimCommand SimAntiIceDown
+ 
+  //ILS OFF -> set to on
+ SimCommand SimILSOn
+
+ MoveCursor 0 -0.08
+ Print 4 "Initial setup finished. You have the aircraft."
+
+ //resumes mission
+ SimCommand SimMotionFreeze
+
+ WaitGameTime 90
+ //Main gen soft failure
+ SetFault 13
+ 
+ WaitGameTime 120 
+ //Left MFD off
+ SetFault 146
+ 
+ WaitGameTime 45
+ //Single A Hyd fail and ISA ALL and gear solenoid and NWS together
+ SetFault 31
+ WaitGameTime 27
+ SetFault 107
+ SetFault 5
+ SetFault 47 
+ 
+ WaitGameTime 105
+ // Tacan - will be noticed only when tacan is selected
+ SetFault 133
+ // GPS fault may induce INS drift
+ SetFault 140
+
+ WaitGameTime 300
+ // Hud goes banana
+ SetFault 114
+
+ WaitGameTime 120
+ //EGI and INS failure player should be on the ground
+ SetFault 141
+ 
+  WaitGameTime 180
+ //Main Gen hard failure (non resetable) 
+ SetFault 14
+ 
+ 

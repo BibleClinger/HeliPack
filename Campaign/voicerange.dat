@@ -1,0 +1,41 @@
+# Voice Data Description
+#
+# Theater: Korea
+#
+# Version: 1-0-2
+#
+# Record Stucture:
+# Voice No
+# Type - One of pilot, fac, awacs, atc or all
+# Team - 1-8 or any (for all)
+#
+# Voices may be repeated and are additive.
+#
+# Pilot Voices: 0, 1, 2, 3, 4(F), 8, 9, 10, 11
+#
+0 pilot any
+1 pilot any
+2 pilot any
+3 pilot any
+4 pilot any
+8 pilot any
+9 pilot any
+10 pilot any
+11 pilot any
+#
+# AWACS Voices: 5, 6(F), 7
+#
+5 awacs any
+6 awacs any
+7 awacs any
+#
+# FAC Voices: 2, 3, 4(F)
+#
+2 fac any
+3 fac any
+4 fac any
+#
+# ATC Voices: 12(F), 13 
+#
+12 atc any
+13 atc any

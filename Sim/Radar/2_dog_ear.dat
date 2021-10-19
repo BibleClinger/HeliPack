@@ -1,0 +1,63 @@
+Indx 2 - DOG EAR - TAR (SA-9 / SA-13 / ZSU23-4)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 1000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 1000
+Timetoguide 1000
+
+Timetocoast 10000
+
+Rangetosearch1 261280
+Rangetosearch2 201280
+Rangetosearch3 161280
+Rangetoacuire 46900
+Rangetoguide 40900
+
+Sweeptimesearch1 2000
+Sweeptimesearch2 2000
+Sweeptimesearch3 2000
+Sweeptimeacuire 2000
+Sweeptimeguide 2000
+
+Sweeptimecoast 2000
+
+Rwrsoundsearch1 214
+Rwrsoundsearch2 214
+Rwrsoundsearch3 214
+Rwrsoundacuire 214
+Rwrsoundguide 214
+
+Rwrsymbolsearch1 100
+Rwrsymbolsearch2 100
+Rwrsymbolsearch3 100
+Rwrsymbolacuire 100
+Rwrsymbolguide 100
+
+Bandsearch1 G
+Bandsearch2 G
+Bandsearch3 G
+Bandacuire G
+Bandguide G
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide P
+
+PRIsearch1 2500
+PRIsearch2 2500
+PRIsearch3 2500
+PRIacuire 2500
+PRIguide 2500
+
+TrackWarning 0
+LaunchWarning 0

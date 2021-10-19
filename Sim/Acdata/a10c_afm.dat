@@ -1,0 +1,1420 @@
+# Title: A-10C
+# Author: Mav-Jp 26/06/2007
+#
+#
+# SIMULATION INPUT PANEL (See a10c.dat)
+#
+#
+# FM TYPE
+#
+1
+#
+# NEW MECHANICS COEFFICIENTS
+#
+# EMPTY AC
+# xGC Loc yGC Loc zGC Loc (ft relative to noze) GC of the plane empty
+#
+-26.0 0 0
+#
+# DESIGNED GC
+#
+# xGC Loc yGC Loc zGC Loc (ft relative to noze) GC of the plane stability design
+-26.0 0 0
+#
+# LOD center position (ft relative to noze)
+-28.15 0 0
+#
+11.32 # Mean Chord (ft)
+57.5 # span (ft)
+506 # Reference Area (ft^2)
+707740 # Ixx inertia (lbs / ft ^2) / CG axis
+5854940 # Iyy inertia / CG axis
+9434000 # Izz inertia / CG axis
+32170 # Ixz inertia / CG axis
+#
+#
+#
+14 # Nrb of fuel tanks (including drop tanks) - Keep 9 internal.
+#
+# xGC Loc yGC Loc zGC Qty
+#
+-26.0 -26.0 4 -1 480 # GC Fuel FWD Res
+#
+-26.0 -26.0 -4 -1 480 # GC Fuel AFT Res
+#
+-16.595 -16.595 0 0 2772 # GC Fuel FWD 1
+#
+-16.595 -16.595 0 0 2772 # GC Fuel FWD 2
+#
+-36.0 -36.0 0 0 2330 # GC Fuel AFT 1
+#
+-26.0 -26.0 20 0 550 # GC Fuel LEFT Wing
+#
+-26.0 -26.0 -20 0 550 # GC Fuel RIGHT Wing
+#
+#
+0 0 0 0 0 # GC Fuel External-Right FWD
+#
+0 0 0 0 0 # GC Fuel External-Right CTR
+#
+0 0 0 0 0 # GC Fuel External-Right AFT
+#
+0 0 0 0 0 # GC Fuel External-Left FWD
+#
+0 0 0 0 0 # GC Fuel External-Left CTR
+#
+0 0 0 0 0 # GC Fuel External-Left AFT
+#
+-26.0 -26.0 0 5 2040 # GC Fuel External Center
+#
+#
+3 # Nbr of Landing Gear
+#
+# GEAR GEOMETRY
+#
+# XpositDOWN YpositDOWN ZpositDOWN XpositUP YpositUP ZpositUP Excentricity
+#
+-8.80 0 8.3 -2.00 0 0.0 0
+#
+-27.84 -8.33 8.95 -20.0 -8.33 2.0 0
+#
+-27.84 8.33 8.95 -20.0 8.33 2.0 0
+#
+#
+# MaxDispl # ExtendBreak # AccelMax # PreStress # Stiffness 1 (K) # Elasticity (C) # Elasticity (D) # Stiffness 2 (K2) # DefZone 1 # LatFriction
+#
+# SlipPct # WheelFrict # BrakeFric # AngSlip # AngBreak # TireLatElasticity # TireLongElasticity
+#
+1.3 1.35 20.0 0.0 10560 4500 2000 38840 0.6 0.035 0.75 0.003 0 130 140 0.0005 500 # PumpyHead 11/02/2017
+#
+1.3 1.35 20.0 0.0 33950 5500 5500 50925 0.8 0.025 0.75 0.003 0.5 5.0 18.0 0.0005 500
+#
+1.3 1.35 20.0 0.0 33950 5500 5500 50925 0.8 0.025 0.75 0.003 0.5 5.0 18.0 0.0005 500
+#
+7 # Nbr of NWS Breakpoints
+#
+-1 -0.66 -0.33 0 0.33 0.66 1 # NWS Breakpoints
+#
+-30 -8 -2 0 2 8 30 # NWS Angle response
+#
+#
+1000000 # Gear Yaw amort
+#
+1.0 # Torque Gear X coefficient
+#
+1.0 # Torque Gear Y coefficient
+#
+1.0 # Torque Gear Z coefficient
+#
+#
+1.0 # Roll reduction factor
+#
+#
+0 # Anti roll bar stiffness
+#
+0.8 # Slipping coefficient on wet/damp runway (0 to 1)
+#
+150 # V Catapultage
+#
+11 # Nbr of Ground pollision points
+#
+#
+6000 # Amort collision
+#
+2500 # Brake collision
+#
+120.0 # Explosion collision (in ft of diving)
+#
+# Collision point position
+#
+# Xposit Yposit Zposit
+#
+0 0 3.0
+#
+-53 0 2.0
+#
+-28.4 29 2.0
+#
+-28.4 -29 2.0
+#
+-28 8.33 5.0
+#
+-28 -8.33 5.0
+#
+-24 8.33 4.0
+#
+-24 -8.33 4.0
+#
+-50 8.33 -8.0
+#
+-50 -8.33 -8.0
+#
+-5.77 0 -7.0
+#
+#
+# NEW AERO COEFFICIENTS
+#
+# SUBSONIC DRAG STORES COEFFICIENT
+#
+0.0001
+#
+# SUPERSONIC DRAG STORES COEFFICIENT
+#
+0.000283
+#
+#
+# CONTROL SURFACES AERODYNAMIC COEFFICIENTS (for momentums purpose only)
+#
+2 # number of stab Rudders
+2 # number of elevons
+0 # number of canards
+0 # elevon Roll control (0 aileron only , 1 elevon only , 2 both)
+0 # elevon Lift Added (0 "no" act only on torque, 1 "yes" lift added to wing lift)
+0 # canard Lift Added (0 "no" act only on torque, 1 "yes" lift added to wing lift)
+#
+# Rudder data (posit of aero center , diedral around x axis : thumb rule)
+# Xposit yposit zposit Surface diedral TRIM TYPE ( "0" flaps -3D table - "1" block -2D table)
+-48.48 4.1 -4.1 48.4 0 0 0
+-48.48 -4.1 -4.1 48.4 0 0 0
+#
+# Elevon data (posit of aero center, diedral around x axis : thumb rule)
+#
+# Xposit yposit zposit Surface diedral TRIM TYPE ( "0" flaps -3D table - "1" block -2D table)
+-48.1225 10.42 0 46.56 0 -4.25 0
+-48.1225 -10.42 0 46.56 0 -4.25 0
+#
+# Canard data (posit of aero center, diedral / x)
+#
+# Xposit yposit zposit Surface diedral AngleMAx TRIM TYPE ( "0" flaps -3D table - "1" block -2D table)
+#
+#
+# MACH CTRL BREAKPOINTS
+#
+2 # Num MACH
+#
+0.0 1.2
+#
+#
+# RUDDER MAX ANGLE (simulates limitation due to effort on command)
+#
+30 30
+30 30
+#
+# ELEVON PULL ANGLE (simulates limitation due to effort on command)
+#
+30 10
+30 10
+#
+# ELEVON PUSH ANGLE (simulates limitation due to effort on command)
+#
+30 5
+30 5
+#
+#
+# ALPHA CTRL BREAKPOINTS
+#
+21 # Num Alpha
+-180 -135 -90 -30 -15 -10 -5 0 5 10 15 20
+25 30 35 50 70 80 90 135 180
+#
+# RUDDER DATA
+#
+1.0 # Table Multiplier
+#
+#
+# LIFT DATA (CL)
+#
+#
+# Mach 0.0
+#
+0
+0
+0
+-1.7
+-1.4
+-1.1409
+-0.9
+0
+0.9
+1.1409
+1.31
+1.45
+1.55
+1.7
+1.5
+1.0789
+0.7
+0
+0
+0
+0
+#
+# Mach 2.0
+0
+0
+0
+-1.7
+-1.4
+-1.1409
+-0.9
+0
+0.9
+1.1409
+1.31
+1.45
+1.55
+1.7
+1.5
+1.0789
+0.7
+0
+0
+0
+0
+#
+#
+# DRAG DATA (CD)
+#
+#
+# Mach 0.0
+#
+0.00593
+0.5
+0
+0.2
+0.02617
+0.01045
+0.00611
+0.00593
+0.00611
+0.01045
+0.02617
+0.04
+0.06
+0.2
+0.4
+0
+0
+0
+0
+0
+0.00593
+#
+# Mach 2.0
+#
+0.00593
+0.5
+0
+0.2
+0.02617
+0.01045
+0.00611
+0.00593
+0.00611
+0.01045
+0.02617
+0.04
+0.06
+0.2
+0.4
+0
+0
+0
+0
+0
+0.00593
+#
+#
+# RUDDER DEFLECTION BREAKPOINTS (not needed if block control)
+#
+7 # Num delta flaps deflection (0 if type block)
+#
+-30 -20 -10 0.0 10 20 30
+#
+1.0 # Table Multiplier
+#
+# Additonnal CL coefficient due to flaps
+#
+# alpha -180
+#
+0.75 0.50001 -0.250005 0 -0.250005 -0.50001 -0.75
+#
+# alpha -135
+#
+0 0 0 0 0 0 0
+#
+# alpha -90
+0 0 0 0 0 0 0
+#
+# alpha -30
+#
+0 0 0 0 0 0 0
+#
+# alpha -15
+#
+-0.45 -0.3 -0.075 0 0.075 0.3 0.90078
+#
+# alpha -10
+#
+-0.675 -0.45 -0.15 0 0.15 0.45 1.02219
+#
+# alpha -5
+#
+-0.75 -0.45 -0.15 0 0.15 0.45 1.03374
+#
+# alpha 0
+#
+-1.03143 -0.375 -0.12 0 0.12 0.375 1.03143
+#
+# alpha 5
+#
+-1.03374 -0.45 -0.15 0 0.15 0.45 0.75
+#
+# alpha 10
+#
+-1.02219 -0.45 -0.15 0 0.15 0.45 0.675
+#
+# alpha 15
+#
+-0.90078 -0.3 -0.075 0 0.075 0.3 0.45
+#
+# alpha 20
+#
+-0.525 -0.12 -0.03 0 0.06 0.27 0.375
+#
+# alpha 25
+#
+-0.3 -0.075 -0.0225 0 0.045 0.225 0.3
+#
+# alpha 30
+#
+0 0 0 0 0 0 0
+#
+# alpha 35
+#
+0 0 0 0 0 0 0
+#
+# alpha 50
+#
+0 0 0 0 0 0 0
+#
+# alpha 60
+#
+0 0 0 0 0 0 0
+#
+# alpha 80
+#
+0 0 0 0 0 0 0
+#
+# alpha 90
+0 0 0 0 0 0 0
+#
+# alpha 135
+#
+0 0 0 0 0 0 0
+#
+# alpha 180
+#
+0.75 0.50001 0.250005 0 -0.3750075 -0.50001 -0.75
+#
+#
+# Additonnal CD coefficient due to flaps (not needed if block control)
+#
+# alpha -180
+#
+0.001048 0.000144 0.000072 0 0.000072 0.000144 0.001048
+#
+# alpha -135
+#
+0 0 0 0 0 0 0
+#
+# alpha -90
+#
+-0.4 -0.266666667 -0.133333333 0 0.132 0.24 0.4
+#
+# alpha -30
+#
+0 0 0 0 0.008333 0.0166 0.025
+#
+# alpha -15
+#
+0.01 0.0066 0.0033 0 -0.006288 -0.012576 0.01
+#
+# alpha -10
+#
+-0.004376 -0.0292 -0.00146 0 -0.001736 -0.003472 0.009
+#
+# alpha -5
+#
+0.007484 0.003472 0.001736 0 -0.000072 -0.000144 0.006616
+#
+# alpha 0
+#
+0.001048 0.000144 0.000072 0 0.000072 0.000144 0.001048
+#
+# alpha 5
+#
+-0.001012 -0.001012 -0.00094 0 0.000868 0.002604 0.006616
+#
+# alpha 10
+#
+-0.004376 -0.003472 -0.001736 0 0.006288 0.008 0.009
+#
+# alpha 15
+#
+-0.016588 -0.012576 -0.006288 0 0.0088728 0.009 0.01
+#
+# alpha 20
+#
+0.015 0.01 0.005 0 0.005 0.01 0.015
+#
+# alpha 25
+#
+0.02 0.013333333 0.006666667 0 0.0066 0.012 0.02
+#
+# alpha 30
+#
+0.025 0.016666667 0.008333333 0 0.0083 0.0166 0.025
+#
+# alpha 35
+#
+0.03 0.02 0.01 0 0.01 0.02 0.03
+#
+# alpha 50
+#
+0.05 0.033333333 0.016666667 0 0.0166 0.0333 0.05
+#
+# alpha 60
+#
+-0.4 -0.266666667 -0.133333333 0 0.132 0.24 0.4
+#
+# alpha 80
+#
+-0.4 -0.266666667 -0.133333333 0 0.132 0.24 0.4
+#
+# alpha 90
+#
+-0.4 -0.266666667 -0.133333333 0 0.132 0.24 0.4
+#
+# alpha 135
+#
+0 0 0 0 0 0 0
+#
+# alpha 180
+#
+0.001048 0.000144 0.000072 0 0.000072 0.000144 0.001048
+#
+# ELEVON DATA
+#
+#
+1.0 # Table Multiplier
+#
+#
+# LIFT DATA (CL)
+#
+#
+# Mach 0.0
+#
+0 0 0 -1.8 -1.6281 -1.1409 -0.5743 0 0.5743 1.1409 1.6281 1.75
+1.8 1.8 1.5 1.0789 0.7 0 0 0 0
+#
+# Mach 2.0
+#
+0 0 0 -1.8 -1.6281 -1.1409 -0.5743 0 0.5743 1.1409 1.6281 1.75
+1.8 1.8 1.5 1.0789 0.7 0 0 0 0
+#
+#
+# DRAG DATA (CD)
+#
+#
+#
+# Mach 0.0
+#
+0.00593 0.6 0.8 0.24799 0.02617 0.01045 0.00611 0.00593 0.00611 0.01045 0.02617 0.08
+0.15 0.2 0.4 0.6 0.7 0.8 0.8 0.6 0.00593
+#
+# Mach 2.0
+#
+0.00593 0.6 0.8 0.24799 0.02617 0.01045 0.00611 0.00593 0.00611 0.01045 0.02617 0.08
+0.15 0.2 0.4 0.6 0.7 0.8 0.8 0.6 0.00593
+#
+#
+7 # Num delta flaps deflection (0 if type block)
+#
+-30 -20 -10 0.0 10 20 30
+#
+1.0 # Table Multiplier
+#
+# Additonnal CL coefficient due to flaps
+#
+# alpha -180
+#
+0.5 0.33334 -0.16667 0 -0.16667 -0.33334 -0.5
+#
+# alpha -135
+#
+0 0 0 0 0 0 0
+#
+# alpha -90
+0 0 0 0 0 0 0
+#
+# alpha -30
+#
+0.05 0.02 -0.03 0 0.01 0.03 0.07
+#
+# alpha -15
+#
+-0.16 -0.1 -0.05 0 0.05 0.2 0.60052
+#
+# alpha -10
+#
+-0.5 -0.3 -0.1 0 0.1 0.3 0.68146
+#
+# alpha -5
+#
+-0.66404 -0.3 -0.1 0 0.1 0.3 0.68916
+#
+# alpha 0
+#
+-0.68762 -0.45944 -0.22972 0 0.08 0.25 0.68762
+#
+# alpha 5
+#
+-0.68916 -0.3 -0.1 0 0.1 0.3 0.66404
+#
+# alpha 10
+#
+-0.68146 -0.3 -0.1 0 0.1 0.3 0.5
+#
+# alpha 15
+#
+-0.60052 -0.2 -0.05 0 0.05 0.1 0.16
+#
+# alpha 20
+#
+-0.2 -0.08 -0.02 0 0.04 0.07 0.11
+#
+# alpha 25
+#
+-0.1 -0.05 -0.015 0 0.03 0.08 0.08
+#
+# alpha 30
+#
+-0.07 -0.03 -0.01 0 0.03 -0.02 -0.05
+#
+# alpha 35
+#
+0.15 0.1 0.05 0 0 0 0
+#
+# alpha 50
+#
+0 0 0 0 0 0 0
+#
+# alpha 60
+#
+0 0 0 0 0 0 0
+#
+# alpha 80
+#
+0 0 0 0 0 0 0
+#
+# alpha 90
+0 0 0 0 0 0 0
+#
+# alpha 135
+#
+0 0 0 0 0 0 0
+#
+# alpha 180
+#
+0.5 0.33334 0.16667 0 -0.16667 -0.33334 -0.5
+#
+#
+# Additonnal CD coefficient due to flaps (not needed if block control)
+#
+# alpha -180
+#
+0.001048 0.000144 0.000072 0 0.000072 0.000144 0.001048
+#
+# alpha -135
+#
+0 0 0 0 0 0 0
+#
+# alpha -90
+#
+-0.2 -0.12 -0.066 0 0.06666 0.12 0.2
+#
+# alpha -30
+#
+0 0 0 0 0.008333 0.0166 0.025
+#
+# alpha -15
+#
+0.01 0.0066 0.0033 0 -0.006288 -0.012576 0.01
+#
+# alpha -10
+#
+-0.004376 -0.0292 -0.00146 0 -0.001736 -0.003472 0.009
+#
+# alpha -5
+#
+0.007484 0.003472 0.001736 0 -0.000072 -0.000144 0.006616
+#
+# alpha 0
+#
+0.001048 0.000144 0.000072 0 0.000072 0.000144 0.001048
+#
+# alpha 5
+#
+-0.001012 -0.001012 -0.00094 0 0.000868 0.002604 0.006616
+#
+# alpha 10
+#
+-0.004376 -0.003472 -0.001736 0 0.006288 0.008 0.009
+#
+# alpha 15
+#
+-0.016588 -0.012576 -0.006288 0 0.0088728 0.009 0.01
+#
+# alpha 20
+#
+0.015 0.01 0.005 0 0.005 0.01 0.015
+#
+# alpha 25
+#
+0.02 0.013333333 0.006666667 0 0.0066 0.012 0.02
+#
+# alpha 30
+#
+0.025 0.016666667 0.008333333 0 0.0083 0.0166 0.025
+#
+# alpha 35
+#
+0.03 0.02 0.01 0 0.01 0.02 0.03
+#
+# alpha 50
+#
+0.05 0.033333333 0.016666667 0 0.0166 0.0333 0.05
+#
+# alpha 60
+#
+0 0 0 0 0.0266 0.0533 0.08
+#
+# alpha 80
+#
+-0.16 -0.106666667 -0.053333333 0 0.0533 0.106 0.16
+#
+# alpha 90
+-0.2 -0.133333333 -0.066666667 0 0.066 0.12 0.2
+#
+# alpha 135
+#
+0 0 0 0 0 0 0
+#
+# alpha 180
+#
+0.001048 0.000144 0.000072 0 0.000072 0.000144 0.001048
+#
+# CANARD DATA (IF CANARD , SAME TABLE TYPE AS ELEVON OR RUDDER)
+#
+#
+# MAIN WING AERODYNAMIC COEFFICIENTS
+#
+# Number of main wings
+2
+#
+# Tef
+1 # 0 no , 1 yes
+#
+# RIGHT WING posit of aero center
+# Xposit yposit zposit diedral (around x axis : thumb rule)
+-24.69 7 0 -1.5
+# LEFT WING posit of aero center diedral
+# Xposit yposit zposit
+-24.69 -7 0 1.5
+#
+# MACH BREAKPOINTS
+#
+6 # Num MACH
+0 0.37 0.57 0.69
+0.74 0.75
+#
+# ALPHA BREAKPOINTS
+#
+21 # Num Alpha
+-180 -135 -90 -30 -20 -10 -5 0 5 10 15 20 25
+30 35 50 70 80 90 135 180
+#
+# LIFT COEFFICIENT CLift
+#
+1.0 # Table Multiplier
+#
+# Mach 0.00
+0 0 0 0 -0.7706 -0.5494 -0.3 -0.09 0.53 0.971 1.37 1.6878 1.369
+0.272 0.1 0 0 0 0 0 0
+#
+# Mach 0.37
+0 0 0 0 -0.7706 -0.5494 -0.3 -0.09 0.53 0.971 1.37 1.687 1.369
+0.272 0.1 0 0 0 0 0 0
+#
+# Mach 0.57
+0 0 0 0 -0.859 -0.634 -0.2466 0.02 0.5 0.981 1.46 1.7993 1.966
+1.77 1 0 0 0 0 0 0
+#
+# Mach 0.69
+0 0 0 0 -0.879 -0.654 -0.2646 0 0.48 1.01 1.52 1.8308 1.9975
+2 1.2 0 0 0 0 0 0
+#
+# Mach 0.74
+0 0 0 0 -0.9477 -0.7227 -0.3333 -0.0687 0.46 1.01 1.58 1.9 2.1
+2.1 1.3 0 0 0 0 0 0
+
+# Mach 0.75
+0 0 0 0 -0.9477 -0.7227 -0.3333 -0.0687 0.46 1.01 1.58 1.9 2.1
+2.1 1.3 0 0 0 0 0 0#
+# DRAG COEFFICIENT CDrag
+#
+1.0 # Table Multiplier
+#
+# Mach 0.00
+0.0504 0.9 1.16 0.9863 0.2526 0.2027 0.0903 0.0504 0.0586 0.0972 0.182 0.3363 0.4555
+0.74 0.9863 1.0958 1.13 1.16 1.15 0.9 0.057
+#
+# Mach 0.37
+0.0504 0.9 1.19 0.9863 0.2155 0.1756 0.0857 0.0504 0.0586 0.0972 0.2955 0.4681 0.6957
+0.8927 1.0958 1.0958 1.13 1.16 1.15 0.9 0
+#
+# Mach 0.57
+0.0546 0.9 1.19 0.9863 0.2355 0.1957 0.1015 0.0546 0.0572 0.0983 0.2086 0.3574 0.5308
+0.76 0.9496 1.0958 1.13 1.16 1.19 0.9 0.057
+#
+# Mach 0.69
+0.056 0.9 1.19 0.9863 0.2391 0.1993 0.1051 0.056 0.0562 0.1022 0.225 0.375 0.5481
+0.7773 0.9669 1.0958 1.13 1.16 1.19 0.9 0.057
+#
+# Mach 0.74
+0.057 0.9 1.19 0.9863 0.2403 0.2005 0.1063 0.057 0.0555 0.1015 0.2422 0.3855 0.5596
+0.7889 0.9785 1.0958 1.13 1.16 1.19 0.9 0.057
+
+#
+# Mach 0.75
+0.057 0.9 1.19 0.9863 0.2403 0.2005 0.1063 0.057 0.0555 0.1015 0.2422 0.3855 0.5596
+0.7889 0.9785 1.0958 1.13 1.16 1.19 0.9 0.057 #
+#
+# MOMENTUM COEFFICIENT CMom (torque of main wing)
+#
+1.0 # Table Multiplier
+#
+# Mach 0.00
+0.000
+1.407
+2.236
+-3.788
+-4.116
+-4.106
+-3.441
+-1.822
+-0.417
+1.033
+2.832
+3.912
+4.550
+5.196
+2.653
+-0.152
+-2.294
+-2.942
+-2.347
+-1.003
+0.000
+#
+# Mach 0.37
+0.000
+1.407
+2.275
+-3.788
+-4.133
+-4.310
+-3.639
+-1.800
+-0.381
+1.109
+2.892
+3.912
+4.358
+4.306
+2.966
+-0.152
+-1.800
+-2.961
+-2.347
+-1.003
+0.000
+#
+# Mach 0.57
+0.000
+1.407
+2.275
+-3.788
+-4.015
+-3.406
+-3.213
+-1.777
+-0.346
+1.153
+1.859
+2.323
+2.159
+1.705
+1.715
+-0.152
+-1.800
+-2.961
+-2.399
+-1.003
+0.000
+#
+# Mach 0.69
+0.000
+1.407
+2.275
+-3.788
+-3.989
+-3.182
+-2.893
+-1.732
+-0.282
+1.222
+1.940
+2.276
+2.112
+1.433
+1.487
+-0.152
+-1.800
+-2.961
+-2.399
+-1.003
+0.000
+#
+# Mach 0.74
+#
+0.000
+1.407
+2.275
+-3.788
+-3.904
+-3.093
+-2.803
+-1.700
+-0.233
+1.256
+1.301
+2.186
+1.984
+1.312
+1.371
+-0.152
+-1.800
+-2.961
+-2.399
+-1.003
+0.000
+#
+# Mach 0.75
+#
+0.000
+1.407
+2.275
+-3.788
+-3.904
+-3.093
+-2.803
+-1.808
+-1.020
+0.295
+1.301
+2.186
+1.984
+1.312
+1.371
+-0.152
+-1.800
+-2.961
+-2.399
+-1.003
+0.000
+#
+#
+#
+#
+# TEF TABLES
+#
+# ALPHA BREAKPOINTS
+#
+9 # Num Alpha
+#
+-30 -15 -10 -5 0.0 5 10 15 30
+#
+# DEFLECTION BREAKPOINTS
+#
+3 # Num TEF deflection angles
+#
+0.0 10 20
+#
+#
+# LIFT COEFFICIENT CL (induced by TEF scaled on reference surface and added to mainwing )
+#
+1.0 # Table Multiplier
+#
+# alpha -30
+#
+0 0.055 0.08
+#
+# alpha -15
+#
+0 0.055 0.08
+#
+# alpha -10
+#
+0 0.055 0.08
+#
+# alpha -5
+#
+0 0.055 0.08
+#
+# alpha 0
+#
+0 0.055 0.08
+#
+# alpha 5
+#
+0 0.055 0.08
+#
+# alpha 10
+#
+0 0.055 0.08
+#
+# alpha 15
+#
+0 0.055 0.08
+#
+# alpha 30
+#
+0 0.055 0.08
+#
+# DRAG COEFFICIENT CD (induced by TEF scaled on reference surface and added to mainwing )
+#
+1.0 # Table Multiplier
+#
+#
+# alpha -30
+#
+0 0.075 0.15
+#
+# alpha -15
+#
+0 0.075 0.15
+#
+# alpha -10
+#
+0 0.075 0.15
+#
+# alpha -5
+#
+0 0.075 0.15
+#
+# alpha 0
+#
+0 0.075 0.15
+#
+# alpha 5
+#
+0 0.075 0.15
+#
+# alpha 10
+#
+0 0.075 0.15
+#
+# alpha 15
+#
+0 0.075 0.15
+#
+# alpha 30
+#
+0 0.075 0.15
+#
+# Torque COEFFICIENT Cmom (induced by TEF scaled on reference surface and added to mainwing )
+#
+1.0 # Table Multiplier
+#
+# alpha -30
+#
+0 0.005 0.05
+#
+# alpha -15
+#
+0 0.005 0.05
+#
+# alpha -10
+#
+0 0.005 0.05
+#
+# alpha -5
+#
+0 0.005 0.05
+#
+# alpha 0
+#
+0 0.005 0.05
+#
+# alpha 5
+#
+0 0.005 0.05
+#
+# alpha 10
+#
+0 0.005 0.05
+#
+# alpha 15
+#
+0 0.005 0.05
+#
+# alpha 30
+#
+0 0.005 0.05
+#
+#
+# ROLL AILERONS TABLES (NOT NEEDED IF ROLL IS CONTROLLED BY ELEVATOR ONLY )
+#
+#
+#
+# ALPHA BREAKPOINTS
+#
+11 # Num Alpha
+-40 -30 -15 -10 -5 0.0 5 10 15 30 40
+#
+# DEFLECTION BREAKPOINTS
+#
+7 # Num aileron deflection angles
+#
+-30 -20 -10 0.0 10 20 30
+#
+#
+# Cl coefficient due aileron (this is a direct torque adimensional coefficient - scaled on reference surface)
+#
+1.0 # Table Multiplier
+#
+# alpha -40
+#
+0 0 0 0 0 0 0
+#
+# alpha -30
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha -15
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha -10
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha -5
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha 0
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha 5
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha 10
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha 15
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha 30
+#
+-1 -0.4 -0.15 0 0.15 0.4 1
+#
+# alpha 40
+#
+0 0 0 0 0 0 0
+#
+# Cm (induced yaw torque) coefficient due to aileron (this is a direct torque adimensional coefficient- scaled on reference surface)
+#
+1.0 # Table Multiplier
+#
+# alpha -40
+#
+0 0 0 0 0 0 0
+#
+# alpha -30
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha -15
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha -10
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha -5
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha 0
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha 5
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha 10
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha 15
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha 30
+#
+-0.3 -0.10 -0.05 0 0.05 0.10 0.3
+#
+# alpha 40
+#
+0 0 0 0 0 0 0
+#
+#
+#
+7 # Num Qbar breakpoints
+#
+0.0 10 20 30 40 50 60
+#
+# Qbar correction curve ( to change CL/Cm coefficient with speed)
+#
+1 1 1 1 1 1 1.511
+#
+#
+#
+# END OF ROLL DATA
+#
+# FUSELAGE AERODYNAMIC COEFFICIENTS
+#
+# ALPHA BREAKPOINTS
+#
+5 # Num Alpha
+-30 -10 0.0 10 30
+#
+5 # Num Beta
+#
+-20 -10 0.0 10 20
+#
+# WING SHADOWING (Act on localQbar for the main WING 1 => no shadowing , 0 => full shadowing)
+#
+# alpha -20
+#
+0.8 0.8 1 0.8 0.8
+#
+# alpha -10
+#
+0.8 0.8 1.0 0.8 0.8
+#
+# alpha 0
+#
+1.0 1.0 1.0 1.0 1.0
+#
+# alpha 10
+#
+0.8 0.8 1 0.8 0.8
+#
+# alpha 30
+#
+0.8 0.8 1 0.8 0.8
+#
+# TAIL SHADOWING (Act on localQbar for the RUDDER 1 => no shadowing , 0 => full shadowing)
+#
+# alpha -30
+#
+0.8 0.8 0.8 0.8 0.8
+#
+# alpha -10
+#
+0.9 0.9 0.9 0.9 0.9
+#
+# alpha 0
+#
+1 1 1 1 1
+#
+# alpha 10
+#
+0.9 0.9 0.9 0.9 0.9
+#
+# alpha 30
+#
+0.8 0.8 0.8 0.8 0.8
+#
+# FUSELAGE LIFT (CL) (Table vs Beta Angle scaled on reference surface)
+#
+0.1 # Table Multiplier
+#
+# beta -20
+#
+-1.6878
+#
+# beta -10
+#
+-0.971
+#
+# beta 0
+#
+0
+#
+# beta 10
+#
+0.971
+#
+# beta 20
+#
+1.6878
+#
+# END OF Fuselage Data
+#
+# FUSELAGE DRAG (CD) (Table vs Beta Angle scaled on reference surface)
+#
+1.0 # Table Multiplier
+#
+# beta -20
+#
+0.3363
+#
+# beta -10
+#
+0.1563
+#
+# beta 0
+#
+0
+#
+# beta 10
+#
+0.1563
+#
+# beta 20
+#
+0.3363
+#
+# END OF Fuselage Data
+# END OF AeronewData
+#
+#
+#
+###################################################
+#
+# START OF FLUTTER MODEL
+#
+0 # Has Flutter Model
+#
+#
+0 # Has Buffet Model
+#
+# END OF FLUTTER MODEL
+###################################################
+# FLCS NEW DATA (USED BY NEW FM CODE)
+#
+1 # Has NASA Model
+#
+0 # Has Complex FLCS
+#
+0 # Is Digital
+#
+0 # Has Pitch SAS
+#
+1 # Has Yaw SAS
+#
+0 # Is Delta Wing
+#
+0 # Is VTOL
+#
+###################################################
+#
+# THE SECTION HEREUNDER IS ONLY FOR COMPLEX FLCS
+# !!! DONT TOUCH ANY VALUE FOR THE F16 !!!
+#
+#
+# FPM stab (Block6)
+#
+# Pitch theta attitude compensation
+#
+# Pitch phi attitude compensation
+#
+## PITCH CONTROL
+# CAT 1 MAX G
+# CAT 1 MAX AOA
+# LG MAX AOA
+# FIRST AOA Breakpoint (i.e: Max G before this point)
+# SECOND AOA Breakpoint
+#
+# FIRST AOA FACTOR
+# SECOND AOA FACTOR
+#
+## ROLL CONTROL - SYSTEM C PARAMETERS
+# MAX Pcom CAT1
+# CAT3 Roll factor
+# MAX Pcom (reduction)
+# Qbar limit
+# Qbar factor
+# Alpha limit
+# Alpha factor
+# Elevon limit
+# Elevon factor
+#
+# Rudder AOA limit
+#
+# END OF COMPLEX FLCS SECTION
+#
+# CAT 1 MAX G STRUCTURAL LIMIT
+9.0
+#
+#
+#
+###################################################
+#
+# PITCH SAS PARAMETERS FOR NON COMPLEX FLCS
+#
+# PITCH CONTROL FACTOR UP / DOWN
+#
+# MAX G LIMIT
+#
+###################################################
+#
+# YAW SAS PARAMETERS FOR NON COMPLEX FLCS
+#
+###################################################
+#
+0.017452 # ROLL COUPLING FACTOR (1/57.3)
+#
+19.3 # LATERAL ACCELERATION FACTOR
+#
+0.5 # YAW SAS GAIN
+#
+###################################################
+# ADDITIONAL DATA
+#
+# ADDITIONAL DATA(USED BY BOTH OLD AND NEW FM CODE)
+# See a10c.dat
+#
+
+END OF DATA

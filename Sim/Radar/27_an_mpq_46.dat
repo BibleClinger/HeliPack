@@ -1,0 +1,87 @@
+Indx 27 - AN/MPQ-46 - HIPIR (MIM-23 HAWK)
+Prf 667 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 2354
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 1981
+Timetosearch2 1564
+Timetosearch3 1354
+Timetoacuire 2001
+Timetoguide 4000
+
+Timetocoast 10000
+
+Rangetosearch1 193040
+Rangetosearch2 183040
+Rangetosearch3 173040
+Rangetoacuire 163040
+Rangetoguide 153040
+
+Sweeptimesearch1 3000
+Sweeptimesearch2 3000
+Sweeptimesearch3 3000
+Sweeptimeacuire 500
+Sweeptimeguide 10
+
+Sweeptimecoast 2566
+
+Rwrsoundsearch1 157
+Rwrsoundsearch2 157
+Rwrsoundsearch3 157
+Rwrsoundacuire 158
+Rwrsoundguide 86
+
+Rwrsymbolsearch1 5
+Rwrsymbolsearch2 5
+Rwrsymbolsearch3 5
+Rwrsymbolacuire 5
+Rwrsymbolguide 5
+
+Bandsearch1 D
+Bandsearch2 D
+Bandsearch3 D
+Bandacuire I
+Bandguide J
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire C
+Typeguide C
+
+PRIsearch1 1499
+PRIsearch2 1350
+PRIsearch3 950
+PRIacuire 500
+PRIguide 320
+
+TrackWarning 1
+LaunchWarning 1
+
+AGMInterceptionPK 0
+AirFireRate 5000
+AirSalvoRate 30000
+Maxmissilesintheair 1
+Maxmissilespertarget 1
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 10
+Elevationbumpamountb 10
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 122
+MinEngagementRange 4800

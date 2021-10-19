@@ -1,0 +1,65 @@
+# Title: AH-64E
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.6 Date: 08-Jan-18 5:35:17 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Airframe Index
+0
+# Sensor Definition
+#
+# Number of Sensors
+1
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+#
+# Num gear DOFs
+0
+# DOF index | rate (deg/sec) | retracted angle (deg) | extracted angle (deg) | retract delay (sec) | extract delay (sec)
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+#-----------------------------------------------------
+# Hardpoint data
+#-----------------------------------------------------
+hardpoint1Grp 0
+hardpoint2Grp AH64-tip
+hardpoint3Grp AH64
+hardpoint4Grp AH64
+hardpoint5Grp AH64
+hardpoint6Grp AH64
+hardpoint7Grp AH64-tip
+hardpoint8Grp 0
+hardpoint9Grp 0
+hardpoint10Grp 0
+hardpoint11Grp 0
+hardpoint12Grp 0
+hardpoint13Grp 0
+hardpoint14Grp 0
+hardpoint15Grp 0
+hardpoint16Grp 0
+#-----------------------------------------------------
+# Counter measure
+#-----------------------------------------------------
+chaffData 0 
+flareData 0
+#-----------------------------------------------------
+# Rotor
+#-----------------------------------------------------
+mainRotorHeight 0.00
+#-----------------------------------------------------
+# Missions
+#-----------------------------------------------------
+misTypeCapability 41 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+#
+#
+# End of Additional
+#

@@ -1,0 +1,18 @@
+$VERSION 1
+
+$MASK_TABLE 
+14 # Breakpoint Count
+-180 -170 -160 -82 -81 -60 -40 0  40 120 150 160 170 180 # Breakpoint Values, Azimuth
+-35  -30  -10  -10  0  28  20  10 70 70  -10 -30 -35 -35  # Data, Elevation
+
+$MASKWARN_TABLE
+14 # Breakpoint Count
+-180 -170 -160 -82 -81 -60 -40 0  40 120 150 160 170 180  # Breakpoint Values, Azimuth
+-40  -35  -15  -15  -5  23  15 5  65 65  -15  -35 -40 -40 # Data, Elevation
+
+$DESIGNATE_POINT_THRESHOLD .01
+
+$WIDE_FOV 3.6
+$NARROW_FOV 1.0
+$EXPAND_FOV .334
+$TV_FOV 0.5

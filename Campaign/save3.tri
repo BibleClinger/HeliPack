@@ -1,0 +1,323 @@
+//////////////////////////////////////////////////////////////////////////////
+// Base event file
+//////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore
+// KCK WARNING: KEEP THIS UPDATED!
+//////////////////////////////////////////////////////////////////////////////
+#TOTAL_EVENTS 22
+
+//////////////////////////////////////////////////////////////////////////////
+// #SET_EVENT will set the activated flag for any
+// events we want to be initially activate
+// ie: Seoul already should be marked as
+// captured in the Pusan parameter scenario
+//
+// This marks the Combined NATO and DPRK forces as initially on the defensive
+//////////////////////////////////////////////////////////////////////////////
+#SET_EVENT 2
+
+//////////////////////////////////////////////////////////////////////////////
+// This sets the initial tempo
+//////////////////////////////////////////////////////////////////////////////
+#SET_TEMPO 150
+
+//////////////////////////////////////////////////////////////////////////////
+// Initialization section done
+//////////////////////////////////////////////////////////////////////////////
+#ENDINIT
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #1
+// Combined NATO and DPRK forces go on offensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 2
+	#IF_ON_OFFENSIVE 2
+		#IF_ON_OFFENSIVE 6
+			#PLAY_MOVIE 106
+			#DO_EVENT 1
+			#SHIFT_INITIATIVE 5 2 100
+			#SHIFT_INITIATIVE 5 6 100
+			#RESET_EVENT 2
+			#DO_MONOLOG Combined NATO and DPRK forces go on offensive
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #2
+// Combined NATO and DPRK forces go on defensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 1
+	#IF_ON_OFFENSIVE 5
+		#PLAY_MOVIE 107
+		#DO_EVENT 2
+		#SHIFT_INITIATIVE 2 5 100
+		#SHIFT_INITIATIVE 6 5 100
+		#RESET_EVENT 1
+		#DO_MONOLOG Combined NATO and DPRK forces go on defensive
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #3
+// Russia joins the war as an ally of China if Chongjin and Tan-tung are controlled by
+// Combined NATO and DPRK forces in less than 8 campaign days
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 3
+	#IF_CAMPAIGN_DAY <= 7
+		#IF_CONTROLLED 2 AND 492 1074
+			#PLAY_MOVIE 109
+			#CHANGE_RELATIONS 4 5 1
+			#DO_EVENT 3
+			#DO_MONOLOG Russia joins the war as an ally of China
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #4
+// China is to strong and DPRK joins the Combined NATO force
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 4
+	#IF_CONTROLLED 5 AND 235 246 253 260 392 401 404 424
+		#PLAY_MOVIE 126
+		#CHANGE_RELATIONS 6 2 1
+		#DO_EVENT 4
+		#DO_MONOLOG China is to strong and DPRK joins the NATO force
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #5
+// Initial strategy of China
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 5
+	#IF_CONTROLLED 5 AND 260 404 694 428 492 1074
+		#IF_CONTROLLED 2 AND 234
+			#SET_PAK_PRIORITY 5 260 50
+			#SET_PAK_PRIORITY 5 404 75
+			#SET_PAK_PRIORITY 5 235 50
+			#SET_PAK_PRIORITY 5 428 25
+			#SET_PAK_PRIORITY 5 492 25
+			#SET_PAK_PRIORITY 5 2663 25
+			#SET_PAK_PRIORITY 5 234 100
+			#SET_TEMPO 255
+			#RESET_EVENT 8
+			#RESET_EVENT 9
+			#DO_EVENT 5
+			#DO_MONOLOG Initial strategy of China
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #6
+// Initial strategy of Combined NATO forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 6
+	#IF_CONTROLLED 5 AND 260 404 694 428 492 1074
+		#IF_CONTROLLED 2 AND 234
+			#SET_PAK_PRIORITY 2 260 100
+			#SET_PAK_PRIORITY 2 404 75
+			#SET_PAK_PRIORITY 2 235 50
+			#SET_PAK_PRIORITY 2 428 50
+			#SET_PAK_PRIORITY 2 492 25
+			#SET_PAK_PRIORITY 2 2663 25
+			#SET_PAK_PRIORITY 2 234 25
+			#SET_TEMPO 255
+			#RESET_EVENT 8
+			#RESET_EVENT 9
+			#DO_EVENT 6
+			#DO_MONOLOG Initial strategy of Combined NATO forces
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #7
+// Initial strategy of DPRK forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 7
+	#IF_CONTROLLED 5 AND 260 404 694 428 492 1074
+		#IF_CONTROLLED 2 AND 234
+			#SET_PAK_PRIORITY 6 260 100
+			#SET_PAK_PRIORITY 6 404 75
+			#SET_PAK_PRIORITY 6 235 50
+			#SET_PAK_PRIORITY 6 428 25
+			#SET_PAK_PRIORITY 6 492 50
+			#SET_PAK_PRIORITY 6 2663 25
+			#SET_PAK_PRIORITY 6 234 25
+			#SET_TEMPO 255
+			#RESET_EVENT 8
+			#RESET_EVENT 9
+			#DO_EVENT 7
+			#DO_MONOLOG Initial strategy of DPRK forces
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #8
+// Combined NATO and DPRK forces are heading North
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 8
+	#IF_CONTROLLED 2 AND 234 404 694 428
+		#SET_PAK_PRIORITY 2 260 50
+		#SET_PAK_PRIORITY 2 404 50
+		#SET_PAK_PRIORITY 2 235 25
+		#SET_PAK_PRIORITY 2 428 25
+		#SET_PAK_PRIORITY 2 492 75
+		#SET_PAK_PRIORITY 2 2663 100
+		#SET_PAK_PRIORITY 2 234 25
+		#SET_PAK_PRIORITY 5 260 100
+		#SET_PAK_PRIORITY 5 404 75
+		#SET_PAK_PRIORITY 5 235 25
+		#SET_PAK_PRIORITY 5 428 25
+		#SET_PAK_PRIORITY 5 492 50
+		#SET_PAK_PRIORITY 5 2663 50
+		#SET_PAK_PRIORITY 5 234 25
+		#SET_PAK_PRIORITY 6 260 50
+		#SET_PAK_PRIORITY 6 404 50
+		#SET_PAK_PRIORITY 6 235 25
+		#SET_PAK_PRIORITY 6 428 25
+		#SET_PAK_PRIORITY 6 492 75
+		#SET_PAK_PRIORITY 6 2663 100
+		#SET_PAK_PRIORITY 6 234 25
+		#SET_TEMPO 255
+		#RESET_EVENT 5
+		#RESET_EVENT 6
+		#RESET_EVENT 7
+		#RESET_EVENT 9
+		#DO_EVENT 8
+		#DO_MONOLOG Combined NATO and DPRK forces are heading North
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #9
+// China is heading South
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 9
+	#IF_CONTROLLED 5 AND 260 492 1074
+		#IF_CONTROLLED 2 AND 234 404
+			#IF_CONTROLLED 2 OR 694 428
+				#SET_PAK_PRIORITY 5 260 50
+				#SET_PAK_PRIORITY 5 404 50
+				#SET_PAK_PRIORITY 5 235 75
+				#SET_PAK_PRIORITY 5 428 100
+				#SET_PAK_PRIORITY 5 492 25
+				#SET_PAK_PRIORITY 5 2663 25
+				#SET_PAK_PRIORITY 5 234 25
+				#SET_PAK_PRIORITY 2 260 75
+				#SET_PAK_PRIORITY 2 404 100
+				#SET_PAK_PRIORITY 2 235 50
+				#SET_PAK_PRIORITY 2 428 25
+				#SET_PAK_PRIORITY 2 492 50
+				#SET_PAK_PRIORITY 2 2663 25
+				#SET_PAK_PRIORITY 2 234 25
+				#SET_PAK_PRIORITY 6 260 75
+				#SET_PAK_PRIORITY 6 404 100
+				#SET_PAK_PRIORITY 6 235 50
+				#SET_PAK_PRIORITY 6 428 25
+				#SET_PAK_PRIORITY 6 492 50
+				#SET_PAK_PRIORITY 6 2663 25
+				#SET_PAK_PRIORITY 6 234 25
+				#SET_TEMPO 255
+				#RESET_EVENT 5
+				#RESET_EVENT 6
+				#RESET_EVENT 7
+				#RESET_EVENT 8
+				#DO_EVENT 9
+				#DO_MONOLOG China is heading South
+			#ENDIF
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #13
+// China win if P’yongyang, Kaesong, Koksan and either Changyon or Wonsan are controlled
+// in less than 15 campaign days and PRC maintains 1:1 force ratio
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 13
+	#IF_CAMPAIGN_DAY <= 14
+		#IF_FORCE_RATIO GND 5 2 >= 10
+			#IF_CONTROLLED 5 AND 260 234 694
+				#IF_CONTROLLED 5 OR 428 404
+					#PLAY_MOVIE 121
+					#PLAY_MOVIE 122
+					#CHANGE_RELATIONS 5 6 1
+					#DO_EVENT 13
+					#END_GAME 13
+					#DO_MONOLOG China win -> END GAME
+				#ENDIF
+			#ENDIF
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #14
+// Stalemate - A new demarcation line will be set
+//////////////////////////////////////////////////////////////////////////////
+#IF_BORDOM_HOURS 360
+	#PLAY_MOVIE 115
+	#PLAY_MOVIE 122
+	#DO_EVENT 14
+	#END_GAME 14
+	#DO_MONOLOG Stalemate -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #15
+// Timeout - A new demarcation line will be set
+//////////////////////////////////////////////////////////////////////////////
+#IF_CAMPAIGN_DAY >= 15
+	#PLAY_MOVIE 114
+	#PLAY_MOVIE 122
+	#DO_EVENT 15
+	#END_GAME 15
+	#DO_MONOLOG Timeout -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #16
+// DPRK wins independently
+// Only if DPRK forces own P’yongyang, Wonsan, Koksan, Changyon, Chongjin and Tan-tung
+// Or
+// Combined NATO and DPRK forces win if P’yongyang, Wonsan, Koksan and Changyon is
+// captured in less than 10 campaign days and PRC strength is less than 1/10th
+// that of Allies forces. An unified Korea will be formed
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 16
+	#IF_CONTROLLED 6 AND 260 404 694 428 492 1074
+		#PLAY_MOVIE 124
+		#PLAY_MOVIE 125
+		#DO_EVENT 16
+		#END_GAME 16
+		#DO_MONOLOG DPRK wins independently -> END GAME
+	#ENDIF
+#ELSE
+	#IF_BORDOM_HOURS 240
+		#IF_FORCE_RATIO GND 5 6 <= 100
+			#IF_CONTROLLED 2 AND 260 404 694 428
+				#PLAY_MOVIE 120
+				#PLAY_MOVIE 123
+				#CHANGE_RELATIONS 6 2 1
+				#DO_EVENT 16
+				#END_GAME 16
+				#DO_MONOLOG Combined NATO and DPRK forces win -> END GAME
+			#ENDIF
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Script done
+//////////////////////////////////////////////////////////////////////////////
+#ENDSCRIPT

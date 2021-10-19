@@ -1,0 +1,1120 @@
+# Title: A-10C Warthog
+# Author: BMS
+# Revision: Flight Model Manager ver:1.7.4.63 Date: 1/19/2020 10:09:46 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#Modif Mav-Jp: Store limiter to be used in associated WCD
+#
+#-----------------------------------------------------
+# SIMULATION INPUT PANEL
+#-----------------------------------------------------
+#
+#-----------------------------------------------------
+# INPUT MASS AND GEOMETRIC PROPERTIES
+#-----------------------------------------------------
+         +24359.000000  # Empty Weight (lbs)
+           +506.000000  # Reference Area
+         +10700.000000  # Internal Fuel
+#-----------------------------------------------------
+# ANGLE OF ATTACK AND SIDESLIP LIMITS
+#-----------------------------------------------------
+            +30.000000  # AOA Max
+            -10.000000  # AOA Min
+            +15.000000  # Beta Max
+            -15.000000  # Beta Min
+             +7.330000  # Max G
+           +190.000000  # Max Roll
+           +230.000000  # Min Vcas
+           +500.000000  # Max Vcas
+           +250.000000  # Corner Vcas
+             +9.000000  # Theta Max
+             +3.000000  # Num Gear
+#
+#Gear    xPos [ft]          yPos [ft]         zPos [ft]         Extent [deg]
+         +8.80         +0.00         +7.80         +90.00 # Changed PumpyHead 10/30/2017
+        +27.84         -8.33         +8.40         +75.00 # Changed PumpyHead 10/30/2017
+        +27.84         +8.33         +8.40         +75.00 # Changed PumpyHead 10/30/2017
+#-----------------------------------------------------
+# Physical data
+#-----------------------------------------------------
+            +26.400000  # CG Loc
+            +53.000000  # Length
+            +57.500000  # Span
+             +2.000000  # Fus Radius
+             +9.200000  # Tail Ht
+#
+# End of Airframe data
+#
+#
+#     BASIC AERODYNAMIC COEFFICIENTS
+#
+#
+#-----------------------------------------------------
+#     MACH BREAKPOINTS
+#-----------------------------------------------------
++5.000000  # Num MACH
+#
+  +0.000000  +0.370000  +0.570000  +0.690000  +0.740000
+#-----------------------------------------------------
+#     ALPHA BREAKPOINTS
+#-----------------------------------------------------
++12.000000  # Num Alpha
+#
+ -20.000000 -10.000000  -5.000000  +0.000000  +5.000000 +10.000000 +15.000000 +20.000000 +25.000000 +30.000000
+ +35.000000 +40.000000
+#-----------------------------------------------------
+#     LIFT COEFFICIENT  CL
+#-----------------------------------------------------
++1.000000   # Table Multiplier
+#
+# Mach: 0
+  -0.770600  -0.549400  -0.164100  -0.090000  +0.530000  +0.971000  +1.370000  +1.687800  +1.369000  +0.272000
+  +0.205000  +0.194000
+#
+# Mach: 0.37
+  -0.774300  -0.552300  -0.166200  -0.090000  +0.530000  +0.971000  +1.370000  +1.687000  +1.865400  +2.123300
+  +2.206700  +2.197000
+#
+# Mach: 0.57
+  -0.859000  -0.634000  -0.246600  +0.020000  +0.500000  +0.981000  +1.460000  +1.799300  +1.966000  +2.222900
+  +2.326200  +2.322300
+#
+# Mach: 0.69
+  -0.879000  -0.654000  -0.264600  +0.000000  +0.480000  +1.010000  +1.520000  +1.830800  +1.997500  +2.254400
+  +2.357700  +2.353800
+#
+# Mach: 0.74
+  -0.947700  -0.722700  -0.333300  -0.068700  +0.460000  +1.010000  +1.580000  +1.851800  +2.018500  +2.275400
+  +2.378700  +2.374800
+#
+#-----------------------------------------------------
+#     DRAG COEFFICIENT  CD
+#-----------------------------------------------------
++0.666660   # Table Multiplier
+#
+# Mach: 0
+  +0.252600  +0.202700  +0.090300  +0.050400  +0.058600  +0.097200  +0.182000  +0.336300  +0.455500  +0.740000
+  +0.986300  +1.240200
+#
+# Mach: 0.37
+  +0.215500  +0.175600  +0.085700  +0.050400  +0.058600  +0.097200  +0.186200  +0.295500  +0.468100  +0.695700
+  +0.892700  +1.095800
+#
+# Mach: 0.57
+  +0.235500  +0.195700  +0.101500  +0.054600  +0.057200  +0.098300  +0.208600  +0.357400  +0.530800  +0.760000
+  +0.949600  +1.161200
+#
+# Mach: 0.69
+  +0.239100  +0.199300  +0.105100  +0.056000  +0.056200  +0.102200  +0.225000  +0.375000  +0.548100  +0.777300
+  +0.966900  +1.178500
+#
+# Mach: 0.74
+  +0.240300  +0.200500  +0.106300  +0.057000  +0.055500  +0.101500  +0.242200  +0.385500  +0.559600  +0.788900
+  +0.978500  +1.190000
+#
+#-----------------------------------------------------
+#     SIDE FORCE DERIVATIVE CY-BETA
+#-----------------------------------------------------
++1.000000   # Table Multiplier
+#
+# Mach: 0
+  -0.011000  -0.010900  -0.016600  -0.018200  -0.019200  -0.018700  -0.016300  -0.017600  -0.016400  -0.015800
+  -0.014100  -0.009000
+#
+# Mach: 0.37
+  -0.011000  +0.370000  -0.016600  -0.018200  -0.019200  -0.018700  -0.016300  -0.017600  -0.016400  -0.015800
+  -0.014100  -0.009000
+#
+# Mach: 0.57
+  -0.011000  -0.010900  +0.570000  -0.018200  -0.019200  -0.018700  -0.016300  -0.017600  -0.016400  -0.015800
+  -0.014100  -0.009000
+#
+# Mach: 0.69
+  -0.011500  -0.011200  -0.017200  +0.690000  -0.019600  -0.019600  -0.016800  -0.017800  -0.016700  -0.016100
+  -0.014800  -0.013000
+#
+# Mach: 0.74
+  -0.012000  -0.011800  -0.018000  -0.019500  -0.740000  -0.020000  -0.017400  -0.018200  -0.017100  -0.016800
+  -0.015500  -0.014200
+#
+# End of Aero Data
+#
+#-----------------------------------------------------
+# PROPULSION DATA
+#-----------------------------------------------------
+#
+      +1.000000   # Thrust multiplier
+      +1.000000   # Fuel Flow Multiplier
+#-----------------------------------------------------
+# MACH BREAKPOINTS
+#-----------------------------------------------------
++7.000000  # Number of Mach Breaks
+#
+  +0.000000  +0.200000  +0.400000  +0.600000  +0.800000  +1.000000  +1.200000
+#-----------------------------------------------------
+#     ALTITUDE BREAKPOINTS
+#-----------------------------------------------------
++7.000000  # Number of Alt Break Points
+#
+  +0.000000 +10000.000000 +20000.000000 +30000.000000 +36000.000000 +40000.000000 +50000.000000
+#
+#-----------------------------------------------------
+#    THRST1 - THRUST AT IDLE (THROTL = 0.00)
+#-----------------------------------------------------
+# Alt: 0
+     +0.000000   -520.000000  -1105.000000  -1430.000000  -2145.000000  -2600.000000  -3185.000000
+#
+# Alt: 10000
+     +0.000000   -260.000000   -715.000000  -1072.500000  -1462.500000  -1820.000000  -2242.500000
+#
+# Alt: 20000
+     +0.000000   -240.500000   -481.000000   -715.000000   -962.000000  -1202.500000  -1449.500000
+#
+# Alt: 30000
+     +0.000000   -149.500000   -292.500000   -448.500000   -598.000000   -747.500000   -897.000000
+#
+# Alt: 36000
+     +0.000000   -104.000000   -221.000000   -325.000000   -438.750000   -552.500000   -650.000000
+#
+# Alt: 40000
+     +0.000000    -91.000000   -178.750000   -269.750000   -357.500000   -448.500000   -542.750000
+#
+# Alt: 50000
+     +0.000000    -52.000000   -110.500000   -146.250000   -224.250000   -279.500000   -334.750000
+#-----------------------------------------------------
+#    THRST2 - THRUST AT MIL POWER (THROTL = 1.00)
+#-----------------------------------------------------
+# Alt: 0
+ +10961.340000 +10475.400000 +10691.330000 +10961.340000 +10907.330000  +7800.000000  +6500.000000
+#
+# Alt: 10000
+  +7559.565000  +7235.540000  +7343.570000  +8045.505000  +9179.430000  +6500.000000  +6500.000000
+#
+# Alt: 20000
+  +5021.699000  +4805.710000  +4913.701000  +5345.678000  +6209.625000  +3250.000000  +3250.000000
+#
+# Alt: 30000
+  +3239.808000  +3131.811000  +3185.806000  +3509.785000  +4049.753000  +1950.000000  +1950.000000
+#
+# Alt: 36000
+  +2483.852000  +2375.854000  +2429.856000  +2645.838000  +3023.820000   +975.000000   +975.000000
+#
+# Alt: 40000
+  +2051.875000  +1943.884000  +2051.875000  +2159.872000  +2429.856000   +780.000000   +780.000000
+#
+# Alt: 50000
+  +1349.920000  +1295.925000  +1295.925000  +1349.920000  +1619.904000   +455.000000   +455.000000
+#-----------------------------------------------------
+#    THRST3 - THRUST AT FULL AB (THROTL = 1.05)
+#-----------------------------------------------------
+# Alt: 0
+ +10961.340000 +10475.400000 +10691.330000 +10961.340000 +10907.330000  +7800.000000  +6500.000000
+#
+# Alt: 10000
+  +7559.565000  +7235.540000  +7343.570000  +8045.505000  +9179.430000  +6500.000000  +6500.000000
+#
+# Alt: 20000
+  +5021.699000  +4805.710000  +4913.701000  +5345.678000  +6209.625000  +3250.000000  +3250.000000
+#
+# Alt: 30000
+  +3239.808000  +3131.811000  +3185.806000  +3509.785000  +4049.753000  +1950.000000  +1950.000000
+#
+# Alt: 36000
+  +2483.852000  +2375.854000  +2429.856000  +2645.838000  +3023.820000   +975.000000   +975.000000
+#
+# Alt: 40000
+  +2051.875000  +1943.884000  +2051.875000  +2159.872000  +2429.856000   +780.000000   +780.000000
+#
+# Alt: 50000
+  +1349.920000  +1295.925000  +1295.925000  +1349.920000  +1619.904000   +455.000000   +455.000000
+#-----------------------------------------------------
+#    ROLL DATA
+#-----------------------------------------------------
+#    ALPHA BREAKPOINTS
+7 # Num ALPHA
+   -10   0   10   20   30   40   90
+#
+7 # DYNAMIC PRESSURE BREAKPOINTS
+   0   100   200   300   400   500   2000
+#-----------------------------------------------------
+#     RCMDMX - PEAK ROLL RATE
+#-----------------------------------------------------
+1   # Table Multiplier
+
+# ALPHA -10
+ 0.00 50.00 100.00 130.00 130.00 130.00 120.00
+#
+# ALPHA 0
+ 0.00 140.00 190.00 220.00 220.00 220.00 210.00
+#
+# ALPHA 10
+ 0.00 50.00 100.00 130.00 130.00 130.00 120.00
+#
+# ALPHA 20
+ 0.00 10.00 20.00 40.00 40.00 40.00 40.00
+#
+# ALPHA 30
+ 0.00 5.00 5.00 25.00 25.00 25.00 20.00
+#
+# ALPHA 40
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+#
+# ALPHA 90
+ 0.00 0.00 0.00 0.00 0.00 0.00 0.00
+#
+# End Of Roll Data
+#
+#-----------------------------------------------------
+# LIMITERS
+#-----------------------------------------------------
+17   # Number of limiters
+# Type Key Values
+#
+# Neg G Limiter
+0 0     250.0     -3.0     100.0     0.0
+# Pos G Limiter (Cat I)
+3 1     15.0     9.0     20.4     7.3     25.0     1.0
+# Roll Rate Limiter
+0 2     15.0     1.0     29.0     1.0
+# Yaw Alpha Limiter
+0 3     14.0     1.0     26.0     0.0
+# Yaw Roll Rate Limiter
+0 4     20.0     1.0     360.0     1.0
+# Cat III Command Type
+0 5     100.0     7.0     420.0     15.0
+# Cat III AOA Limiter
+1 6     17.0
+# Cat III Roll Rate Limiter
+2 7     0.6
+# Cat III Yaw Alpha Limiter
+0 8     3.0     1.0     15.0     0.0
+# Cat III Yaw Roll Rate Limiter
+0 9     20.0     1.0     180.0     0.0
+# Pitch and Yaw Control Damper
+3 10     0.00     0.30     15.00     0.85     50.00     1.00
+# Roll Control Damper
+3 11     0.00     0.60     15.00     0.85     50.00     1.00
+# Command Type
+1 12     20
+# Low Speed Omega
+3 13     0.01     0.10     40.00     1.00     60.00     1.00
+# Stores Drag
+0 14     0.9     0.000100     1.0     0.000283
+# Cat III Max Gs
+1 16     1.0
+# AOA Limiter
+1 17     30.0
+#-----------------------------------------------------
+# Vapor data
+#-----------------------------------------------------
+34   #Total Number of vapor chains - MUST MATCH THE REAL NUMBER OF CHAINS DEFINED LATER OR YOU'LL GET CTDs!
+#
+#		              POSITION				  SIZE					   TIME/ALPHA				   OTHER	
+#	startX  startY  startZ  endX	endY	endZ	Init	Growth	RandPos t1	a1	t2	a2	t3	a3	t4	a4	LEVEL	PSID
+# level 0
+	+2.83	+3.00	+0.50	-15.20	+3.00	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+4.36	+0.50	-15.00	+4.36	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+5.93	+0.50	-14.20	+5.93	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+7.50	+0.50	-13.50	+7.50	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+9.00	+0.50	-12.70	+9.00	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.55	+10.30	+0.50	-11.10	+10.30	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.40	+11.60	+0.40	-10.10	+11.60	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.20	+12.93	+0.34	-9.50	+12.93	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.00	+14.20	+0.28	-9.00	+14.20	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.90	+15.50	+0.02	-8.50	+15.50	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.70	+16.80	-0.10	-8.30	+16.80	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.60	+18.16	-0.28	-8.10	+18.16	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.40	+19.43	-0.35	-7.80	+19.43	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.20	+20.70	-0.42	-7.50	+20.70	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.00	+22.00	-0.62	-7.00	+22.00	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+3.15	+0.50	-15.20	+3.00	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+4.23	+0.50	-15.00	+4.36	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+3.08	+0.50	-14.20	+5.93	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+7.65	+0.50	-13.50	+7.50	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.83	+9.15	+0.50	-12.70	+9.00	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.55	+10.45	+0.50	-11.10	+10.30	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.40	+11.75	+0.40	-10.10	+11.60	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.20	+13.08	+0.34	-9.50	+12.93	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+2.00	+14.35	+0.28	-9.00	+14.20	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.90	+15.65	+0.02	-8.50	+15.50	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.70	+16.95	-0.10	-8.30	+16.80	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.60	+18.31	-0.28	-8.10	+18.16	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.40	+19.58	-0.35	-7.80	+19.43	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.20	+20.85	-0.42	-7.50	+20.70	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+	+1.00	+22.15	-0.62	-7.00	+22.00	-0.40	+2.000	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+0	+3
+# level 1
+	+2.83	+3.30	+0.50	-25.20	+3.00	-0.40	+1.200	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+1	+3
+	+2.83	+5.36	+0.50	-25.00	+4.36	-0.40	+1.200	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+1	+3
+	+2.83	+9.00	+0.50	-30.00	+9.00	-0.40	+1.200	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+1	+3
+	+2.83	+6.50	+0.50	-28.50	+7.50	-0.40	+1.800	+0.0300	+0.375	+0.00	+0.05	+1.00	+0.42	+2.00	+0.05	+0.00	+0.00	+1	+3
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+#-----------------------------------------------------
+# Aircraft
+#-----------------------------------------------------
+typeAC 12
+isComplex 1
+irSignature 1
+visSignature 2
+#-----------------------------------------------------
+# Engine
+#-----------------------------------------------------
+typeEngine 12
+nEngines 2
+engine1Location -18.00 -4.70 -0.20
+engine2Location -18.00 4.70 -0.20
+engine3Location 0.00 0.00 0.00
+engine4Location 0.00 0.00 0.00
+hasATC 0
+engineSmokes 0
+normSpoolRate 2.2
+abSpoolRate 2.2
+SecRpmVar 0.00
+FlcsBitRpmVar 0.00
+nozzleMil 0.00
+nozzleIdleLGDown 0.94
+nozzleIdleLGUp 0.00
+nozzleSpoolRateOpen 1.20
+nozzleSpoolRateClose 0.25
+LGIdle 0
+jfsStartUpTime 15
+jfsSpoolUpRate 15.0
+jfsSpoolUpLimit 0.25
+lightupSpoolRate 10.0
+flameoutSpoolRate 80.0
+jfsRechargeTime 60
+jfsMinRechargeRpm 0.12
+jfsSpinTime 240
+FTITHotStart 11.500
+FTITEngineFireGround 10.000
+FTITEngineFireAir 10.000
+FTITStart 6.100
+FTITIdle 5.100
+FTITMax 8.600
+FTITAB 8.623
+mainGenRpm 0.63
+stbyGenRpm 0.60
+epuBurnTime 600
+DeepStallEngineStall 0
+engineDamageStopThreshold 15
+engineDamageNoRestartThreshold 3
+engineDamageHitThreshold 70
+complexnozzle 0
+animExhNozIdle 0.0
+animExhNozMil 10.0
+animExhNozMax 5.0
+animExhNozAB 0.0
+animExhNozABMax 15.0
+animExhNozRate 5.0
+PropEngineSwitchStates 0
+animEngineRPMMult 1000
+HeatBlurShift 4
+hasReverseThrust 0
+ReverseThrustFactor 0.0
+minReverseThrustSpeed 0
+animReverseAngle 0
+animReverseRate 0.0
+#-----------------------------------------------------
+# JetBlast data
+#-----------------------------------------------------
+JetWashFactor 1.0
+JetWashRange 800
+WakeAngle 5.00
+#-----------------------------------------------------
+# Flight Dynamics
+#-----------------------------------------------------
+area2Span 0.1136
+pitchMomentum 1.20
+rollMomentum 1.20
+yawMomentum 1.20
+pitchElasticity 1.00
+gearPitchFactor 0.00
+pitchGearGain 1.00
+rollGearGain 1.00
+yawGearGain 1.00
+AFMcriticalAOA 25.0
+#-----------------------------------------------------
+# Controls
+#-----------------------------------------------------
+elevonMaxAngle 20.0
+aileronMaxAngle 20.0
+rudderMaxAngle 20.0
+rollCouple -0.05
+elevatorRoll 0
+elevRate 60
+animAileronRate 45
+rudderRate 120
+animSpoiler1Max 0
+animSpoiler1Rate 45.0
+animSpoiler1OffAtWingSweep 70.0
+animSpoiler1AirBrake 0
+animSpoiler2Max 0
+animSpoiler2Rate 45.0
+animSpoiler2OffAtWingSweep 70.0
+animSpoiler2AirBrake 0
+#-----------------------------------------------------
+# Trim
+#-----------------------------------------------------
+pitchElevatorTrimRate 0.08
+pitchAileronTrimRate 0.10
+pitchRudderTrimRate 0.25
+trimDeadZonePercentage 0.05
+#-----------------------------------------------------
+# Flaps
+#-----------------------------------------------------
+hasFlapperons 0
+flapGearRelative 0
+maxFlapVcas 210
+flapVcasRange 30
+flap2Nozzle 0
+#-----------------------------------------------------
+# Lef (Slats)
+#-----------------------------------------------------
+haslef 2
+lefGround 0.0
+lefMaxAngle 30.0
+lefMaxMach 0.40
+lefNStages 1
+CDlefFactor 0.00
+lefRate 5
+#-----------------------------------------------------
+# Tef (Flaps)
+#-----------------------------------------------------
+hasTef 1
+tefMaxAngle 20.0
+CLtefFactor 0.40
+CDtefFactor 0.10
+AFMCLtefFactor 0.40
+AFMCDtefFactor 0.10
+tefNStages 2
+tefTakeoff 10.0
+tefRate 5
+NoTefSound 0
+#-----------------------------------------------------
+# Air-Brakes
+#-----------------------------------------------------
+CDSPDBFactor 0.065
+airbrakeMaxAngle 60
+airbrakeOutRateFactor 0.330000 #Falcas 4/12/2014 According to A-10 Manual
+airbrakeInRateFactor 0.330000 #Falcas 4/12/2014 According to A-10 Manual
+airbrakeApproachAngle 30 #Added Falcas
+minAirbrakeSpeed -1
+#-----------------------------------------------------
+# Drag Chute
+#-----------------------------------------------------
+dragChuteCd 0.000
+dragChuteMaxSpeed 170
+dragChuteDropSpeed 90 #Added Falcas
+dragChuteMinRunwayLength 0 #Added Falcas
+dragChuteDelay 2.0 #Added Falcas
+#-----------------------------------------------------
+# Gear and NWS
+#-----------------------------------------------------
+CDLDGFactor 0.025
+sinkRate 15
+BrakeAbsorptionFactor 1.2
+MLGWOWPercentage 0.90
+NLGWOWPercentage 0.50
+NWSRateUp 1.5
+NWSRateDown 4.0
+animGearAngleOFM1 0.00
+animGearAngleOFM2 0.00
+animGearAngleOFM3 0.00
+animGearAngleOFM4 0.00
+animGearAngleOFM5 0.00
+animGearAngleOFM6 0.00
+animGearAngleOFM7 0.00
+animGearAngleOFM8 0.00
+animGearAngleAFM1 0.00
+animGearAngleAFM2 0.00
+animGearAngleAFM3 0.00
+animGearAngleAFM4 0.00
+animGearAngleAFM5 0.00
+animGearAngleAFM6 0.00
+animGearAngleAFM7 0.00
+animGearAngleAFM8 0.00
+animWheelRadius1 1.00
+animWheelRadius2 1.25
+animWheelRadius3 1.25
+animWheelRadius4 0.00
+animWheelRadius5 0.00
+animWheelRadius6 0.00
+animWheelRadius7 0.00
+animWheelRadius8 0.00
+animGearMaxComp1 0.55 #Changed PumpyHead 10/30/2017
+animGearMaxComp2 1.00 #Changed PumpyHead 10/30/2017
+animGearMaxComp3 1.00 #Changed PumpyHead 10/30/2017
+animGearMaxComp4 0.00
+animGearMaxComp5 0.00
+animGearMaxComp6 0.00
+animGearMaxComp7 0.00
+animGearMaxComp8 0.00
+animGearMaxExt1 0.50 #Changed PumpyHead 10/30/2017
+animGearMaxExt2 0.55 #Changed PumpyHead 10/30/2017
+animGearMaxExt3 0.55 #Changed PumpyHead 10/30/2017
+animGearMaxExt4 0.00
+animGearMaxExt5 0.00
+animGearMaxExt6 0.00
+animGearMaxExt7 0.00
+animGearMaxExt8 0.00
+animGearInverted 0 #Changed PumpyHead 10/30/2017
+GearDofRate1 0.60 #Added Falcas 01/13/1014
+GearDofRate2 0.60
+GearDofRate3 0.60
+GearDofRate4 0.60
+GearDofRate5 0.60
+GearDofRate6 0.60
+GearDofRate7 0.60
+GearDofRate8 0.60
+GearDelayDown1 1.50 #Added Falcas 01/13/1014
+GearDelayDown2 1.50
+GearDelayDown3 1.50
+GearDelayDown4 1.50
+GearDelayDown5 1.50
+GearDelayDown6 1.50
+GearDelayDown7 1.50
+GearDelayDown8 1.50
+GearDelayUp1 0.00 #Added Falcas 01/13/1014
+GearDelayUp2 0.00
+GearDelayUp3 0.00
+GearDelayUp4 0.00
+GearDelayUp5 0.00
+GearDelayUp6 0.00
+GearDelayUp7 0.00
+GearDelayUp8 0.00
+DoorDofRate1 0.60 #Added Falcas 01/13/1014
+DoorDofRate2 0.60
+DoorDofRate3 0.60
+DoorDofRate4 0.60
+DoorDofRate5 0.60
+DoorDofRate6 0.60
+DoorDofRate7 0.60
+DoorDofRate8 0.60
+DoorDelayDown1 0.00 #Added Falcas 01/13/1014
+DoorDelayDown2 0.00
+DoorDelayDown3 0.00
+DoorDelayDown4 0.00
+DoorDelayDown5 0.00
+DoorDelayDown6 0.00
+DoorDelayDown7 0.00
+DoorDelayDown8 0.00
+DoorDelayUp1 1.50 #Added Falcas 01/13/1014
+DoorDelayUp2 1.50
+DoorDelayUp3 1.50
+DoorDelayUp4 1.50
+DoorDelayUp5 1.50
+DoorDelayUp6 1.50
+DoorDelayUp7 1.50
+DoorDelayUp8 1.50
+#-----------------------------------------------------
+# Hook
+#-----------------------------------------------------
+hookConnectionLocation 0.00 0.00 0.00
+HookLength 0.00
+animHookInitialAngle -5.0
+animHookAngle 0.0
+animHookRate 0.0
+#-----------------------------------------------------
+# Wing fold
+#-----------------------------------------------------
+animWingFoldAngle 0
+animWingFoldRate 0.0
+#-----------------------------------------------------
+# Canopy
+#-----------------------------------------------------
+canopyHandleMethod 0
+canopyMaxAngle 30
+canopyOpenRate 5.0
+canopyCloseRate 5.0
+canopyMaxSpeed 70
+#-----------------------------------------------------
+# Fuel
+#-----------------------------------------------------
+fuelGaugeMultiplier 10.0
+fuelFlowFactorNormal 0.355
+fuelFlowFactorAb 0.355
+minFuelFlow 408
+fuelFwdRes 0
+fuelAftRes 0
+fuelFwd1 0
+fuelFwd2 0
+fuelAft1 0
+fuelWingAl 0
+fuelWingFr 0
+fuelFwdResRate 0.000
+fuelAftResRate 0.000
+fuelFwd1Rate 0.000
+fuelFwd2Rate 0.000
+fuelAft1Rate 0.000
+fuelWingAlRate 0.000
+fuelWingFrRate 0.000
+fuelClineRate 0.000
+fuelWingExtRate 0.000
+fuelMinFwd 400
+fuelMinAft 250
+#-----------------------------------------------------
+# Fuel Leak
+#-----------------------------------------------------
+HasFuelLeakageModel 0
+FuelLeakPositLWingTank 0.0 0.0 0.0
+FuelLeakPositRWingTank 0.0 0.0 0.0
+FuelLeakPositFwdTank 0.0 0.0 0.0
+FuelLeakPositAftTank 0.0 0.0 0.0
+#-----------------------------------------------------
+# Air-Air Refuel
+#-----------------------------------------------------
+receiverRefuelServiceType 1 #Added Falcas 01/21/2014
+refuelLocation 22.80 0.00 -0.78
+refuelSpeed 220
+refuelAltitude 15000
+refuelRate 50
+AIBoomDistance 50
+decelDistance 1000
+desiredClosureFactor 0.35
+longLeg 60
+shortLeg 25
+IL78Factor 0.0
+animRefuelAngle 0.0
+animRefuelRate 0.0
+#-----------------------------------------------------
+# Avionics
+#-----------------------------------------------------
+avionicsCanUseSpice 0
+avionicsJDAMAvionicsType 0
+avionicsDiffICPStyle 0
+avionicsMLUPFL 1
+avionicsDatalink 2
+avionicsDLCursorAsWaypoint 0
+avionicsDteIdmLabel 0
+avionicsEHSI 0
+avionicsHudLadderTapeType 0
+avionicsHudVAHTapeType 0
+avionicsHudDGFTDefaultMode 0
+avionicsDGFTMasterModeLabelOnHud 0
+avionicsDGFTAttitudeAwareness 1
+avionicsMLUM2TAOnHUD 1
+avionicsHudAATargetAspectAngle 1
+avionicsHudOlderMasterModeWindow 0
+avionicsNewAMRAAMdlz 1
+avionicsBullseyeOnHud 1
+avionicsDEDHudRepeaterBlanksOnDGFT 1
+avionicsHudNavDeclutterEnabled 1
+avionicsHudNavSpdAltTapesLag 0
+avionicsZenithNadirOnHud 1
+avionicsGhostHorizonAwareness 1
+avionicsEPAFRadarCues 1
+avionicsRadarJamChevrons 1
+avionicsRadarVsMode 1
+avionicsRadarLrsMode 1
+avionicsRadarUlsMode 1
+avionicsColorMfd 1
+avionicsGrayScaleGM 1
+avionicsActivateMFDBoot 0
+avionicsMMCUpgrade 1
+avionicsEGIUpgrade 1
+avionicsDigitalFLCS 1
+avionicsRWRType 0
+avionicsGunEEGSMode 1
+avionicsGunSSLCMode 1
+avionicsGunLCOSMode 1
+avionicsGunSNAPMode 1
+avionicsEngineType 0
+avionicsMfdCataSymbolAim120 0
+avionicsHudOldBAIType 0
+avionicsCursorEnableAsToggle 0
+avionicsMaverickHandoffCapeable 1
+avionicsDisplayColors 78 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+avionicsASIU 0
+avionicsLongUncageTogglesSTRF 1
+avionicsTTDBlanking 0
+avionicsBackupTacanOnMFD 0
+#-----------------------------------------------------
+# IFF
+#-----------------------------------------------------
+avionicsIFFTransponderSettings 31
+avionicsIFFInterrogatorSettings 0
+avionicsIFFBackupM1M3 1
+#-----------------------------------------------------
+# Autopilot
+#-----------------------------------------------------
+maxAutopilotMach 0.74
+#-----------------------------------------------------
+# Locations
+#-----------------------------------------------------
+PilotEyePos 15.30 0.00 -3.70
+wingTipLocation -5.09 28.50 -0.70
+#-----------------------------------------------------
+# Counter measure
+#-----------------------------------------------------
+hasEWS 1
+ecmStrength 0.000
+nChaff 180 #Added Falcas
+nFlare 300 #Added Falcas
+FlareDispensers 4 #A-10 manual page 5-14
+FlareSeq 0 #3,2,4,1
+FlarePos1 -3.25 8.41 3.77 #Right wheel well
+FlareVec1 0.00 5.00 100.00
+FlareCount1 60
+FlarePos2 -3.25 -8.41 3.77 #Left wheel well
+FlareVec2 0.00 -5.00 100.00
+FlareCount2 60
+FlarePos3 -2.70 26.86 -0.44 #Right wingtip
+FlareVec3 0.00 10.00 100.00
+FlareCount3 90
+FlarePos4 -2.70 -26.86 -0.44 #Left wingtip
+FlareVec4 0.00 -10.00 100.00
+FlareCount4 90
+ChaffDispensers 4 #A-10 manual page 5-14
+ChaffSeq 0 #1,4,2,3
+ChaffPos1 -2.70 -26.86 -0.44 #Left wingtip
+ChaffVec1 0.00 0.00 50.00
+ChaffCount1 30
+ChaffPos2 -2.70 26.86 -0.44 #Right wingtip
+ChaffVec2 0.00 0.00 50.00
+ChaffCount2 30
+ChaffPos3 -3.25 -8.41 3.77 #Left wheel well
+ChaffVec3 0.00 0.00 50.00
+ChaffCount3 60
+ChaffPos4 -3.25 8.41 3.77 #Right wheel well
+ChaffVec4 0.00 0.00 50.00
+ChaffCount4 60
+#-----------------------------------------------------
+# Hardpoint data
+#-----------------------------------------------------
+numPODHardpoints 1
+hardpoint1Grp 0
+hardpoint2Grp nopylon-left
+hardpoint3Grp nopylon-left
+hardpoint4Grp nopylon-left
+hardpoint5Grp nopylon-left
+hardpoint6Grp nopylon-left
+hardpoint7Grp nopylon-left
+hardpoint8Grp a10-center
+hardpoint9Grp nopylon-right
+hardpoint10Grp nopylon-right
+hardpoint11Grp nopylon-right
+hardpoint12Grp nopylon-right
+hardpoint13Grp nopylon-right
+hardpoint14Grp nopylon-right
+hardpoint15Grp a10-tgp
+hardpoint16Grp 0
+#-----------------------------------------------------
+# Sounds
+#-----------------------------------------------------
+sndExternalVol -1600
+sndSpdBrakeStart 141
+sndSpdBrakeLoop 140
+sndSpdBrakeEnd 139
+sndSpdBrakeWind 142
+sndOverSpeed1 191
+sndOverSpeed2 192
+sndGunStart 259
+sndGunLoop 263
+sndGunEnd 261
+sndBBPullup 68
+sndBBBingo 66
+sndBBWarning 63
+sndBBCaution 64
+sndBBBeeps 301
+sndBBChaffFlareLow 184
+sndBBFlare 138
+sndBBChaffFlare 183
+sndBBChaffFlareOut 185
+sndBBAltitude 65
+sndBBLock 67
+sndTouchDown 42
+sndWheelBrakes 0
+sndDragChute 218
+sndLowSpeed 167
+sndFlapStart 145
+sndFlapLoop 144
+sndFlapEnd 143
+sndHookStart 195
+sndHookLoop 194
+sndHookEnd 193
+sndGearCloseStart0 147
+sndGearCloseEnd0 146
+sndGearOpenStart0 149
+sndGearOpenEnd0 150
+sndGearCloseStart1 331
+sndGearCloseEnd1 330
+sndGearOpenStart1 332
+sndGearOpenEnd1 333
+sndGearCloseStart2 394
+sndGearCloseEnd2 393
+sndGearOpenStart2 395
+sndGearOpenEnd2 396
+sndGearLoopOpen 148
+sndGearLoopClose 170
+sndCanopyOpenStart 271
+sndCanopyOpenLoop 275
+sndCanopyOpenEnd 272
+sndCanopyCloseStart 273
+sndCanopyCloseLoop 361
+sndCanopyCloseEnd 274
+sndCanopyLock 418
+sndCanopyUnlock 419
+sndSeatUp 420
+sndSeatDown 421
+sndEject 5
+sndWind 33
+sndBattery 304
+sndRadioBuzz 305
+sndECSStart 104
+sndECSLoop 411
+sndECSEnd 136
+sndJFSStart 288
+sndJFSLoop 289
+sndJFSEnd 290
+sndJFSStartInt 306
+sndJFSLoopInt 307
+sndJFSendInt 308
+#-----------------------------------------------------
+# Sounds Engine Ext
+#-----------------------------------------------------
+sndAbExt 228
+#
+sndExt 228
+sndExtChart 3 0.00 0.00 0.45 0.80 1.00 1.00
+sndExtPitchChart 6 0.00 0.30 0.70 1.00 0.75 1.30 0.80 1.50 0.85 1.70 0.90 1.70
+#
+sndExt2 276
+sndExt2Chart 3 0.00 0.00 0.45 0.80 1.00 1.00
+sndExt2PitchChart 6 0.00 0.30 0.70 1.00 0.75 1.30 0.80 1.50 0.85 1.70 0.90 1.70
+#
+sndExt3 -1
+#
+sndExt4 0
+#-----------------------------------------------------
+# Sounds Engine Int
+#-----------------------------------------------------
+sndInt 34
+#
+sndInt2 278
+#
+sndInt3 303
+#
+sndInt4 0
+#
+sndAbInt -1
+#
+sndAbInt2 -1
+#-----------------------------------------------------
+# Sounds Aero
+#-----------------------------------------------------
+sndAero1 298 #Aerodynamic pressure
+sndAero1AOAChart 1 0 1.00
+sndAero1SpeedChart 5 0.0 0.00 0.1 0.65 0.8 0.90 1.0 0.95 2.3 1.00
+sndAero1SpeedPitchChart 2 0.0 0.85 3.0 1.05
+#
+sndAero2 299
+sndAero2AOAChart 4 0 0.00 6 0.60 10 0.80 15 1.60
+sndAero2SpeedChart 2 0.0 0.00 0.6 1.00
+sndAero2SpeedPitchChart 1 0.0 1.00
+sndAero2GChart 3 0.0 0.00 3.0 1.00 6.0 1.60
+#
+sndAero3 300
+sndAero3AOAChart 4 0 0.00 9 0.60 12 0.80 55 1.60
+sndAero3SpeedChart 2 0.0 0.00 0.8 1.60
+sndAero3SpeedPitchChart 1 0.0 1.00
+sndAero3GChart 3 0.0 0.00 3.0 1.00 6.0 1.60
+#
+sndAero4 4 #Airflow sound for external by pass view
+sndAero4AOAChart 2 0 0.90 10 1.00
+sndAero4SpeedChart 3 0.0 0.00 0.1 0.60 1.0 1.00
+sndAero4SpeedPitchChart 1 0.0 1.00
+#-----------------------------------------------------
+# AI behaviour
+#-----------------------------------------------------
+rollLimitForAiInWP 45
+followRate 20
+BingoReturnDistance 50
+jokerFactor 8.1
+bingoFactor 8.1
+fumesFactor 54.3
+largePark 0
+minTakeoffRunwayLengthClean 5500 #Added Falcas
+minTakeoffRunwayLengthMTOW 7500 #Added Falcas
+optTakeoffPitch 10.0 #Falcas 07/24/2013
+gearRetractAlt 20 #Falcas 07/24/2013
+maxClimbPitch 12.0 #Added Dee-Jay
+optClimbSpeed 290 #Falcas 07/24/2014
+optClimbMach 0.52 #Falcas 07/24/2014
+minClimbRate 2100 #Falcas 07/24/2014
+descentPath -1.0 #Falcas 07/07/2013
+landingAOA 8.0
+aerobrakingAOA 0.0
+aiLandingOffset -600 #Added Falcas
+MinTGTMAR 0
+MaxMARIdedStart 0
+AddMARIded5k 0
+AddMARIded18k 0
+AddMARIded28k 0
+AddMARIdedSpike 0
+MaxWEZtaStart 2.5
+IsShortBurnThreat 0
+IsLongBurnThreat 0
+#-----------------------------------------------------
+# Missions
+#-----------------------------------------------------
+misTypeCapability 41 100 0 0 0 100 0 0 0 0 0 100 100 0 100 100 100 100 0 0 100 100 100 100 100 100 100 0 0 0 100 20 0 0 0 0 0 0 100 100 100 100
+#-----------------------------------------------------
+# TFR
+#-----------------------------------------------------
+#Switch: 0 - No TFR, 1 - Internal TFR, 2 - External
+TFR_Type 0 #Added Falcas 14/06/2014
+PID_K 0.5
+PID_KI 0.0
+PID_KD 0.4
+TFR_LimitMX 0.0
+TFR_Corner 420
+TFR_Gain 0.010
+EVA_Gain 15.0 #10-12-2014
+TFR_MaxRoll 60
+TFR_SoftG 2.0
+TFR_MedG 2.0
+TFR_HardG 2.0
+TFR_Clearance 20
+SlowPercent 0
+TFR_lookAhead 7000 #10-12-2014
+EVA1_SoftFactor 0.8
+EVA2_SoftFactor 0.5
+EVA1_MedFactor 0.8
+EVA2_MedFactor 0.5
+EVA1_HardFactor 0.8
+EVA2_HardFactor 0.5
+TFR_GammaCorrMult 1.5 #10-12-2014
+#-----------------------------------------------------
+# TGP
+#-----------------------------------------------------
+#Switch: 0 - No TGP, 1 - Internal TGP, 2 - External TGP
+TGP_Type 2
+TGPCameraXOff 0.00
+TGPCameraYOff 0.00
+TGPCameraZOff 0.00
+#-----------------------------------------------------
+# HTS
+#-----------------------------------------------------
+#Switch: 0 - No HTS, 1 - Internal HTS, 2 - External HTS
+HTS_Type 0
+#-----------------------------------------------------
+# Lantirn
+#-----------------------------------------------------
+#Switch: 0 - No NAV, 1 - Internal NAV, 2 - External NAVPOD
+LANTIRN_Type 0
+LantirnCameraXOff 0.00
+LantirnCameraYOff 0.00
+LantirnCameraZOff 0.00
+#-----------------------------------------------------
+# Gun
+#-----------------------------------------------------
+gunLocation 27.00 -0.40 1.80
+gunTrailID 20
+GunEffect 5900
+gunPitch 0.00
+gunYaw 0.00
+canDoGunStrafe 1
+#-----------------------------------------------------
+# Weapons
+#-----------------------------------------------------
+A2GHarmAlt 20000
+A2GHarmMinAlt 1000
+A2GHarmMaxAlt 24000
+A2GAGMAlt 8000
+A2GAGMMinAlt 15000
+A2GAGMMaxAlt 18000
+A2GGBUAlt 20000
+A2GGBUMinAlt 15000
+A2GGBUMaxAlt 18000
+A2GDumbHDAlt 1500
+A2GDumbHDMinAlt 1200
+A2GDumbHDMaxAlt 2500
+A2GClusterAlt 14000
+A2GClusterMinAlt 9000
+A2GClusterMaxAlt 18000
+A2GDumbLDAlt 16000
+A2GDumbLDMinAlt 11000
+A2GDumbLDMaxAlt 13000
+A2GGunRocketAlt 3500
+A2GGunRocketMinAlt 1500
+A2GGunRocketMaxAlt 5500
+A2GCameraAlt 12000
+A2GCameraMinAlt 10000
+A2GCameraMaxAlt 14000
+A2GBombMissileAlt 20000
+A2GBombMissileMinAlt 15000
+A2GBombMissileMaxAlt 18000
+A2GIAMBombAlt 20000
+A2GIAMBombMinAlt 15000
+A2GIAMBombMaxAlt 18000
+maxRippleCount 99
+maxLoadoutDrag 41 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+maxLoadoutWeight 41 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100
+minNumFuelTanks 41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+extTanksLoadOrder 0
+loadRadarGuidedFirst 0 #Added Falcas
+#-----------------------------------------------------
+# Rockets
+#-----------------------------------------------------
+rktAltIsAgl 1
+rktHighAlt 1000
+rktPreferedAlt 500
+rktLowAlt 250
+rktEmergencyAlt 100
+rktFireRange 6000
+rktPopupRange 8000
+rktPopupAlt 1000
+#-----------------------------------------------------
+# ARMs
+#-----------------------------------------------------
+maxNumARMs 0
+#-----------------------------------------------------
+# Camera View TopGun
+#-----------------------------------------------------
+TopGunCamera1 7  -10.00  -20.00   -2.50   +0.00  +28.00   +0.00  60.0 #left wing looking towards cockpit.
+TopGunCamera2 7  +30.00  -20.00   -2.50   +0.00 +128.00   +0.00  60.0 #right of cockpit looking toward pilots.
+TopGunCamera3 7  +21.00   +0.00   +5.00   -2.00 -180.00   +0.00  60.0 #before air intake looking backwards to gear.
+TopGunCamera4 7  +43.00   +0.00   -9.00  -16.00 +180.00   +0.00  47.0 #placed near the gun (created by Revient0R), looking backward.
+#-----------------------------------------------------
+# Lights
+#-----------------------------------------------------
+Light1Position -2.69 27.80 -0.70
+Light1Color 0.00 0.40 0.00
+Light1Type 3
+Light1Radius 60
+Light1Attenuation 0.200
+
+Light2Position -2.69 -27.80 -0.70
+Light2Color 0.40 0.00 0.00
+Light2Type 3
+Light2Radius 60
+Light2Attenuation 0.200
+
+animStrobeOnTime 0.020
+animStrobeOffTime 1.000
+animWingFlashOnTime 0.030
+animWingFlashOffTime 1.500
+numFormationLightLevels 0
+#-----------------------------------------------------
+# Spot Lights Landing
+#-----------------------------------------------------
+SpotLight1Color 0.25 0.25 0.24 # color of the light
+SpotLight1Position 16.81 1.00 5.69 # the light's position
+SpotLight1LookAt 17.61 1.00 6.19 # position in model space at which the light should point
+SpotLight1Attenuation 0.000100 # attenuation of the light
+SpotLight1InnerConeDeg 30.000 # inner cone angle in degrees
+SpotLight1OuterConeDeg 45.000 # outer cone angle in degrees
+#-----------------------------------------------------
+# Spot Lights Taxi
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Additionals that are not included in FMM.
+#-----------------------------------------------------
+#
+# End of Additional
+#
+END OF DATA

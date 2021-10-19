@@ -1,0 +1,70 @@
+Indx 119 - SNOW DRIFT - TAR (SA-11 / SA-17)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 500
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 4400
+Timetoguide 3000
+
+Timetocoast 10000
+
+Rangetosearch1 522550
+Rangetosearch2 512550
+Rangetosearch3 502550
+Rangetoacuire 164000
+Rangetoguide 145820
+
+Sweeptimesearch1 6000
+Sweeptimesearch2 6000
+Sweeptimesearch3 6000
+Sweeptimeacuire 6000
+Sweeptimeguide 6000
+
+Sweeptimecoast 6000
+
+Rwrsoundsearch1 204
+Rwrsoundsearch2 204
+Rwrsoundsearch3 204
+Rwrsoundacuire 204
+Rwrsoundguide 204
+
+Rwrsymbolsearch1 68
+Rwrsymbolsearch2 68
+Rwrsymbolsearch3 68
+Rwrsymbolacuire 68
+Rwrsymbolguide 68
+
+Bandsearch1 F
+Bandsearch2 F
+Bandsearch3 F
+Bandacuire F
+Bandguide F
+
+Typesearch1 D
+Typesearch2 D
+Typesearch3 D
+Typeacuire D
+Typeguide D 
+
+PRIsearch1 1250
+PRIsearch2 625
+PRIsearch3 694
+PRIacuire 492
+PRIguide 339
+
+TrackWarning 0
+LaunchWarning 0
+
+RwrsymbolALR56Override -1
+RwrsymbolALR67Override -1
+RwrsymbolALR69Override -1
+RwrsymbolALR93Override -1
+RwrsymbolCarapaceOverride -1
+RwrsymbolSPS1000Override -1

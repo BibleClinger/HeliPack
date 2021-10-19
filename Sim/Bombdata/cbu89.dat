@@ -1,0 +1,15 @@
+# Version 1.0
+# Author Ratty/MRivers/BoneDust
+
+0 # Data Format Version
+
+# Data
+cbuStrengthModel 1
+cbuLethalHeight 300
+cbuIneffectiveHeight 6000
+cbuDamageDiameterBurstAltMultiplier .2083
+cbuMaxDamageDiameter 900
+
+# Particle Sys
+psFeatureImpact $cluster_bomb
+psBombImpact $cluster_bomb

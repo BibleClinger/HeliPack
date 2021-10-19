@@ -1,0 +1,49 @@
+//Delay for freeze
+WAIT 1
+
+//Start sim in paused mode
+SimCommand SimMotionFreeze
+ 
+//Text layout setup
+SetColor 0xffffffff
+SetTextBoxed 2
+SetFont 3
+SetTextOrientation 0
+SetFlash 0
+
+//Some text
+SetCursor -0.98 0.08
+Print 2 "Welcome to the BMS CCRP CCIP training mission"
+
+MoveCursor 0 -0.08
+WaitPrint 3 "Please wait until your cockpit is set up."
+
+//Set COM 1 to 233.8, COM 2 to 15
+SimCommand SimICPCom1
+SimCommand SimICPALOW
+SimCommand SimICPTHREE
+SimCommand SimICPTHREE
+SimCommand SimICPEIGHT
+SimCommand SimICPZERO
+SimCommand SimICPEnter
+SimCommand SimICPCom2
+SimCommand SimICPTILS
+SimCommand SimICPCrus
+SimCommand SimICPEnter
+
+ 
+// Fuel load to 7400 dry balanced
+SetFuel 480 480 1385 1385 2330 450 450 0 0 0 0 0 0 0 
+
+//ILS OFF -> set to on
+SimCommand SimILSOn
+
+//RALT OFF -> set to on
+SimCommand SimRALTON
+
+MoveCursor 0 -0.08
+Print 4 "Initial setup finished. You have the aircraft."
+
+//resumes mission
+SimCommand SimMotionFreeze
+

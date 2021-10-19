@@ -1,0 +1,86 @@
+Indx 41 - PAT HAND - FCR (SA-4)
+Prf 1200 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 2000
+MaxTwstargets 1
+Timeskillfactor 150
+
+Timetosearch1 10000
+Timetosearch2 8000
+Timetosearch3 6000
+Timetoacuire 6000
+Timetoguide 6000
+
+Timetocoast 4000
+
+Rangetosearch1 295293
+Rangetosearch2 275293
+Rangetosearch3 255293
+Rangetoacuire 225270
+Rangetoguide 133670
+
+Sweeptimesearch1 8000
+Sweeptimesearch2 4000
+Sweeptimesearch3 2000
+Sweeptimeacuire 1000
+Sweeptimeguide 500
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 209
+Rwrsoundsearch2 209
+Rwrsoundsearch3 209
+Rwrsoundacuire 209
+Rwrsoundguide 95
+
+Rwrsymbolsearch1 9
+Rwrsymbolsearch2 9
+Rwrsymbolsearch3 9
+Rwrsymbolacuire 9
+Rwrsymbolguide 9
+
+Bandsearch1 H
+Bandsearch2 H
+Bandsearch3 H
+Bandacuire H
+Bandguide H
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire C 
+Typeguide C 
+
+PRIsearch1 828
+PRIsearch2 828
+PRIsearch3 828
+PRIacuire 828
+PRIguide 694
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 5000
+AirSalvoRate 30000
+Maxmissilesintheair 1
+Maxmissilespertarget 1
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 30
+Elevationbumpamountb 0
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0.0
+
+MinEngagementAlt 1142
+MinEngagementRange 29526

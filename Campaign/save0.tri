@@ -1,0 +1,345 @@
+//////////////////////////////////////////////////////////////////////////////
+// Base event file
+//////////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////////
+// #TOTAL_EVENTS is a required entry, and
+// should be # of events we have triggers for
+// and code fore
+// KCK WARNING: KEEP THIS UPDATED!
+//////////////////////////////////////////////////////////////////////////////
+#TOTAL_EVENTS 22
+
+//////////////////////////////////////////////////////////////////////////////
+// #SET_EVENT will set the activated flag for any
+// events we want to be initially activate
+// ie: Seoul already should be marked as
+// captured in the Pusan parameter scenario
+//
+// This marks the ROK as initially on the defensive
+//////////////////////////////////////////////////////////////////////////////
+#SET_EVENT 10
+
+// This marks the ROK as having advanced beyond the DMZ
+//////////////////////////////////////////////////////////////////////////////
+#SET_EVENT 6
+#SET_EVENT 7
+
+//////////////////////////////////////////////////////////////////////////////
+// This sets the initial tempo
+//////////////////////////////////////////////////////////////////////////////
+#SET_TEMPO 150
+
+//////////////////////////////////////////////////////////////////////////////
+// Initialization section done
+//////////////////////////////////////////////////////////////////////////////
+#ENDINIT
+
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #1
+// Wonsan being attacked by DPRK forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 1
+	#IF_CONTROLLED 6 OR 1426 1190 1192
+		#PLAY_MOVIE 107
+		#SET_PAK_PRIORITY 6 404 100
+		#SET_PAK_PRIORITY 2 404 100
+		#SET_PAK_PRIORITY 6 260 95
+		#SET_PAK_PRIORITY 2 260 95
+		#SET_TEMPO 255
+		#DO_EVENT 1
+		#DO_MONOLOG Wonsan being attacked by DPRK forces
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #2
+// Wonsan falls/regained
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 2
+	#IF_CONTROLLED 2 AND 404
+		#PLAY_MOVIE 106
+		#SET_PAK_PRIORITY 6 260 100
+		#SET_PAK_PRIORITY 2 260 100
+		#SET_PAK_PRIORITY 6 404 95
+		#SET_PAK_PRIORITY 2 404 95
+		#SHIFT_INITIATIVE 2 6 50
+		#RESET_EVENT 2
+		#DO_MONOLOG Wonsan regained
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 404
+		#PLAY_MOVIE 107
+		#SET_PAK_PRIORITY 6 260 100
+		#SET_PAK_PRIORITY 2 404 100
+		#SET_PAK_PRIORITY 6 404 95
+		#SET_PAK_PRIORITY 2 260 95
+		#DO_EVENT 2
+		#SHIFT_INITIATIVE 6 2 50
+		#DO_MONOLOG Wonsan falls
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #3
+// P'yongyang being attacked by ROK forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 3
+	#IF_CONTROLLED 6 OR 3141 3036 1056 682
+		#PLAY_MOVIE 102
+		#SET_PAK_PRIORITY 6 260 100
+		#SET_PAK_PRIORITY 2 260 100
+		#SET_PAK_PRIORITY 6 404 95
+		#SET_PAK_PRIORITY 2 404 95
+		#SET_TEMPO 255
+		#DO_EVENT 3
+		#DO_MONOLOG P'yongyang being attacked by ROK forces
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #4
+// P'yongyang falls/regained
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 4
+	#IF_CONTROLLED 2 AND 260
+		#PLAY_MOVIE 103
+		#SHIFT_INITIATIVE 6 2 50
+		#RESET_EVENT 4
+		#DO_MONOLOG P'yongyang falls
+	#ENDIF
+#ELSE
+	#IF_CONTROLLED 6 AND 260
+		#SET_PAK_PRIORITY 6 404 100
+		#SET_PAK_PRIORITY 2 260 100
+		#SET_PAK_PRIORITY 6 260 95
+		#SET_PAK_PRIORITY 2 404 95
+		#DO_EVENT 4
+		#SHIFT_INITIATIVE 2 6 50
+		#DO_MONOLOG P'yongyang regained
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #5
+// DPRK advanced beyond DMZ
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 5
+	#IF_NOT_EVENT_PLAYED 7
+		#IF_CONTROLLED 6 OR 260 404
+			#DO_EVENT 5
+			#RESET_EVENT 6
+			#DO_MONOLOG DPRK advanced beyond DMZ
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #6
+// DPRK pushed back to DMZ
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 5
+	#IF_EVENT_PLAYED 7
+		#PLAY_MOVIE 104
+		#DO_EVENT 6
+		#RESET_EVENT 5
+		#DO_MONOLOG DPRK pushed back to DMZ
+	#ELSE
+		#IF_CONTROLLED 2 AND 260 404
+			#PLAY_MOVIE 104
+			#DO_EVENT 6
+			#RESET_EVENT 5
+			#DO_MONOLOG DPRK pushed back to DMZ
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #7
+// Combined forces advanced beyond DMZ
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 7
+	#IF_NOT_EVENT_PLAYED 5
+		#IF_CONTROLLED 2 AND 399
+			#DO_EVENT 7
+			#RESET_EVENT 8
+			#DO_MONOLOG Combined forces advanced beyond DMZ
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #8
+// Combined forces pushed back to DMZ
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 7
+	#IF_EVENT_PLAYED 5
+		#PLAY_MOVIE 105
+		#DO_EVENT 8
+		#RESET_EVENT 7
+		#DO_MONOLOG Combined forces pushed back to DMZ
+	#ELSE
+		#IF_CONTROLLED 6 OR 260 404
+			#PLAY_MOVIE 105
+			#DO_EVENT 8
+			#RESET_EVENT 7
+			#DO_MONOLOG Combined forces pushed back to DMZ
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #9
+// Combined forces go on offensive
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 10
+	#IF_ON_OFFENSIVE 2
+		#PLAY_MOVIE 106
+		#DO_EVENT 9
+		#SHIFT_INITIATIVE 6 2 100
+		#RESET_EVENT 10
+		#DO_MONOLOG Combined forces go on offensive
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #10
+// Combined forces go on defensive
+// Triggered by DPRK on offensive and
+// capturing P'yongyang or Wonsan
+//////////////////////////////////////////////////////////////////////////////
+#IF_EVENT_PLAYED 9
+	#IF_ON_OFFENSIVE 6
+		#IF_CONTROLLED 6 OR 260 404
+			#PLAY_MOVIE 107
+			#DO_EVENT 10
+			#SHIFT_INITIATIVE 2 6 50
+			#RESET_EVENT 9
+			#DO_MONOLOG Combined forces go on defensive
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #11
+// China joins the war
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 11
+	#IF_MAIN_TARGET 6 260
+		#PLAY_MOVIE 108
+		#CHANGE_RELATIONS 5 6 1
+		#DO_EVENT 11
+		#DO_MONOLOG China does join DPRK
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #12
+// Russia joins the war
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 12
+	#IF_CONTROLLED 2 AND 399
+		#PLAY_MOVIE 109
+		#CHANGE_RELATIONS 4 6 1
+		#DO_EVENT 12
+		#DO_MONOLOG Russia does join DPRK
+	#ENDIF
+#ELSE
+	#IF_CAMPAIGN_DAY >= 3
+		#PLAY_MOVIE 109
+		#CHANGE_RELATIONS 4 6 1
+		#DO_EVENT 12
+		#DO_MONOLOG Russia does join DPRK
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #13
+// (1) Bad guys win. Basically, did P'yongyang and Wonsan fall
+// (2) Bad guys win. Does DPRK have either city and a 1:1 ratio of forces
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 6 AND 260 404
+	#PLAY_MOVIE 113
+	#DO_EVENT 13
+	#END_GAME 13
+	#DO_MONOLOG Bad guys win (1) -> END GAME
+#ELSE
+	#IF_CONTROLLED 6 OR 260 404
+		#IF_FORCE_RATIO GND 2 6 <= 10
+			#PLAY_MOVIE 113
+			#DO_EVENT 13
+			#END_GAME 13
+			#DO_MONOLOG Bad guys win (2) -> END GAME
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #14
+// Stalemate
+//////////////////////////////////////////////////////////////////////////////
+#IF_BORDOM_HOURS 96
+	#PLAY_MOVIE 114
+	#DO_EVENT 14
+	#END_GAME 14
+	#DO_MONOLOG Stalemate -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #15
+// Timeout
+//////////////////////////////////////////////////////////////////////////////
+#IF_CAMPAIGN_DAY >= 5
+	#PLAY_MOVIE 115
+	#DO_EVENT 15
+	#END_GAME 15
+	#DO_MONOLOG Timeout -> END GAME
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #16
+// (1) We win - hu-rah! Basically - We own Wonsan and P'yongyang
+// (1) Along with Onch'ang-ni, Hamju, Huich'on, Kaech'on, Taehung
+//
+// (2) Alternative win - hu-rah!
+// (2) If allies control both Wonsan and P'yongyang
+// (2) If allies control any of Onch'ang-ni, Hamju, Huicho'on, Kaech'on, or Taehung
+// (2) If DPRK Ground Forces are less than 0.1 of Allied Ground Forces
+//
+// (3) Alternative win - hu-rah!
+// (3) If allies control either of P'yongyang or Wonsan
+// (3) If DPRK Ground forces are less than 0.1 of Allied Ground Forces
+// (3) Basically attritted DPRK while retaining P'yongyang or Wonsan
+//////////////////////////////////////////////////////////////////////////////
+#IF_CONTROLLED 2 AND 404 260 1792 1013 358 454 1698
+	#PLAY_MOVIE 116
+	#DO_EVENT 16
+	#END_GAME 16
+	#DO_MONOLOG We win - hu-rah! (1) -> END GAME
+#ELSE
+	#IF_CONTROLLED 2 AND 260 404
+		#IF_CONTROLLED 2 OR 1792 1013 358 454 1698
+			#IF_FORCE_RATIO GND 6 2 <= 1
+				#PLAY_MOVIE 116
+				#DO_EVENT 16
+				#END_GAME 16
+				#DO_MONOLOG Alternative win - hu-rah! (2) -> END GAME
+			#ENDIF
+		#ENDIF
+	#ELSE
+		#IF_CONTROLLED 2 OR 260 404
+			#IF_FORCE_RATIO GND 6 2 <= 1
+				#PLAY_MOVIE 116
+				#DO_EVENT 16
+				#END_GAME 16
+				#DO_MONOLOG Alternative win - hu-rah! (3) -> END GAME
+			#ENDIF
+		#ENDIF
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Script done
+//////////////////////////////////////////////////////////////////////////////
+#ENDSCRIPT

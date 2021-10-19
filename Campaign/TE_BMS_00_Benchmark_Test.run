@@ -1,0 +1,6 @@
+//Delay to be sure in the pit
+ WAIT 2
+
+//Show Frame Rate
+ SimCommand OTWToggleFrameRate
+

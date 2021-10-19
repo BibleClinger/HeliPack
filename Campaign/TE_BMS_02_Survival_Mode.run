@@ -1,0 +1,16 @@
+//Delay to be sure in the pit
+ WAIT 10
+
+//Text layout setup
+ SetColor 0xffffffff
+ SetTextBoxed 2
+ SetFont 3
+ SetTextOrientation 0
+ SetFlash 0
+
+ //Some text
+ SetCursor -0.98 0.08
+ Print 2 "Welcome to the SURVIVAL mission"
+
+ MoveCursor 0 -0.16
+ WaitPrint 3 "Remember your objetive is fight as long as you can, be whise using your weapons."

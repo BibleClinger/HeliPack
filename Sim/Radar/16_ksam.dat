@@ -1,0 +1,78 @@
+Indx 16 - KSAM RADAR - TAR/TTR (KSAM Chun-ma)
+Prf 0 (Unused)
+
+CustomSymbolType 3
+
+TimeToLock 1000
+MaxTwstargets 4
+Timeskillfactor 100
+
+Timetosearch1 5000
+Timetosearch2 5000
+Timetosearch3 5000
+Timetoacuire 1000
+Timetoguide 1000
+
+Timetocoast 500
+
+Rangetosearch1 59055
+Rangetosearch2 59055
+Rangetosearch3 59055
+Rangetoacuire 53493
+Rangetoguide 52493
+
+Sweeptimesearch1 1000
+Sweeptimesearch2 1000
+Sweeptimesearch3 1000
+Sweeptimeacuire 1000
+Sweeptimeguide 1000
+
+Sweeptimecoast 1000
+
+Rwrsoundsearch1 212
+Rwrsoundsearch2 212
+Rwrsoundsearch3 212
+Rwrsoundacuire 212
+Rwrsoundguide 212
+
+Rwrsymbolsearch1 1
+Rwrsymbolsearch2 1
+Rwrsymbolsearch3 1
+Rwrsymbolacuire 30
+Rwrsymbolguide 30
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire F
+Bandguide J
+
+Typesearch1 D
+Typesearch2 D
+Typesearch3 D
+Typeacuire D
+Typeguide D
+
+TrackWarning 1
+LaunchWarning 1
+
+AGMInterceptionPK 50
+AirFireRate 3000
+AirSalvoRate 30000
+Maxmissilesintheair 8
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 60
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 60
+AntennaSideLobesElevationAngle 90
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 656
+MinEngagementRange 1640

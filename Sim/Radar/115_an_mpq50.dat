@@ -1,0 +1,63 @@
+Indx 115 - AN/MPQ-50 - PAR (MIM-23 HAWK)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 99999
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 20000
+Timetoguide 7000
+
+Timetocoast 8000
+
+Rangetosearch1 340262
+Rangetosearch2 273425
+Rangetosearch3 243044
+Rangetoacuire 212664
+Rangetoguide 151902
+
+Sweeptimesearch1 10000
+Sweeptimesearch2 10000
+Sweeptimesearch3 10000
+Sweeptimeacuire 10000
+Sweeptimeguide 10000
+
+Sweeptimecoast 10000
+
+Rwrsoundsearch1 157
+Rwrsoundsearch2 157
+Rwrsoundsearch3 157
+Rwrsoundacuire 157
+Rwrsoundguide 157
+
+Rwrsymbolsearch1 150
+Rwrsymbolsearch2 150
+Rwrsymbolsearch3 150
+Rwrsymbolacuire 150
+Rwrsymbolguide 150
+
+Bandsearch1 C
+Bandsearch2 C
+Bandsearch3 C
+Bandacuire C
+Bandguide C
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide P 
+
+PRIsearch1 1499
+PRIsearch2 1499
+PRIsearch3 1499
+PRIacuire 1350
+PRIguide 1350
+
+TrackWarning 0
+LaunchWarning 0

@@ -1,0 +1,63 @@
+Indx 45 - SPOON REST - TAR/EWR (SA-2)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 99999
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 20000
+Timetoguide 7000
+
+Timetocoast 10000
+
+Rangetosearch1 881036
+Rangetosearch2 481036
+Rangetosearch3 281036
+Rangetoacuire 184800
+Rangetoguide 164240
+
+Sweeptimesearch1 10000
+Sweeptimesearch2 10000
+Sweeptimesearch3 10000
+Sweeptimeacuire 10000
+Sweeptimeguide 10000
+
+Sweeptimecoast 10000
+
+Rwrsoundsearch1 202
+Rwrsoundsearch2 202
+Rwrsoundsearch3 202
+Rwrsoundacuire 202
+Rwrsoundguide 202
+
+Rwrsymbolsearch1 52
+Rwrsymbolsearch2 52
+Rwrsymbolsearch3 52
+Rwrsymbolacuire 52
+Rwrsymbolguide 52
+
+Bandsearch1 A
+Bandsearch2 A
+Bandsearch3 A
+Bandacuire A
+Bandguide A
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide P 
+
+PRIsearch1 2857
+PRIsearch2 2857
+PRIsearch3 2857
+PRIacuire 2857
+PRIguide 2857
+
+TrackWarning 0
+LaunchWarning 0

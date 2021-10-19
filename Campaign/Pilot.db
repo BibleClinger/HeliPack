@@ -1,0 +1,23 @@
+// Script file to show pilot stats
+#COLOR 0
+#EOL
+#FONT 14
+135
+#ENDFONT
+#EOL
+#TAB 10
+131
+#TAB 80
+127
+#TAB 155
+136
+#TAB 270
+132
+#TAB 330
+137
+#TAB 390
+138
+#TAB 450
+139
+#EOL
+#ENDSCRIPT

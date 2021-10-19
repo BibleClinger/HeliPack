@@ -1,0 +1,17 @@
+#there is no country zero :-(
+#define COUN_NONE				0
+#define COUN_US					1
+#define COUN_SOUTH_KOREA		2
+#define COUN_JAPAN				3
+#define COUN_RUSSIA				4
+#define COUN_CHINA				5
+#define COUN_NORTH_KOREA		6
+#define COUN_GORN				7
+
+#Country 6 (North Korea)
+#flags
+3
+# Radar Shoot Shoot
+80.0
+# Heat Shoot Shoot
+50.0

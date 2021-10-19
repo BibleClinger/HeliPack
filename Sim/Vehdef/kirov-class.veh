@@ -1,0 +1,37 @@
+# Title: Kirov-Class
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.6 Date: 08-Jan-18 5:44:12 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 117
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 1 -325.435 -1.275 -32.062
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 0
+ExhaustSmokeMinAlpha 0.1
+ExhaustSmokeMaxAlpha 1
+ExhaustSmokeMinSize 1
+ExhaustSmokeMaxSize 2.5
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+#
+#
+# End of Additional
+#

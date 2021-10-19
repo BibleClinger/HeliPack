@@ -1,0 +1,5 @@
+// Script file to build package element brief
+#TAB 250
+SHOW_EVENT
+#EOL
+#ENDSCRIPT

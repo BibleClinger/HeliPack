@@ -1,0 +1,63 @@
+Indx 26 - LONG TRACK - TAR (SA-4 / SA-8)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 2000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 6000
+Timetoguide 6000
+
+Timetocoast 10000
+
+Rangetosearch1 522550
+Rangetosearch2 412550
+Rangetosearch3 332550
+Rangetoacuire 225270
+Rangetoguide 133670
+
+Sweeptimesearch1 4000
+Sweeptimesearch2 4000
+Sweeptimesearch3 4000
+Sweeptimeacuire 4000
+Sweeptimeguide 4000
+
+Sweeptimecoast 4000
+
+Rwrsoundsearch1 163
+Rwrsoundsearch2 163
+Rwrsoundsearch3 163
+Rwrsoundacuire 163
+Rwrsoundguide 163
+
+Rwrsymbolsearch1 76
+Rwrsymbolsearch2 76
+Rwrsymbolsearch3 76
+Rwrsymbolacuire 76
+Rwrsymbolguide 76
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire E
+Bandguide E
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide P 
+
+PRIsearch1 2500
+PRIsearch2 2500
+PRIsearch3 2500
+PRIacuire 2500
+PRIguide 2500
+
+TrackWarning 0
+LaunchWarning 0

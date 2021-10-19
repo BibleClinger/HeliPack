@@ -1,0 +1,86 @@
+Indx 12 - FAN SONG F - FCR (SA-2)
+Prf 2880 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 4000
+MaxTwstargets 1
+Timeskillfactor 150
+
+Timetosearch1 30000
+Timetosearch2 20000
+Timetosearch3 10000
+Timetoacuire 20000
+Timetoguide 7000
+
+Timetocoast 3000
+
+Rangetosearch1 376000
+Rangetosearch2 336000
+Rangetosearch3 306000
+Rangetoacuire 184800
+Rangetoguide 164240
+
+Sweeptimesearch1 30000
+Sweeptimesearch2 15000
+Sweeptimesearch3 10000
+Sweeptimeacuire 1000
+Sweeptimeguide 500
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 296
+Rwrsoundsearch2 296
+Rwrsoundsearch3 296
+Rwrsoundacuire 296
+Rwrsoundguide 93
+
+Rwrsymbolsearch1 7
+Rwrsymbolsearch2 7
+Rwrsymbolsearch3 7
+Rwrsymbolacuire 7
+Rwrsymbolguide 7
+
+Bandsearch1 G
+Bandsearch2 G
+Bandsearch3 G
+Bandacuire G
+Bandguide G
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide C 
+
+PRIsearch1 1207
+PRIsearch2 1207
+PRIsearch3 1207
+PRIacuire 832
+PRIguide 524
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 6000
+AirSalvoRate 30000
+Maxmissilesintheair 3
+Maxmissilespertarget 3
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 1
+Elevationbumpamountb 1
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0.0
+
+MinEngagementAlt 964
+MinEngagementRange 16403

@@ -1,0 +1,55 @@
+# Title: Hawk ANMPQ-55
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.8 Date: 4/27/2019 9:09:41 AM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 121
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+TurretAzimuthOffset 0.00
+#-----------------------------------------------------
+# Drivetrain Data
+#-----------------------------------------------------
+DrivetrainDataDofIdx 10
+DrivetrainDataDofFactor 3.46
+DrivetrainDataSwitchIdx -1
+DrivetrainDataSwitchFactor 0.00
+DrivetrainDataSwitchNumStates -1
+#-----------------------------------------------------
+# Trailer Data
+#-----------------------------------------------------
+TrailerDataTractorCt 692
+TrailerDataTrailerHitchPos -9.40
+TrailerDataTractorHitchPos -5.00
+#-----------------------------------------------------
+# Foot Squad Data
+#-----------------------------------------------------
+FootSquadDataNumModes -1
+FootSquadDataModeSwitchIdx -1
+FootSquadDataAnimationSwitchIdx -1
+FootSquadDataNumSwitchStatesAiming -1
+FootSquadDataNumSwitchStatesWalking -1
+FootSquadDataNumSwitchStatesRunning -1
+FootSquadDataNumSwitchStatesStanding -1
+FootSquadDataCycleTimeWalking 100
+FootSquadDataCycleTimeRunning 100
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+#
+#
+# End of Additional
+#

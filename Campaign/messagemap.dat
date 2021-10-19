@@ -1,0 +1,31 @@
+﻿[RADIO_AWACS_CHECKIN]
+// UHF shared common frequency for the AWACS, AWACS' own flight frequency (regardless of AWACS package composition)
+rcAWACSON
+rcAWACSOFF
+rcPACKATJOIN
+rcPACKJOINED
+rcVECTORTOTANKER
+
+[RADIO_AWACS_TACTICAL]
+//UHF AWACS tactical frequency for the calling package, defined by the flight frequency of the first flight in a package
+rcENGAGINGB
+rcAIRBDA
+rcBUDDYSPIKE
+rcFIREAMRAAM
+rcAIRDROPAPPROACH
+rcNEEDHELP
+rcBUDDYSPIKE
+rcENEMYCRASH
+rcVECTORHOMEPLATE
+rcVECTORTOTHREAT
+rcVECTORTOPACKAGE
+rcVECTORTOTARGET
+
+
+[RADIO_FLIGHT]
+// Intra-flight frequency
+rcFUELCRITICAL
+rcFORMRESPONSEB
+rcFENCEIN
+rcFENCEOUT
+rcFIRING

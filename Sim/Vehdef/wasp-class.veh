@@ -1,0 +1,47 @@
+# Title: Wasp class
+# Author: Radium
+# Revision: Vehicle Data Manager ver:0.1.0.8 Date: 10/28/2018 7:59:39 AM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 53
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 7  332.257	60.561 -70.726 220.638 60.561 -70.726 137.601 60.561 -70726 -244.617 60.561 -70.726 -389.935 45.838 -70.796 -171.071 -60.8 -70.756 -333.869 95.571 -70.756
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 2  -82.864 42.711 -106.546 -82.864 57.144 -106.546
+ExhaustSmokeMinAlpha 0.05
+ExhaustSmokeMaxAlpha 0.2
+ExhaustSmokeMinSize 1
+ExhaustSmokeMaxSize 1
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+DecalSwitchIdx 2
+#
+#
+# End of Additional
+#
+
+
+
+
+
+
+
+
+

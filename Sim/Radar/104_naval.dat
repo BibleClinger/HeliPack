@@ -1,0 +1,79 @@
+Indx 104 (AN/SPS-49 & AN/SPS-55)
+Prf 800 (Unused)
+
+CustomSymbolType 5
+
+TimeToLock 2000
+MaxTwstargets 16
+Timeskillfactor 100
+
+Timetosearch1 10000
+Timetosearch2 5000
+Timetosearch3 5000
+Timetoacuire 4000
+Timetoguide 3000
+
+Timetocoast 4000
+
+Rangetosearch1 607600
+Rangetosearch2 507600
+Rangetosearch3 407600
+Rangetoacuire 255000
+Rangetoguide 238000
+
+Sweeptimesearch1 10000
+Sweeptimesearch2 5000
+Sweeptimesearch3 5000
+Sweeptimeacuire 1500
+Sweeptimeguide 10
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 163
+Rwrsoundsearch2 163
+Rwrsoundsearch3 163
+Rwrsoundacuire 163
+Rwrsoundguide 163
+
+Rwrsymbolsearch1 18
+Rwrsymbolsearch2 18
+Rwrsymbolsearch3 18
+Rwrsymbolacuire 18
+Rwrsymbolguide 18
+
+Bandsearch1 L
+Bandsearch2 L
+Bandsearch3 I
+Bandacuire I
+Bandguide I
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+AGMInterceptionPK 90
+AirFireRate 5000
+AirSalvoRate 15000
+Maxmissilesintheair 16
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 180
+AntennaSideLobesAzimuthAngle 180
+AntennaTrackElevationAngle 90
+AntennaSideLobesElevationAngle 90
+
+Maxmissilesintheair 1
+Elevationbumpamounta 30
+Elevationbumpamountb 0
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0.0
+
+MinEngagementAlt 100
+MinEngagementRange 9500

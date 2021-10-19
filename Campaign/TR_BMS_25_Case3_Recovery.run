@@ -1,0 +1,70 @@
+//Delay for freeze
+ WAIT 1
+
+//Start sim in paused mode
+ SimCommand SimMotionFreeze
+ 
+//Text layout setup
+ SetColor 0xffffffff
+ SetTextBoxed 2
+ SetFont 3
+ SetTextOrientation 0
+ SetFlash 0
+
+ //Some text
+ SetCursor -0.98 0.08
+ Print 4 "Welcome to the BMS Case 3 landing training mission"
+
+ MoveCursor 0 -0.08
+ WaitPrint 3 "Please wait until your cockpit is set up."
+
+ //Set COM1 to 6 for approach, COM 2 to 15
+ SimCommand SimICPCom1
+ SimCommand SimICPSIX
+ SimCommand SimICPEnter
+ SimCommand SimICPCom2
+ SimCommand SimICPTILS
+ SimCommand SimICPCrus
+ SimCommand SimICPEnter
+
+ //Flood lights set to on
+ SimCommand SimInteriorLightCW
+ 
+  //Formation lights set to on
+ SimCommand SimStepFormationLightsUp
+ SimCommand SimStepFormationLightsUp
+ SimCommand SimStepFormationLightsUp
+ SimCommand SimStepFormationLightsUp
+ SimCommand SimStepFormationLightsUp
+ 
+ //Set TCN to 12X and ILS to 108.55
+ SimCommand SimICPTILS
+ SimCommand SimICPTILS
+ SimCommand SimICPALOW
+ SimCommand SimICPEnter
+ SimCommand SimICPTILS
+ SimCommand SimICPZERO
+ SimCommand SimICPEIGHT 
+ SimCommand SimICPCrus
+ SimCommand SimICPCrus
+ SimCommand SimICPEnter 
+ 
+ //Set HSI
+ SimCommand SimHSITcn
+ 
+ //ILS OFF -> set to on
+ SimCommand SimILSOn
+
+
+//RALT OFF -> set to on
+SimCommand SimRALTON
+
+ // HMCS to OFF
+ SimCommand SimHmsOff
+
+ MoveCursor 0 -0.08
+ Print 4 "Initial setup finished. You have the aircraft."
+
+ //resumes mission
+ SimCommand SimMotionFreeze
+

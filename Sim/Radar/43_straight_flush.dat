@@ -1,0 +1,81 @@
+Indx 43 - STRAIGHT FLUSH - FCR/TAR (SA-6)
+Prf 2000 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 1000
+MaxTwstargets 1
+Timeskillfactor 120
+
+Timetosearch1 6000
+Timetosearch2 7000
+Timetosearch3 4000
+Timetoacuire 9000
+Timetoguide 5000
+
+Timetocoast 1000
+
+Rangetosearch1 164042
+Rangetosearch2 144042
+Rangetosearch3 124042
+Rangetoacuire 109370
+Rangetoguide 97217
+
+Sweeptimesearch1 4000
+Sweeptimesearch2 4000
+Sweeptimesearch3 4000
+Sweeptimeacuire 4000
+Sweeptimeguide 500
+
+Sweeptimecoast 500
+
+Rwrsoundsearch1 293
+Rwrsoundsearch2 293
+Rwrsoundsearch3 293
+Rwrsoundacuire 293
+Rwrsoundguide 97
+
+Rwrsymbolsearch1 11
+Rwrsymbolsearch2 11
+Rwrsymbolsearch3 11
+Rwrsymbolacuire 11
+Rwrsymbolguide 11
+
+Bandsearch1 G
+Bandsearch2 G
+Bandsearch3 G
+Bandacuire H
+Bandguide I
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide C
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 6000
+AirSalvoRate 30000
+Maxmissilesintheair 2
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+
+Elevationbumpamounta 10
+Elevationbumpamountb 1
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 82
+MinEngagementRange 16404

@@ -1,0 +1,73 @@
+Indx 21 - GUN DISH - FCR (ZSU-23/4)
+Prf 0 (Unused)
+
+CustomSymbolType 3
+
+TimeToLock 500
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 5000
+Timetosearch2 5000
+Timetosearch3 5000
+Timetoacuire 3500
+Timetoguide 1000
+Timetocoast 750
+
+Rangetosearch1 66500
+Rangetosearch2 56500
+Rangetosearch3 46500
+Rangetoacuire 40000
+Rangetoguide 30000
+
+Sweeptimesearch1 4000
+Sweeptimesearch2 2000
+Sweeptimesearch3 1000
+Sweeptimeacuire 500
+Sweeptimeguide 250
+
+Sweeptimecoast 1000
+
+Rwrsoundsearch1 295
+Rwrsoundsearch2 295
+Rwrsoundsearch3 295
+Rwrsoundacuire 164
+Rwrsoundguide 164
+
+Rwrsymbolsearch1 22
+Rwrsymbolsearch2 22
+Rwrsymbolsearch3 22
+Rwrsymbolacuire 22
+Rwrsymbolguide 22
+
+Bandsearch1 J
+Bandsearch2 J
+Bandsearch3 J
+Bandacuire J
+Bandguide J
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+TrackWarning 1
+LaunchWarning 0
+
+AirFireRate 500
+Maxmissilesintheair 1
+
+Elevationbumpamounta 10
+Elevationbumpamountb 1
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0.0
+
+MinEngagementAlt 161
+MinEngagementRange 4700

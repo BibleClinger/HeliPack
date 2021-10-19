@@ -1,0 +1,38 @@
+# Title: Ticonderoga Class Cruiser
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.6 Date: 08-Jan-18 5:45:42 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 103
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 1 -146.659 0.59 -30.846
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 0
+ExhaustSmokeMinAlpha 0
+ExhaustSmokeMaxAlpha 0
+ExhaustSmokeMinSize 0
+ExhaustSmokeMaxSize 0
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+DecalSwitchIdx 2
+#
+#
+# End of Additional
+#

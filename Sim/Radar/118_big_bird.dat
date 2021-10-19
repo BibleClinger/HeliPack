@@ -1,0 +1,63 @@
+Indx 118 - BIG BIRD - EWR (SA-10)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 5000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 5000
+Timetoguide 2000
+
+Timetocoast 10000
+
+Rangetosearch1 1033000
+Rangetosearch2 933000
+Rangetosearch3 733000
+Rangetoacuire 318000
+Rangetoguide 308000
+
+Sweeptimesearch1 12000
+Sweeptimesearch2 12000
+Sweeptimesearch3 12000
+Sweeptimeacuire 12000
+Sweeptimeguide 12000
+
+Sweeptimecoast 12000
+
+Rwrsoundsearch1 199
+Rwrsoundsearch2 199
+Rwrsoundsearch3 199
+Rwrsoundacuire 199
+Rwrsoundguide 199
+
+Rwrsymbolsearch1 14
+Rwrsymbolsearch2 14
+Rwrsymbolsearch3 14
+Rwrsymbolacuire 14
+Rwrsymbolguide 14
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire E
+Bandguide E
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+PRIsearch1 400
+PRIsearch2 400
+PRIsearch3 400
+PRIacuire 400
+PRIguide 400
+
+TrackWarning 0
+LaunchWarning 0

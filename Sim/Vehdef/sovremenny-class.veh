@@ -1,0 +1,38 @@
+# Title: Sovremeny-Class
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.6 Date: 08-Jan-18 5:44:12 PM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 117
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 1 -115.037 0.148 -37.363
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 4 -39.551 6.469 -57.408 -39.569 -5.863 -57.407 -29.465 -3.725 -58.001 -29.486 4.291 -57.991
+ExhaustSmokeMinAlpha 0.1
+ExhaustSmokeMaxAlpha 1
+ExhaustSmokeMinSize 1
+ExhaustSmokeMaxSize 2.5
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+DecalSwitchIdx 2
+#
+#
+# End of Additional
+#

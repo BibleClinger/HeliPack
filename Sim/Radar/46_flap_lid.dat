@@ -1,0 +1,88 @@
+Indx 46 - FLAP LID - FCR/TAR (SA-10)
+Prf 1500 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 5000
+MaxTwstargets 6
+Timeskillfactor 120
+
+Timetosearch1 2000
+Timetosearch2 2000
+Timetosearch3 2000
+Timetoacuire 5000
+Timetoguide 2000
+
+Timetocoast 4000
+
+Rangetosearch1 353000
+Rangetosearch2 338000
+Rangetosearch3 328000
+Rangetoacuire 318000
+Rangetoguide 308000
+
+Sweeptimesearch1 10000
+Sweeptimesearch2 5000
+Sweeptimesearch3 2500
+Sweeptimeacuire 1000
+Sweeptimeguide 1500
+
+Sweeptimecoast 500
+
+Rwrsoundsearch1 196
+Rwrsoundsearch2 196
+Rwrsoundsearch3 196
+Rwrsoundacuire 196
+Rwrsoundguide 196
+
+Rwrsymbolsearch1 14
+Rwrsymbolsearch2 14
+Rwrsymbolsearch3 14
+Rwrsymbolacuire 14
+Rwrsymbolguide 14
+
+Bandsearch1 I
+Bandsearch2 I
+Bandsearch3 I
+Bandacuire J
+Bandguide J
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+PRIsearch1 400
+PRIsearch2 190
+PRIsearch3 73
+PRIacuire 36
+PRIguide 10
+
+TrackWarning 1
+LaunchWarning 0
+
+AGMInterceptionPK 70
+AirFireRate 5400
+AirSalvoRate 15000
+Maxmissilesintheair 12
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 60
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 60
+AntennaSideLobesElevationAngle 90
+
+
+Elevationbumpamounta 30
+Elevationbumpamountb 0
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0.0
+
+MinEngagementAlt 66
+MinEngagementRange 16405

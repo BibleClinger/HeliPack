@@ -1,0 +1,80 @@
+Indx 61 - FIRE CAN - FRC/TRR (S-60 / KS12 / KS19)
+Prf 1860 (Unused)
+
+CustomSymbolType 3
+
+TimeToLock 4000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 4000
+Timetosearch2 4000
+Timetosearch3 4000
+Timetoacuire 4000
+Timetoguide 4000
+
+Timetocoast 3000
+
+Rangetosearch1 132000
+Rangetosearch2 131000
+Rangetosearch3 130000
+Rangetoacuire 22700
+Rangetoguide 21700
+
+Sweeptimesearch1 2000
+Sweeptimesearch2 2000
+Sweeptimesearch3 2000
+Sweeptimeacuire 1500
+Sweeptimeguide 10
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 153
+Rwrsoundsearch2 153
+Rwrsoundsearch3 153
+Rwrsoundacuire 153
+Rwrsoundguide 153
+
+Rwrsymbolsearch1 16
+Rwrsymbolsearch2 16
+Rwrsymbolsearch3 16
+Rwrsymbolacuire 16
+Rwrsymbolguide 16
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire E  
+Bandguide E
+
+Typesearch1 P  
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+PRIsearch1 1875
+PRIsearch2 1875
+PRIsearch3 1875
+PRIacuire 1875
+PRIguide 1875
+
+TrackWarning 1
+LaunchWarning 0
+
+AirFireRate 3000
+Maxmissilesintheair 1
+
+Elevationbumpamounta 10
+Elevationbumpamountb 10
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 2000
+MinEngagementRange 3200

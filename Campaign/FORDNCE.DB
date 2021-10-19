@@ -1,0 +1,25 @@
+#IF_FIRST_WEAPON
+#IF_PLAYER_PLANE
+#COLOR 1
+#ELSE
+#COLOR 0
+#ENDIF
+#TAB 10
+PLANE_NAME
+#TAB 90
+PLANE_STATUS
+// Set tab && either prepare to do events or print 'none'
+#TAB 160
+#IF_WEAPONS_FIRED
+// Do nothing here, we'll do the rest in FOrdEvent.b
+#ELSE
+// just print 'none'
+169
+#EOL
+#ENDIF
+#ELSE
+// Set the next tab
+#TAB 160
+#ENDIF
+#ENDSCRIPT
+

@@ -1,0 +1,11 @@
+# Num Azimuth Breakpoints
+3
+# Num Elevation Breakpoints
+3
+# Azimuth Breakpoints
+-180.0 0.0 180.0
+
+#Elevation, then the data
+-90.0 1.0 1.0 1.0
+  0.0 1.0 1.0 1.0
+ 90.0 1.0 1.0 1.0

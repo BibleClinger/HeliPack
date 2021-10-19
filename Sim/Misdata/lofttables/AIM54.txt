@@ -1,0 +1,15 @@
+# AIM-54 loft table
+#
+# alt break point count
+12
+# alt break points
+1000	10000	15000	20000	25000	30000	35000	40000	45000	50000	55000	60000
+# aspect break point count
+3
+# aspect break points
+0 90 180
+#
+# data table
+45	45	35	30	25	20	15	10	5	5	5	5
+25	20	35	45	35	25	20	15	10	5	5	5
+0	20	35	45	45	40	30	25	20	10	10	10

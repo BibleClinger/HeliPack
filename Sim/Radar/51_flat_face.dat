@@ -1,0 +1,63 @@
+Indx 51 - FLAT FACE - TAR (SA-3 / SA-6)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 99999
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 9000
+Timetoguide 6000
+
+Timetocoast 10000
+
+Rangetosearch1 656230
+Rangetosearch2 456230
+Rangetosearch3 256230
+Rangetoacuire 109370
+Rangetoguide 97217
+
+Sweeptimesearch1 10000
+Sweeptimesearch2 10000
+Sweeptimesearch3 10000
+Sweeptimeacuire 10000
+Sweeptimeguide 10000
+
+Sweeptimecoast 10000
+
+Rwrsoundsearch1 154
+Rwrsoundsearch2 154
+Rwrsoundsearch3 154
+Rwrsoundacuire 154
+Rwrsoundguide 154
+
+Rwrsymbolsearch1 70
+Rwrsymbolsearch2 70
+Rwrsymbolsearch3 70
+Rwrsymbolacuire 70
+Rwrsymbolguide 70
+
+Bandsearch1 C
+Bandsearch2 C
+Bandsearch3 C
+Bandacuire C
+Bandguide C
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide P 
+
+PRIsearch1 2857
+PRIsearch2 2857
+PRIsearch3 2857
+PRIacuire 2857
+PRIguide 2857
+
+TrackWarning 0
+LaunchWarning 0

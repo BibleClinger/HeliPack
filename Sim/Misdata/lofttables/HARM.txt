@@ -1,0 +1,13 @@
+#HARM loft table
+#
+# alt break point count
+6
+# alt break points
+1000	10000	20000	30000	40000	50000
+# aspect break point count
+1
+# aspect break points
+0 
+#
+# data table
+35	20	13	10	5	3

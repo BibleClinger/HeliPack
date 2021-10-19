@@ -1,0 +1,63 @@
+Indx 121 - AN/MPQ-55 - CWAR (MIM-23 HAWK)
+Prf 667 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 99999
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 20000
+Timetoguide 7000
+
+Timetocoast 4000
+
+Rangetosearch1 334180
+Rangetosearch2 324180
+Rangetosearch3 314180
+Rangetoacuire 193040
+Rangetoguide 185440
+
+Sweeptimesearch1 3000
+Sweeptimesearch2 3000
+Sweeptimesearch3 3000
+Sweeptimeacuire 3000
+Sweeptimeguide 3000
+
+Sweeptimecoast 3000
+
+Rwrsoundsearch1 158
+Rwrsoundsearch2 158
+Rwrsoundsearch3 158
+Rwrsoundacuire 158
+Rwrsoundguide 158
+
+Rwrsymbolsearch1 155
+Rwrsymbolsearch2 155
+Rwrsymbolsearch3 155
+Rwrsymbolacuire 155
+Rwrsymbolguide 155
+
+Bandsearch1 I
+Bandsearch2 I
+Bandsearch3 I
+Bandacuire J
+Bandguide J
+
+Typesearch1 C
+Typesearch2 C
+Typesearch3 C
+Typeacuire C
+Typeguide C
+
+PRIsearch1 500
+PRIsearch2 500
+PRIsearch3 500
+PRIacuire 500
+PRIguide 500
+
+TrackWarning 0
+LaunchWarning 0

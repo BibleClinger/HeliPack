@@ -1,0 +1,87 @@
+Indx 98 - CHAIR BACK - FCR (SA-17)
+Prf 980 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 500
+MaxTwstargets 6
+Timeskillfactor 100
+
+Timetosearch1 4400
+Timetosearch2 4400
+Timetosearch3 4400
+Timetoacuire 4400
+Timetoguide 3000
+
+Timetocoast 8000
+
+Rangetosearch1 261000
+Rangetosearch2 251000
+Rangetosearch3 241000
+Rangetoacuire 164000
+Rangetoguide 145820
+
+Sweeptimesearch1 1400
+Sweeptimesearch2 1400
+Sweeptimesearch3 1400
+Sweeptimeacuire 1400
+Sweeptimeguide 1400
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 100
+Rwrsoundsearch2 100
+Rwrsoundsearch3 100
+Rwrsoundacuire 100
+Rwrsoundguide 101
+
+Rwrsymbolsearch1 117
+Rwrsymbolsearch2 117
+Rwrsymbolsearch3 117
+Rwrsymbolacuire 117
+Rwrsymbolguide 117
+
+Bandsearch1 I
+Bandsearch2 I
+Bandsearch3 I
+Bandacuire I
+Bandguide I
+
+Typesearch1 D 
+Typesearch2 D
+Typesearch3 D
+Typeacuire D
+Typeguide D
+
+PRIsearch1 1250
+PRIsearch2 625
+PRIsearch3 694
+PRIacuire 492
+PRIguide 339
+
+TrackWarning 1
+LaunchWarning 1
+
+AGMInterceptionPK 50
+AirFireRate 4000
+AirSalvoRate 20000
+Maxmissilesintheair 12
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 60
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 60
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 140
+Elevationbumpamountb 60
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 98
+MinEngagementRange 2624

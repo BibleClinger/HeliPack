@@ -1,0 +1,17 @@
+# Version 1.0
+# Original Author Ratty/MRivers
+# Edited by BibleClinger
+
+1 # Data Format Version
+
+# Data
+lauSalvoSize 1
+lauWeaponId 536
+lauRounds 19
+lauAzimuth 0
+lauElevation 0
+lauRippleTimeMS 10
+
+# Particle Sys
+psFeatureImpact $rocket_burst
+psBombImpact $rocket_burst

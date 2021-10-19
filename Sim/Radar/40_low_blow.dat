@@ -1,0 +1,87 @@
+Indx 40 - LOW BLOW - FRC (SA-3)
+Prf 3560 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 1500
+MaxTwstargets 1
+Timeskillfactor 150
+
+Timetosearch1 8000
+Timetosearch2 4000
+Timetosearch3 4000
+Timetoacuire 4000
+Timetoguide 6000
+
+Timetocoast 2000
+
+Rangetosearch1 188356
+Rangetosearch2 168356
+Rangetosearch3 148356
+Rangetoacuire 95142
+Rangetoguide 82019
+
+Sweeptimesearch1 4000
+Sweeptimesearch2 4000
+Sweeptimesearch3 4000
+Sweeptimeacuire 2000
+Sweeptimeguide 600
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 156
+Rwrsoundsearch2 156
+Rwrsoundsearch3 156
+Rwrsoundacuire 156
+Rwrsoundguide 94
+
+Rwrsymbolsearch1 8
+Rwrsymbolsearch2 8
+Rwrsymbolsearch3 8
+Rwrsymbolacuire 8
+Rwrsymbolguide 8
+
+Bandsearch1 I
+Bandsearch2 I
+Bandsearch3 I
+Bandacuire I
+Bandguide D
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P 
+Typeguide P 
+
+PRIsearch1 560
+PRIsearch2 288
+PRIsearch3 272
+PRIacuire 308
+PRIguide 252
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 5000
+AirSalvoRate 30000
+Maxmissilesintheair 2
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+
+Elevationbumpamounta 10
+Elevationbumpamountb 1
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0.0
+
+MinEngagementAlt 157
+MinEngagementRange 16403

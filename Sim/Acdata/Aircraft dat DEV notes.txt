@@ -1,0 +1,13 @@
+minNumFuelTanks
+Scripted fuel tank loading -> in DATs you can add "minNumFuelTanks 41 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3"
+41 is the number of mission types we have ATM (don't change this) and then num tanks to be loaded for the different mission types (AMIS_NONE ... AMIS_TRAINING)
+
+maxLoadoutDrag
+Stop loading AG weapons if a certain value (percentage of MTOW / absolute value of drag) is reached
+Also this can be adjusted in DATs, just I'm not sure if we really need this mission dependent
+"maxLoadoutDrag 41 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1"
+-> -1 means no drag limit, values >= 0 will limit AG weapons loading
+
+maxLoadoutWeight
+"maxLoadoutWeight 41 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100"
+-> When you want to adjust this keep in mind weapons loading order, first fuel tanks, then AG weapons, then ECM pod, then AA weapons, so if you specify 90% here AC still can get overloaded because of the ECM pod and AA weapons, which are not limited

@@ -1,0 +1,30 @@
+//Delay for freeze
+ WAIT 1
+
+//Start sim in paused mode
+ SimCommand SimMotionFreeze
+ 
+//Text layout setup
+ SetColor 0xffffffff
+ SetTextBoxed 2
+ SetFont 3
+ SetTextOrientation 0
+ SetFlash 0
+
+ //Some text
+ SetCursor -0.98 0.08
+ Print 2 "Welcome to the BMS Maverick training mission"
+ MoveCursor 0 -0.04
+ Print 4 "Did you take the weather briefing?"
+
+ MoveCursor 0 -0.08
+ WaitPrint 3 "Please wait until your cockpit is set up."
+ 
+
+
+ MoveCursor 0 -0.08
+ Print 4 "Initial setup finished. You have the aircraft."
+
+ //resumes mission
+ SimCommand SimMotionFreeze
+

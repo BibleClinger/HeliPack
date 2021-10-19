@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSDRecords>
+    <VSD Num="0">
+        <Name>Mk1 eyeball</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <ScanAngleTop>180.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="1">
+        <Name>VSD 1</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="2">
+        <Name>VSD 2</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <ScanAngleTop>5.0</ScanAngleTop>
+        <ScanAngleBottom>-5.0</ScanAngleBottom>
+        <ScanAngleLeft>-5.0</ScanAngleLeft>
+        <ScanAngleRight>5.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="3">
+        <Name>VSD 3</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <ScanAngleTop>6.0</ScanAngleTop>
+        <ScanAngleBottom>-6.0</ScanAngleBottom>
+        <ScanAngleLeft>-6.0</ScanAngleLeft>
+        <ScanAngleRight>6.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="4">
+        <Name>AGM-65</Name>
+        <DetectionRange>8.0</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-10.0</ScanAngleBottom>
+        <ScanAngleLeft>-50.0</ScanAngleLeft>
+        <ScanAngleRight>50.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="5">
+        <Name>VSD 5</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <ScanAngleTop>30.0</ScanAngleTop>
+        <ScanAngleBottom>-10.0</ScanAngleBottom>
+        <ScanAngleLeft>-45.0</ScanAngleLeft>
+        <ScanAngleRight>45.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="6">
+        <Name>VSD 6</Name>
+        <DetectionRange>30.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-90.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="7">
+        <Name>F-16</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>180.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-179.0</ScanAngleLeft>
+        <ScanAngleRight>179.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="8">
+        <Name>A-10</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>180.0</ScanAngleTop>
+        <ScanAngleBottom>-40.0</ScanAngleBottom>
+        <ScanAngleLeft>-175.0</ScanAngleLeft>
+        <ScanAngleRight>175.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="9">
+        <Name>MiG-29</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>170.0</ScanAngleTop>
+        <ScanAngleBottom>-40.0</ScanAngleBottom>
+        <ScanAngleLeft>-170.0</ScanAngleLeft>
+        <ScanAngleRight>170.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="10">
+        <Name>F-4</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>150.0</ScanAngleTop>
+        <ScanAngleBottom>-40.0</ScanAngleBottom>
+        <ScanAngleLeft>-165.0</ScanAngleLeft>
+        <ScanAngleRight>165.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="11">
+        <Name>MiG-25</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>145.0</ScanAngleTop>
+        <ScanAngleBottom>-35.0</ScanAngleBottom>
+        <ScanAngleLeft>-160.0</ScanAngleLeft>
+        <ScanAngleRight>160.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="12">
+        <Name>F-117</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>60.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-100.0</ScanAngleLeft>
+        <ScanAngleRight>100.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="13">
+        <Name>VSD 13</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>85.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-100.0</ScanAngleLeft>
+        <ScanAngleRight>100.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="14">
+        <Name>VSD 14</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>45.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-100.0</ScanAngleLeft>
+        <ScanAngleRight>100.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="15">
+        <Name>B-52</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <ScanAngleTop>35.0</ScanAngleTop>
+        <ScanAngleBottom>-30.0</ScanAngleBottom>
+        <ScanAngleLeft>-100.0</ScanAngleLeft>
+        <ScanAngleRight>100.0</ScanAngleRight>
+    </VSD>
+    <VSD Num="16">
+        <Name>VSD 16</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <ScanAngleTop>90.0</ScanAngleTop>
+        <ScanAngleBottom>-45.0</ScanAngleBottom>
+        <ScanAngleLeft>-180.0</ScanAngleLeft>
+        <ScanAngleRight>180.0</ScanAngleRight>
+    </VSD>
+</VSDRecords>

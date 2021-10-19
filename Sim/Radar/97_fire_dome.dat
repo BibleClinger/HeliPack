@@ -1,0 +1,87 @@
+Indx 97 - FIRE DOME - FCR (SA-11)
+Prf 980 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 1000
+MaxTwstargets 6
+Timeskillfactor 100
+
+Timetosearch1 5000
+Timetosearch2 5000
+Timetosearch3 5000
+Timetoacuire 3200
+Timetoguide 2000
+
+Timetocoast 1500
+
+Rangetosearch1 194500
+Rangetosearch2 164500
+Rangetosearch3 144500
+Rangetoacuire 120000
+Rangetoguide 80000
+
+Sweeptimesearch1 1000
+Sweeptimesearch2 1000
+Sweeptimesearch3 1000
+Sweeptimeacuire 1000
+Sweeptimeguide 10
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 100
+Rwrsoundsearch2 100
+Rwrsoundsearch3 100
+Rwrsoundacuire 100
+Rwrsoundguide 101
+
+Rwrsymbolsearch1 111
+Rwrsymbolsearch2 111
+Rwrsymbolsearch3 111
+Rwrsymbolacuire 111
+Rwrsymbolguide 111
+
+Bandsearch1 H
+Bandsearch2 H
+Bandsearch3 H
+Bandacuire H
+Bandguide I
+
+Typesearch1 P 
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide D
+
+PRIsearch1 1024
+PRIsearch2 960
+PRIsearch3 672
+PRIacuire 193
+PRIguide 40
+
+TrackWarning 1
+LaunchWarning 1
+
+AGMInterceptionPK 50
+AirFireRate 4000
+AirSalvoRate 30000
+Maxmissilesintheair 12
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 60
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 60
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 10
+Elevationbumpamountb 1
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 98
+MinEngagementRange 2624

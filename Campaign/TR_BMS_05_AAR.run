@@ -1,0 +1,44 @@
+//Delay for freeze
+ WAIT 1
+
+//Start sim in paused mode
+ SimCommand SimMotionFreeze
+ 
+//Text layout setup
+ SetColor 0xffffffff
+ SetTextBoxed 2
+ SetFont 3
+ SetTextOrientation 0
+ SetFlash 0
+
+ //Some text
+ SetCursor -0.98 0.08
+ Print 2 "Welcome to the BMS AAR training mission"
+
+ MoveCursor 0 -0.08
+ WaitPrint 3 "Please wait until your cockpit is set up."
+
+ //Set COM 1 to awacs preset 6, COM 2 to 15
+ SimCommand SimICPCom1
+ SimCommand SimICPSIX
+ SimCommand SimICPEnter
+ SimCommand SimICPCom2
+ SimCommand SimICPTILS
+ SimCommand SimICPCrus
+ SimCommand SimICPEnter
+
+ //ILS OFF -> set to on
+ SimCommand SimILSOn
+
+ //HUD FPM/ATT OFF -> set to on
+ SimCommand SimPitchLadderATTFPM
+
+  // Fuel load to 2500 balanced
+ SetFuel 480 480 100 100 1280 0 0 0 0 0 0 0 0 0 
+
+ MoveCursor 0 -0.08
+ Print 4 "Initial setup finished. You have the aircraft."
+
+ //resumes mission
+ SimCommand SimMotionFreeze
+

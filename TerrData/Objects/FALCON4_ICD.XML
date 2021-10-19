@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ICDRecords>
+    <ICD Num="0">
+        <Name>*IRST 0</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>90.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>1.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="1">
+        <Name>AIM-9L/M</Name>
+        <DetectionRange>8.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.010</GroundFactor>
+        <FlareChance>5.0</FlareChance>
+    </ICD>
+    <ICD Num="2">
+        <Name>AIM-9P</Name>
+        <DetectionRange>2.5</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>55.0</FlareChance>
+    </ICD>
+    <ICD Num="3">
+        <Name>AA-2D</Name>
+        <DetectionRange>2.5</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.100</GroundFactor>
+        <FlareChance>98.0</FlareChance>
+    </ICD>
+    <ICD Num="4">
+        <Name>AS-37</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>16.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.080</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="5">
+        <Name>AA-6</Name>
+        <DetectionRange>15.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>40.0</FlareChance>
+    </ICD>
+    <ICD Num="6">
+        <Name>AA-3A</Name>
+        <DetectionRange>8.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>40.0</FlareChance>
+    </ICD>
+    <ICD Num="7">
+        <Name>AA-8</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>25.0</FlareChance>
+    </ICD>
+    <ICD Num="8">
+        <Name>AA-10B</Name>
+        <DetectionRange>8.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="9">
+        <Name>AA-11</Name>
+        <DetectionRange>9.0</DetectionRange>
+        <FOV>12.0</FOV>
+        <GimbalLimit>134.0</GimbalLimit>
+        <GroundFactor>0.012</GroundFactor>
+        <FlareChance>2.0</FlareChance>
+    </ICD>
+    <ICD Num="10">
+        <Name>AGM-65D</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="11">
+        <Name>Python 4</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>8.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.005</GroundFactor>
+        <FlareChance>1.8</FlareChance>
+    </ICD>
+    <ICD Num="12">
+        <Name>FIM-92</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>60.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>5.0</FlareChance>
+    </ICD>
+    <ICD Num="13">
+        <Name>*IRST 13</Name>
+        <DetectionRange>9.0</DetectionRange>
+        <FOV>20.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="14">
+        <Name>SA-7</Name>
+        <DetectionRange>2.5</DetectionRange>
+        <FOV>3.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.100</GroundFactor>
+        <FlareChance>99.0</FlareChance>
+    </ICD>
+    <ICD Num="15">
+        <Name>SA-9</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>2.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="16">
+        <Name>SA-13</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>2.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.030</GroundFactor>
+        <FlareChance>6.0</FlareChance>
+    </ICD>
+    <ICD Num="17">
+        <Name>SA-14</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>4.0</FOV>
+        <GimbalLimit>76.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>65.0</FlareChance>
+    </ICD>
+    <ICD Num="18">
+        <Name>HN-5A</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>75.0</FlareChance>
+    </ICD>
+    <ICD Num="19">
+        <Name>PL-7</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>16.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="20">
+        <Name>PL-8</Name>
+        <DetectionRange>9.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.040</GroundFactor>
+        <FlareChance>40.0</FlareChance>
+    </ICD>
+    <ICD Num="21">
+        <Name>AGM-130A</Name>
+        <DetectionRange>45.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="22">
+        <Name>SA-16</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>4.0</FOV>
+        <GimbalLimit>76.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>6.0</FlareChance>
+    </ICD>
+    <ICD Num="23">
+        <Name> Mistral</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>5.0</FlareChance>
+    </ICD>
+    <ICD Num="24">
+        <Name>AIM-9X</Name>
+        <DetectionRange>12.0</DetectionRange>
+        <FOV>8.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.005</GroundFactor>
+        <FlareChance>0.5</FlareChance>
+    </ICD>
+    <ICD Num="25">
+        <Name>AIM-9B</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>8.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.100</GroundFactor>
+        <FlareChance>98.0</FlareChance>
+    </ICD>
+    <ICD Num="26">
+        <Name>AIM-9D</Name>
+        <DetectionRange>5.0</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.090</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="27">
+        <Name>AIM-9G</Name>
+        <DetectionRange>5.0</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.065</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="28">
+        <Name>AIM-9H</Name>
+        <DetectionRange>7.0</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.050</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="29">
+        <Name>*IRST 29</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>54.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>75.0</FlareChance>
+    </ICD>
+    <ICD Num="30">
+        <Name>*IRST 30</Name>
+        <DetectionRange>6.0</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>54.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>60.0</FlareChance>
+    </ICD>
+    <ICD Num="31">
+        <Name>Python 3</Name>
+        <DetectionRange>3.0</DetectionRange>
+        <FOV>16.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="32">
+        <Name>ASRAAM</Name>
+        <DetectionRange>12.0</DetectionRange>
+        <FOV>8.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.005</GroundFactor>
+        <FlareChance>0.5</FlareChance>
+    </ICD>
+    <ICD Num="33">
+        <Name>*IRST 33</Name>
+        <DetectionRange>9.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.0</GimbalLimit>
+        <GroundFactor>0.010</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="34">
+        <Name>AIM-9E</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>8.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.080</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="35">
+        <Name>AIM-9J</Name>
+        <DetectionRange>4.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>50.0</GimbalLimit>
+        <GroundFactor>0.070</GroundFactor>
+        <FlareChance>96.0</FlareChance>
+    </ICD>
+    <ICD Num="36">
+        <Name>GBU-31</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="37">
+        <Name>AGM-154A JSOW</Name>
+        <DetectionRange>39.9</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="38">
+        <Name>AA-10D</Name>
+        <DetectionRange>12.0</DetectionRange>
+        <FOV>6.0</FOV>
+        <GimbalLimit>80.1</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="39">
+        <Name>CALCM</Name>
+        <DetectionRange>80.0</DetectionRange>
+        <FOV>180.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="40">
+        <Name>*IRST 40</Name>
+        <DetectionRange>26.1</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="41">
+        <Name>AGM-123</Name>
+        <DetectionRange>17.4</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>40.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="42">
+        <Name>AT-16</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="43">
+        <Name>AGM-12B</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>40.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="44">
+        <Name>AGM-12C</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>40.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="45">
+        <Name>AGM-119</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="46">
+        <Name>AM-39</Name>
+        <DetectionRange>45.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="47">
+        <Name>AGM-84A</Name>
+        <DetectionRange>45.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="48">
+        <Name>*IRST 48</Name>
+        <DetectionRange>45.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="49">
+        <Name>AS-30L</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="50">
+        <Name>AS-16</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="51">
+        <Name>AS-20</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="52">
+        <Name>3M80</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="53">
+        <Name>AS-17A</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="54">
+        <Name>AGM-84E</Name>
+        <DetectionRange>10.0</DetectionRange>
+        <FOV>30.0</FOV>
+        <GimbalLimit>90.0</GimbalLimit>
+        <GroundFactor>2.000</GroundFactor>
+        <FlareChance>0.0</FlareChance>
+    </ICD>
+    <ICD Num="55">
+        <Name>*IRST 55</Name>
+        <DetectionRange>6.0</DetectionRange>
+        <FOV>5.0</FOV>
+        <GimbalLimit>54.0</GimbalLimit>
+        <GroundFactor>0.060</GroundFactor>
+        <FlareChance>60.0</FlareChance>
+    </ICD>
+    <ICD Num="56">
+        <Name>*IRST 56</Name>
+        <DetectionRange>80.0</DetectionRange>
+        <FOV>180.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="57">
+        <Name>ALCM</Name>
+        <DetectionRange>80.0</DetectionRange>
+        <FOV>180.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="58">
+        <Name>MICA IR</Name>
+        <DetectionRange>40.0</DetectionRange>
+        <FOV>180.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>1.5</FlareChance>
+    </ICD>
+    <ICD Num="59">
+        <Name>AGM-69A</Name>
+        <DetectionRange>80.0</DetectionRange>
+        <FOV>180.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="60">
+        <Name>AGM-158</Name>
+        <DetectionRange>80.0</DetectionRange>
+        <FOV>180.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.020</GroundFactor>
+        <FlareChance>15.0</FlareChance>
+    </ICD>
+    <ICD Num="61">
+        <Name>Python 5</Name>
+        <DetectionRange>13.0</DetectionRange>
+        <FOV>8.0</FOV>
+        <GimbalLimit>180.0</GimbalLimit>
+        <GroundFactor>0.005</GroundFactor>
+        <FlareChance>0.5</FlareChance>
+    </ICD>
+</ICDRecords>

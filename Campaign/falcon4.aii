@@ -1,0 +1,130 @@
+/**********************************************************************
+/*
+/* AI Input file for Falcon4
+/*
+/**********************************************************************/
+
+[ATM]
+ImmediatePlanMinTime=15
+ImmediatePlanMaxTime=30
+LongrangePlanMinTime=30
+LongrangePlanMaxTime=60
+AircraftAssignmentRatio=9
+MaxFlymissionThreat=85
+MaxFlymissionHighThreat=100
+MaxFlymissionNoThreat=10
+MinSeadescortThreat=20
+MinAvoidThreat=40
+MinAssemblyPtDist=40
+BreakpointDist=16
+TargetClearRadius = 6
+LoiterTurnDistance = 25
+SweepRadius = 40
+MinimumBDAPriority = 900
+MinimumAWACSDistance = 110
+MaximumAWACSDistance = 150
+MinimumJSTARDistance = 70
+MaximumJSTARDistance = 110
+MinimumTankerDistance = 70
+MaximumTankerDistance = 110
+MinimumECMDistance = 30
+MaximumECMDistance = 70
+FirstColonel = 1
+FirstCommander = 20
+FirstWingman = 149
+LastWingman = 370
+MaxEscortAAStrength = 50
+BARCAP_RequestInterval = 30
+BARCAP_CoastlineMinDist = 25
+BARCAP_CoastlineMaxDist = 75
+OnCallFlightsPerRequest = 2
+AirTaskTime = 0
+AirPlanTime = 5
+VictoryConditionTime = 10
+FlightMoveCheckInterval = 5
+FlightCombatCheckInterval = 15
+AirUpdateCheckInterval = 600
+PackageCyclesToWait = 3
+AirPathMax = 2000
+MinimumIgnoreRange = 8
+MaxSARDistance = 45
+MaxBAIDistance = 20
+PilotAssignTime = 1800000
+AircraftTurnaroundMinutes = 60
+
+[GTM]
+PrimaryObjPriority = 80
+SecondaryObjPriority = 15
+MaximumOffenses = 2
+MinimumOffensiveUnits = 1
+MinimumAdjustedLevel = 20
+MinimumViableLevel = 50
+MaximumAssignmentDist = 60
+MaximumOffensiveLinks = 4
+MaximumDefensiveLinks = 3
+BrigadeBreakBase = 75
+RoleScoreModifier = 40
+TaskGroundTime = 60
+PlanGroundTime = 360
+ObjectiveRepairInterval = 120
+ResupplyInterval = 120
+MoraleRegainRate = 25
+TERegainRateMultiplier = 2
+FootMoveCheckInterval = 240
+TrackedMoveCheckInterval = 120
+GroundCombatCheckInterval = 60
+GroundUpdateCheckInterval = 480
+GroundPathMax = 500
+ObjGroundPathMaxSearch = 2000
+ObjGroundPathMaxCost = 500
+MinFullOffensiveInitiative = 60
+MinCounterAttackInitiative = 40
+MinSecureInitiative = 20
+MinExpToFirePreGuide = 20
+OffensiveReinforcementTime = 60
+DefensiveReinforcementTime = 360
+ConsolidateReinforcementTime = 720
+ActionPrepTime = 120
+
+[NTM]
+TaskNavalTime = 120
+PlanNavalTime = 1440
+NavalCombatCheckInterval = 60
+NavalMoveCheckInterval = 120
+
+[Other]
+LowAltitudeCutoff=10000
+GroundSearchDistance=18
+AirSearchDistance=60
+NewCloudPercentage=0
+DeleteCloudPercentage=15
+PlayerBubbleObjects=12
+PlayerTeam=2
+CampaignResyncTime = 30
+BubbleRebuildTime = 3
+PriorityEventqueueLength = 10
+StandardEventqueueLength = 10
+StatisticsRecalculationInterval = 60
+LowAirRangeModifier = 83
+MinimumStrength = 50
+MaximumDamageTries = 20
+ReaggregationRatio = 120
+ReinforcementTime = 60
+SimBubbleSize = 1000000
+InitiativeLeakPerHour = 2
+
+[Campaign]
+StartOffBonusRepl = 0
+StartOffBonusSup = 0
+StartOffBonusFuel = 0
+ActionRate = 2
+ActionTimeOut = 12
+DataRateModRepl = 1.0
+DataRateModSup = 1.5
+RelSquadBonus = 4.0
+NoActionBonusProd = 1
+NoTypeBonusRepl = 1
+NewInitiativePoints = 1
+CampBugFixes = 1
+2DHitChanceAir = 3.5
+2DHitChanceGround = 1.5

@@ -1,0 +1,54 @@
+# Title: M2A2/M2A3
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.8 Date: 4/27/2019 9:35:33 AM
+#-----------------------------------------------------
+# Comments
+#-----------------------------------------------------
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+1
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+#
+#
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+TurretAzimuthOffset 0.00
+#-----------------------------------------------------
+# Drivetrain Data
+#-----------------------------------------------------
+DrivetrainDataDofIdx 10
+DrivetrainDataDofFactor 1.80
+DrivetrainDataSwitchIdx 11
+DrivetrainDataSwitchFactor 8.00
+DrivetrainDataSwitchNumStates 6
+#-----------------------------------------------------
+# Trailer Data
+#-----------------------------------------------------
+TrailerDataTractorCt -1
+TrailerDataTrailerHitchPos -20.00
+TrailerDataTractorHitchPos 0.00
+#-----------------------------------------------------
+# Foot Squad Data
+#-----------------------------------------------------
+FootSquadDataNumModes -1
+FootSquadDataModeSwitchIdx -1
+FootSquadDataAnimationSwitchIdx -1
+FootSquadDataNumSwitchStatesAiming -1
+FootSquadDataNumSwitchStatesWalking -1
+FootSquadDataNumSwitchStatesRunning -1
+FootSquadDataNumSwitchStatesStanding -1
+FootSquadDataCycleTimeWalking 100
+FootSquadDataCycleTimeRunning 100
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+#
+#
+# End of Additional
+#

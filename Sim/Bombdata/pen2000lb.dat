@@ -1,0 +1,8 @@
+# Version 1.0
+# Author Ratty/MRivers/BoneDust
+
+0 # Data Format Version
+
+# Particle Sys
+psFeatureImpact _pen2000lb
+psBombImpact _pen2000lb

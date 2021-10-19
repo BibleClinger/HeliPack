@@ -1,0 +1,71 @@
+Indx 56 - TPS-380K - TAR/TTR (K263 Cheongoon)
+Prf 0 (Unused)
+
+CustomSymbolType 3
+
+TimeToLock 1000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 1000
+Timetosearch2 1000
+Timetosearch3 1000
+Timetoacuire 1000
+Timetoguide 1000
+
+Timetocoast 500
+
+Rangetosearch1 55900
+Rangetosearch2 54900
+Rangetosearch3 53900
+Rangetoacuire 52900
+Rangetoguide 52900
+
+Sweeptimesearch1 1000
+Sweeptimesearch2 1000
+Sweeptimesearch3 1000
+Sweeptimeacuire 1000
+Sweeptimeguide 1000
+
+Sweeptimecoast 500
+
+Rwrsoundsearch1 212
+Rwrsoundsearch2 212
+Rwrsoundsearch3 212
+Rwrsoundacuire 212
+Rwrsoundguide 212
+
+Rwrsymbolsearch1 1
+Rwrsymbolsearch2 1
+Rwrsymbolsearch3 1
+Rwrsymbolacuire 1
+Rwrsymbolguide 1
+
+Bandsearch1 I
+Bandsearch2 I
+Bandsearch3 I
+Bandacuire J
+Bandguide J
+
+Typesearch1 D
+Typesearch2 D
+Typesearch3 D
+Typeacuire D
+Typeguide D
+
+TrackWarning 0
+LaunchWarning 0
+
+AirFireRate 3000
+Maxmissilesintheair 1
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 656
+MinEngagementRange 3000

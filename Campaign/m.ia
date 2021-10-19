@@ -1,0 +1,65 @@
+# Use BMS Editor to find Plane Units (!) and Weapon IDs
+# 16 hardpoints can be defined (W0 & C0 up to W15 & C15), but :
+# - weapons on pod stations wont be seen by the SMS, so they cant be used.
+# - if the aircraft has less hardpoints than there are defined weapons on this file,
+#   excessive weapons wont be taken into account.
+#####################################################
+# Own plane (Unit Information) Example: F-16
+# KF-16C-52
+1 type
+9 subtype
+58 specific
+#####################################################
+#Weapon loadout: WeaponID (Weapon No.), WeaponAmount
+#Loadout Hardpoint 0
+#M61 - 510 rounds
+507 W0
+51 C0
+#Loadout Hardpoint 1
+# 1 x AIM120C
+159 W1
+1 C1
+#Loadout Hardpoint 2
+# 1 x AIM9M
+174 W2
+1 C2
+#Loadout Hardpoint 3
+# 1 X AGM65D
+148 W3
+1 C3
+#Loadout Hardpoint 4
+# 1 x GBU12B/B
+288 W4
+1 C4
+#Loadout Hardpoint 5
+# 300 Gal tank for now (till we will need pod for GBU15)
+85 W5
+1 C5
+#Loadout Hardpoint 6
+# 1 x CBU105
+252 W6
+1 C6
+#Loadout Hardpoint 7
+# 1 X AGM88
+157 W7
+1 C7
+#Loadout Hardpoint 8 (empty on A-10)
+# 1 x AIM9X
+176 W8
+1 C8
+#Loadout Hardpoint 9
+# 1 x AIM120B
+158 W9
+1 C9
+#Loadout Hardpoint 5L
+# 1 x AN/AAQ-13 LANTIRN Navigation pod
+179 W10
+1 C10
+#Loadout Hardpoint 5R
+# 1 x AN/AAQ-14 LANTIRN Targeting pod
+180 W11
+1 C11
+
+
+
+

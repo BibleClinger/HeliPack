@@ -1,0 +1,79 @@
+Indx 47 - SNAP SHOT - TRR (SA-13)
+Prf 0 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 2000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 1000
+Timetosearch2 1000
+Timetosearch3 1000
+Timetoacuire 1000
+Timetoguide 99999
+
+Timetocoast 4000
+
+Rangetosearch1 320808
+Rangetosearch2 310808
+Rangetosearch3 300808
+Rangetoacuire 0
+Rangetoguide 0
+
+Sweeptimesearch1 2000
+Sweeptimesearch2 2000
+Sweeptimesearch3 2000
+Sweeptimeacuire 2000
+Sweeptimeguide 2000
+Sweeptimecoast 2000
+
+Rwrsoundsearch1 0
+Rwrsoundsearch2 0
+Rwrsoundsearch3 0
+Rwrsoundacuire 0
+Rwrsoundguide 99
+
+Rwrsymbolsearch1 0
+Rwrsymbolsearch2 0
+Rwrsymbolsearch3 0
+Rwrsymbolacuire 0
+Rwrsymbolguide 15
+
+Bandsearch1 K
+Bandsearch2 K
+Bandsearch3 K
+Bandacuire K
+Bandguide K
+
+Typesearch1 C
+Typesearch2 C
+Typesearch3 C
+Typeacuire C
+Typeguide C
+
+PRIsearch1 390
+PRIsearch2 390
+PRIsearch3 390
+PRIacuire 390
+PRIguide 390
+
+TrackWarning 1
+LaunchWarning 0
+
+AirFireRate 8000
+Maxmissilesintheair 2
+
+Elevationbumpamounta 10
+Elevationbumpamountb 10
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 83
+MinEngagementRange 2296

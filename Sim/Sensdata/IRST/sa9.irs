@@ -1,0 +1,11 @@
+# SA-9 IR Seeker data
+# azimuth limit (Degrees)
+60.0
+#elevation limit (Degrees)
+60.0
+# Nominal Range (NM)
+3.0
+# ground Factor
+0.001
+# flare chance
+0.4

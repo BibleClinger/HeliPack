@@ -1,0 +1,5 @@
+Helis are reassigned as Attack aircraft starting at Specific # 39.
+	- AH-64A
+	- AH-64D
+	- AH-64E
+Their entries in VALIDAC.ACT and teplanes.lst must be edited to reflect their values. Note: Mission Commander will not understand that they are valid entries.

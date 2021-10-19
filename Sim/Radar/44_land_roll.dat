@@ -1,0 +1,80 @@
+Indx 44 - LAND ROLL - FCR (SA-8)
+Prf 2800 (Unused)
+
+CustomSymbolType 2
+
+TimeToLock 1000
+MaxTwstargets 1
+Timeskillfactor 100
+
+Timetosearch1 4000
+Timetosearch2 3000
+Timetosearch3 3000
+Timetoacuire 3000
+Timetoguide 2000
+
+Timetocoast 2000
+
+Rangetosearch1 147600
+Rangetosearch2 127600
+Rangetosearch3 107600
+Rangetoacuire 92000
+Rangetoguide 52000
+
+Sweeptimesearch1 1818
+Sweeptimesearch2 1818
+Sweeptimesearch3 1818
+Sweeptimeacuire 500
+Sweeptimeguide 500
+
+Sweeptimecoast 1500
+
+Rwrsoundsearch1 294
+Rwrsoundsearch2 294
+Rwrsoundsearch3 294
+Rwrsoundacuire 294
+Rwrsoundguide 98
+
+Rwrsymbolsearch1 12
+Rwrsymbolsearch2 12
+Rwrsymbolsearch3 12
+Rwrsymbolacuire 12
+Rwrsymbolguide 12
+
+Bandsearch1 H
+Bandsearch2 H
+Bandsearch3 H
+Bandacuire J
+Bandguide J
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide C
+
+TrackWarning 1
+LaunchWarning 1
+
+AirFireRate 4500
+AirSalvoRate 30000
+Maxmissilesintheair 2
+Maxmissilespertarget 2
+AntennaTrackAzimuthAngle 10
+AntennaSideLobesAzimuthAngle 120
+AntennaTrackElevationAngle 10
+AntennaSideLobesElevationAngle 90
+
+Elevationbumpamounta 100
+Elevationbumpamountb 5
+
+AverageSpeed 1500
+MaxAngleDiffTws 0.0
+MaxRangeDiffTws 0.0
+MaxAngleDiffSam 0.0
+MaxRangeDiffSam 0.0
+MaxNctrRange 0
+NctrDelta 0
+
+MinEngagementAlt 82
+MinEngagementRange 4800
