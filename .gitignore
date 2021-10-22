@@ -21,6 +21,8 @@ Campaign/*.frc
 Campaign/*.twx
 Campaign/*.iff
 
+Campaign/tmp*.*
+
 # Exceptions
 !Campaign/save*
 !Campaign/AH-64*

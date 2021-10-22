@@ -594,7 +594,7 @@ WakeAngle 0.02
 # VTOL
 #-----------------------------------------------------
 IsVtol 1
-AFMVtolmaxExhaustangle 120
+AFMVtolmaxExhaustangle 90
 AFMVtolExhaustrate 20.0
 AFMengine1Exaustangle 90
 AFMengine2Exaustangle 90
