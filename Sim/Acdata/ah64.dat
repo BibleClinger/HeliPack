@@ -870,9 +870,12 @@ sndSpdBrakeEnd 139
 sndSpdBrakeWind 142
 sndOverSpeed1 191
 sndOverSpeed2 192
-sndGunStart 362
-sndGunLoop 363
-sndGunEnd 364
+#sndGunStart 362
+#sndGunLoop 363
+#sndGunEnd 364
+sndGunStart 49
+sndGunLoop 49
+sndGunEnd 49
 sndBBPullup 68
 sndBBBingo 66
 sndBBWarning 63
@@ -953,9 +956,10 @@ sndExt4 0
 #-----------------------------------------------------
 # Sounds Engine Int
 #-----------------------------------------------------
-sndInt 377 #Whine Sounds by BoneDust
-sndIntChart 6 0.00 0.00 0.70 1.10 0.80 1.20 0.85 0.60 0.95 0.55 1.10 0.50
-sndIntPitchChart 4 0.00 0.30 0.70 1.00 0.80 1.50 1.10 2.00
+#sndInt 377 #Whine Sounds by BoneDust
+sndInt 0 # The whine is annoying in the helicopter and doesn't quite belong
+#sndIntChart 6 0.00 0.00 0.70 1.10 0.80 1.20 0.85 0.60 0.95 0.55 1.10 0.50
+#sndIntPitchChart 4 0.00 0.30 0.70 1.00 0.80 1.50 1.10 2.00
 #
 sndInt2 379 #Volume Sounds by BoneDust
 sndInt2Chart 4 0.00 0.00 0.70 1.00 0.80 1.00 1.10 1.10
