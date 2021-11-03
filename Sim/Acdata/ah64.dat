@@ -937,19 +937,23 @@ sndJFSendInt 308
 #-----------------------------------------------------
 # Sounds Engine Ext
 #-----------------------------------------------------
-sndAbExt 376 #Close exhaust Sounds by BoneDust
+#sndAbExt 376 #Close exhaust Sounds by BoneDust
+sndAbExt 235 # Rotors
 sndAbExtChart 5 0.0000 0.00 0.7000 0.72 0.8600 0.89 1.0000 1.10 1.1000 1.20
 sndAbExtPitchChart 3 0.0000 0.00 0.7000 1.00 1.1000 1.00
 #
-sndExt 378 #Exhaust Sounds by BoneDust
+#sndExt 378 #Exhaust Sounds by BoneDust
+sndExt 235 # Rotors
 sndExtChart 5 0.00 0.00 0.70 0.85 0.90 1.00 1.00 1.20 1.10 1.30
 sndExtPitchChart 3 0.00 0.30 0.70 1.00 1.10 1.00
 #
-sndExt2 375 #Whine Sounds by BoneDust
+#sndExt2 375 #Whine Sounds by BoneDust
+sndExt2 235 # The whine is annoying in the helicopter and doesn't quite belong
 sndExt2Chart 6 0.00 0.00 0.70 1.00 0.75 1.30 0.80 1.50 0.85 1.00 1.10 1.00
 sndExt2PitchChart 5 0.00 0.30 0.70 1.00 0.75 1.50 0.80 2.00 1.10 2.50
 #
-sndExt3 225 #External constant engine roar - Far distance effect
+#sndExt3 225 #External constant engine roar - Far distance effect
+sndExt3 235 #Rotors
 sndExt3Chart 4 0.00 0.00 0.40 0.00 0.70 0.60 1.00 1.00
 #
 sndExt4 0
@@ -957,15 +961,17 @@ sndExt4 0
 # Sounds Engine Int
 #-----------------------------------------------------
 #sndInt 377 #Whine Sounds by BoneDust
-sndInt 0 # The whine is annoying in the helicopter and doesn't quite belong
-#sndIntChart 6 0.00 0.00 0.70 1.10 0.80 1.20 0.85 0.60 0.95 0.55 1.10 0.50
-#sndIntPitchChart 4 0.00 0.30 0.70 1.00 0.80 1.50 1.10 2.00
+sndInt 235 # The whine is annoying in the helicopter and doesn't quite belong
+sndIntChart 6 0.00 0.00 0.70 1.10 0.80 1.20 0.85 0.60 0.95 0.55 1.10 0.50
+sndIntPitchChart 4 0.00 0.30 0.70 1.00 0.80 1.50 1.10 2.00
 #
-sndInt2 379 #Volume Sounds by BoneDust
+#sndInt2 379 #Volume Sounds by BoneDust
+sndInt2 235 #Volume Sounds by BoneDust
 sndInt2Chart 4 0.00 0.00 0.70 1.00 0.80 1.00 1.10 1.10
 sndInt2PitchChart 2 0.00 0.30 0.70 1.00
 #
-sndInt3 380 #Fan Sounds by BoneDust
+#sndInt3 380 #Fan Sounds by BoneDust
+sndInt3 235 #Rotors
 sndInt3Chart 6 0.00 0.00 0.70 0.95 0.83 1.20 0.95 1.20 1.00 0.75 1.10 0.30
 sndInt3PitchChart 5 0.00 0.30 0.70 0.86 0.90 1.20 1.00 1.30 1.10 1.40
 #
