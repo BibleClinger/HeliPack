@@ -416,7 +416,7 @@ engine2Location 4.86 -3.40 0.60
 engine3Location -1.86 2.80 1.10
 engine4Location -1.86 -2.80 1.10
 hasATC 1
-engineSmokes 2
+engineSmokes 0
 normSpoolRate 4.0
 abSpoolRate 7.0
 SecRpmVar 0.00
