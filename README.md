@@ -9,3 +9,4 @@ This is a major work in progress. It is in the early stages of development.
 # Credits
 
 - BibleClinger: Project Manager
+- OldCraig: Crash Test Dummy
