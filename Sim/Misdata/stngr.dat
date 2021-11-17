@@ -299,7 +299,7 @@
 # Type and Misc
 #-----------------------------------------------------
 maxToe 5.5
-foxType 0
+foxType 2
 maxspeed 2600
 correctedWeigthCode 0
 deployableWingsTime 0

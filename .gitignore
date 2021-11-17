@@ -13,26 +13,16 @@
 Campaign/auto save*
 
 # Any mission files
-Campaign/*.cam
-Campaign/*.tac
-Campaign/*.trn
-Campaign/*.ini
-Campaign/*.frc
-Campaign/*.twx
-Campaign/*.iff
+#Campaign/*.cam
+#Campaign/*.tac
+#Campaign/*.trn
+#Campaign/*.ini
+#Campaign/*.frc
+#Campaign/*.twx
+#Campaign/*.iff
+
+Campaign/tmp*.*
 
 # Exceptions
-!Campaign/save*
-!Campaign/AH-64*
-
-#######################################
-## TerrData Extras
-TerrData/ATC/
-TerrData/MiscTex/
-TerrData/Objects/FE_Backup/
-TerrData/Objects/KoreaObj.HDR
-TerrData/Objects/KoreaObj.LOD
-TerrData/Objects/KoreaObj.TEX
-TerrData/TacRefDB.bin
-TerrData/particlesys.ini
-TerrData/trail.txt
+#!Campaign/save*
+#!Campaign/AH-64*
