@@ -10,12 +10,12 @@ This is a theater for BMS that allows humans to fly some of the helicopters in F
 
 We're aiming to get the following done:
 
-- AH-64A
-- AH-64D
-- AH-64E
-- AH-1S
-- KA-52
-- KA-52K
+- AH-64A (Implemented)
+- AH-64D (Implemented)
+- AH-64E (Almost)
+- AH-1S (Not implemented)
+- KA-52 (Implemented)
+- KA-52K (Implemented, but not tested)
 
 We are not interested in doing other helicopters at the moment, since it seems that humans can't trigger important mission elements involved in special missions like AIRLIFT, and we can't get the AI to fly the current flight models.
 
