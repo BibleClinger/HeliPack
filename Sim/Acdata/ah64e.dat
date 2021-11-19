@@ -845,12 +845,12 @@ ChaffCount2 0
 #-----------------------------------------------------
 numPODHardpoints 0
 hardpoint1Grp 0
-hardpoint2Grp AH64
+hardpoint2Grp AH64-tip
 hardpoint3Grp AH64
 hardpoint4Grp AH64
 hardpoint5Grp AH64
-hardpoint6Grp 0
-hardpoint7Grp 0
+hardpoint6Grp AH64
+hardpoint7Grp AH64-tip
 hardpoint8Grp 0
 hardpoint9Grp 0
 hardpoint10Grp 0
