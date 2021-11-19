@@ -22,7 +22,7 @@ We are not interested in doing other helicopters at the moment, since it seems t
 # How do I install this?
 
 1. Place "Add-on Helipack" inside your Falcon BMS 4.35\Data directory.
-2. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
+2. Open the file "\Falcon BMS 4.35\TerrData\TheaterDefinition\theater.lst".
 3. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
 
 # How do I help?
