@@ -31,6 +31,10 @@ If you're savvy enough with Git and Github, download the repo directly to your F
 
 Otherwise, just test it. We need feedback.
 
+# How can a theater dev add these helicopters to their own theater?
+
+Oh, that's a long topic better suited for the wiki perhaps. We'll hopefully get there with more documentation at a later date.
+
 # Status
 
 This is a major work in progress. It is in the early stages of development. We have some of these helicopters in a somewhat "flyable" state if you use VTOL.
