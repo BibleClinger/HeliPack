@@ -1,4 +1,4 @@
-# Title: HeliPack AH-64A
+# Title: HeliPack AH-64D
 # Author: BMS (AV-88 parts). Modified by BibleClinger.
 # Revision: Pre-alpha. Don't ask.
 #-----------------------------------------------------
@@ -14,7 +14,7 @@
 #-----------------------------------------------------
 # INPUT MASS AND GEOMETRIC PROPERTIES
 #-----------------------------------------------------
-         +11387.000000  # Empty Weight (lbs)
+         +11800.000000  # Empty Weight (lbs)
            +100.000000  # Reference Area
           +2442.000000  # Internal Fuel
 #-----------------------------------------------------
