@@ -20,15 +20,15 @@
 #-----------------------------------------------------
 # ANGLE OF ATTACK AND SIDESLIP LIMITS
 #-----------------------------------------------------
-            +30.000000  # AOA Max
-            -10.000000  # AOA Min
-            +20.000000  # Beta Max
-            -20.000000  # Beta Min
+            +45.000000  # AOA Max
+            -45.000000  # AOA Min
+            +45.000000  # Beta Max
+            -45.000000  # Beta Min
              +8.000000  # Max G
            +190.000000  # Max Roll
-           +180.000000  # Min Vcas
-          +1200.000000  # Max Vcas
-           +450.000000  # Corner Vcas
+             +0.000000  # Min Vcas
+           +197.000000  # Max Vcas
+           +143.000000  # Corner Vcas
             +13.000000  # Theta Max
              +4.000000  # Num Gear
 #
