@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VCDRecords>
+    <VCD Num="264">
+        <CtIdx>810</CtIdx>
+        <HitPoints>100</HitPoints>
+        <Flags>0</Flags>
+        <Name>Light Mortar</Name>
+        <NCTR> </NCTR>
+        <RadarCs>1.000000</RadarCs>
+        <MaxWeight>0</MaxWeight>
+        <EmptyWeight>0</EmptyWeight>
+        <FuelWeight>0</FuelWeight>
+        <FuelRate>0</FuelRate>
+        <EngineSound>0</EngineSound>
+        <MaxAlt>800</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <CruiseAlt>200</CruiseAlt>
+        <MaxSpeed>5</MaxSpeed>
+        <RadarIdx>0</RadarIdx>
+        <NumberOfCrew>5</NumberOfCrew>
+        <RackFlags>0</RackFlags>
+        <VisibleFlags>1</VisibleFlags>
+        <CallsignIdx>102</CallsignIdx>
+        <CallsignSlots>58</CallsignSlots>
+        <Hit_NoMove>30</Hit_NoMove>
+        <Hit_Foot>30</Hit_Foot>
+        <Hit_Wheeled>10</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>2</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <Str_NoMove>65</Str_NoMove>
+        <Str_Foot>65</Str_Foot>
+        <Str_Wheeled>20</Str_Wheeled>
+        <Str_Tracked>0</Str_Tracked>
+        <Str_LowAir>1</Str_LowAir>
+        <Str_Air>0</Str_Air>
+        <Str_Naval>0</Str_Naval>
+        <Str_Rail>0</Str_Rail>
+        <Rng_NoMove>3</Rng_NoMove>
+        <Rng_Foot>3</Rng_Foot>
+        <Rng_Wheeled>3</Rng_Wheeled>
+        <Rng_Tracked>0</Rng_Tracked>
+        <Rng_LowAir>1</Rng_LowAir>
+        <Rng_Air>0</Rng_Air>
+        <Rng_Naval>0</Rng_Naval>
+        <Rng_Rail>0</Rng_Rail>
+        <Det_NoMove>0</Det_NoMove>
+        <Det_Foot>0</Det_Foot>
+        <Det_Wheeled>0</Det_Wheeled>
+        <Det_Tracked>0</Det_Tracked>
+        <Det_LowAir>0</Det_LowAir>
+        <Det_Air>0</Det_Air>
+        <Det_Naval>0</Det_Naval>
+        <Det_Rail>0</Det_Rail>
+        <WpnOrHpIdx_0>525</WpnOrHpIdx_0>
+        <WpnOrHpIdx_1>521</WpnOrHpIdx_1>
+        <WpnCount_0>40</WpnCount_0>
+        <WpnCount_1>100</WpnCount_1>
+        <Dam_None>0</Dam_None>
+        <Dam_Penetration>100</Dam_Penetration>
+        <Dam_HighExplosive>181</Dam_HighExplosive>
+        <Dam_Heave>0</Dam_Heave>
+        <Dam_Incendairy>227</Dam_Incendairy>
+        <Dam_Proximity>100</Dam_Proximity>
+        <Dam_Kinetic>181</Dam_Kinetic>
+        <Dam_Hydrostatic>0</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>181</Dam_Nuclear>
+        <Dam_Other>181</Dam_Other>
+    </VCD>
+</VCDRecords>

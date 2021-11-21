@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VCDRecords>
+    <VCD Num="258">
+        <CtIdx>568</CtIdx>
+        <HitPoints>100</HitPoints>
+        <Flags>0</Flags>
+        <Name>AK-74 Squad</Name>
+        <NCTR> </NCTR>
+        <RadarCs>1.000000</RadarCs>
+        <MaxWeight>0</MaxWeight>
+        <EmptyWeight>0</EmptyWeight>
+        <FuelWeight>0</FuelWeight>
+        <FuelRate>0</FuelRate>
+        <EngineSound>0</EngineSound>
+        <MaxAlt>800</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <CruiseAlt>200</CruiseAlt>
+        <MaxSpeed>5</MaxSpeed>
+        <RadarIdx>0</RadarIdx>
+        <NumberOfCrew>5</NumberOfCrew>
+        <RackFlags>0</RackFlags>
+        <VisibleFlags>1</VisibleFlags>
+        <CallsignIdx>102</CallsignIdx>
+        <CallsignSlots>58</CallsignSlots>
+        <Hit_NoMove>30</Hit_NoMove>
+        <Hit_Foot>40</Hit_Foot>
+        <Hit_Wheeled>10</Hit_Wheeled>
+        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_LowAir>4</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>10</Hit_Rail>
+        <Str_NoMove>58</Str_NoMove>
+        <Str_Foot>58</Str_Foot>
+        <Str_Wheeled>40</Str_Wheeled>
+        <Str_Tracked>33</Str_Tracked>
+        <Str_LowAir>1</Str_LowAir>
+        <Str_Air>0</Str_Air>
+        <Str_Naval>0</Str_Naval>
+        <Str_Rail>58</Str_Rail>
+        <Rng_NoMove>1</Rng_NoMove>
+        <Rng_Foot>1</Rng_Foot>
+        <Rng_Wheeled>1</Rng_Wheeled>
+        <Rng_Tracked>1</Rng_Tracked>
+        <Rng_LowAir>1</Rng_LowAir>
+        <Rng_Air>0</Rng_Air>
+        <Rng_Naval>0</Rng_Naval>
+        <Rng_Rail>1</Rng_Rail>
+        <Det_NoMove>0</Det_NoMove>
+        <Det_Foot>0</Det_Foot>
+        <Det_Wheeled>0</Det_Wheeled>
+        <Det_Tracked>0</Det_Tracked>
+        <Det_LowAir>0</Det_LowAir>
+        <Det_Air>0</Det_Air>
+        <Det_Naval>0</Det_Naval>
+        <Det_Rail>0</Det_Rail>
+        <WpnOrHpIdx_0>319</WpnOrHpIdx_0>
+        <WpnOrHpIdx_1>520</WpnOrHpIdx_1>
+        <WpnOrHpIdx_2>531</WpnOrHpIdx_2>
+        <WpnCount_0>6</WpnCount_0>
+        <WpnCount_1>200</WpnCount_1>
+        <WpnCount_2>60</WpnCount_2>
+        <Dam_None>0</Dam_None>
+        <Dam_Penetration>134</Dam_Penetration>
+        <Dam_HighExplosive>243</Dam_HighExplosive>
+        <Dam_Heave>0</Dam_Heave>
+        <Dam_Incendairy>255</Dam_Incendairy>
+        <Dam_Proximity>134</Dam_Proximity>
+        <Dam_Kinetic>243</Dam_Kinetic>
+        <Dam_Hydrostatic>0</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>243</Dam_Nuclear>
+        <Dam_Other>243</Dam_Other>
+    </VCD>
+</VCDRecords>
