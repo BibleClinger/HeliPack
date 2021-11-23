@@ -20,8 +20,8 @@
 #-----------------------------------------------------
 # ANGLE OF ATTACK AND SIDESLIP LIMITS
 #-----------------------------------------------------
-            +45.000000  # AOA Max
-            -45.000000  # AOA Min
+            +180.000000  # AOA Max
+            -180.000000  # AOA Min
             +45.000000  # Beta Max
             -45.000000  # Beta Min
              +8.000000  # Max G
@@ -141,7 +141,7 @@
 # ENGINE OPTIONS MUST BE LISTED HERE
 engopt fuelflow
 #
-      +0.250000   # Thrust multiplier
+      +0.350000   # Thrust multiplier
       +0.250000   # Fuel Flow Multiplier
 #-----------------------------------------------------
 # MACH BREAKPOINTS
@@ -417,7 +417,7 @@ engine3Location -1.86 2.80 1.10
 engine4Location -1.86 -2.80 1.10
 hasATC 1
 engineSmokes 0
-normSpoolRate 4.0
+normSpoolRate 5.0
 abSpoolRate 7.0
 SecRpmVar 0.00
 FlcsBitRpmVar 0.00
@@ -1069,9 +1069,9 @@ TFR_GammaCorrMult 1.5 #10-12-2014
 #-----------------------------------------------------
 #Switch: 0 - No TGP, 1 - Internal TGP, 2 - External TGP
 TGP_Type 1 #Added Falcas 14/06/2014
-TGPCameraXOff 16.00
-TGPCameraYOff 0.00
-TGPCameraZOff 14.00
+TGPCameraXOff 16
+TGPCameraYOff 0
+TGPCameraZOff 20
 #-----------------------------------------------------
 # HTS
 #-----------------------------------------------------
