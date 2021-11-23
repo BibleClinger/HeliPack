@@ -724,8 +724,8 @@ fuelWingAlRate 0.000
 fuelWingFrRate 0.000
 fuelClineRate 0.000
 fuelWingExtRate 0.000
-fuelMinFwd 400
-fuelMinAft 250
+fuelMinFwd 40
+fuelMinAft 25
 #-----------------------------------------------------
 # Fuel Leak
 #-----------------------------------------------------
