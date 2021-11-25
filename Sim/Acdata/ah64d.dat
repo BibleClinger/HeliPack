@@ -504,7 +504,7 @@ AFMcriticalAOA 25.0
 elevonMaxAngle 20.0
 aileronMaxAngle 30.0
 rudderMaxAngle 20.0
-rollCouple -0.05
+rollCouple 0.00
 elevatorRoll 1
 elevRate 60
 animAileronRate 50
