@@ -14,19 +14,19 @@
 # EMPTY AC
 # xGC Loc yGC Loc zGC Loc (ft relative to noze) GC of the plane empty
 #
--24.191 0 0.0
+-12.0 0 0.0
 #
 # DESIGNED GC
 #
 # xGC Loc yGC Loc zGC Loc (ft relative to noze) GC of the plane stability design
--24.191 0 0.0
+-12.0 0 0.0
 #
 # LOD center position (ft relative to noze)
--24.191 0 0.0
+-12.0 0 0.0
 #
 11.32 # Mean Chord (ft)
-30.0 # Span (ft)
-230 # Reference Area (ft^2)
+16.0 # Span (ft)
+100 # Reference Area (ft^2)
 215084 # Ixx inertia (lbs / ft ^2) / CG axis
 2104437 # Iyy inertia / CG axis
 2033011 # Izz inertia / CG axis
