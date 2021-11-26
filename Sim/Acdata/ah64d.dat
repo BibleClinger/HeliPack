@@ -30,17 +30,16 @@
            +197.000000  # Max Vcas
            +143.000000  # Corner Vcas
             +13.000000  # Theta Max
-             +4.000000  # Num Gear
+             +3.000000  # Num Gear
 #
-#Gear    xPos [ft]          yPos [ft]         zPos [ft]         Extent [deg]
-         +10.32         +0.00         +20.18         +190.00
-         +38.20         +0.00         +20.18          +90.00
-         +38.20         -8.24         +20.18          +90.00
-         +38.20         +8.24         +20.18          +90.00
+#Gear    xPos [ft]      yPos [ft]     zPos [ft]      Extent [deg]
+         +0.00          -10.00         +15.00         +90.00
+         +0.00          +10.00         +15.00         +90.00
+         +45.0          +0.00          +15.00         +90.00
 #-----------------------------------------------------
 # Physical data
 #-----------------------------------------------------
-             +0.000000  # CG Loc
+             +6.000000 # CG Loc
             +49.000000  # Length
             +16.000000  # Span
              +3.300000  # Fus Radius
@@ -599,18 +598,18 @@ animGearAngleAFM5 0.00
 animGearAngleAFM6 0.00
 animGearAngleAFM7 0.00
 animGearAngleAFM8 0.00
-animWheelRadius1 1.69
-animWheelRadius2 2.07
-animWheelRadius3 1.67
-animWheelRadius4 1.67
+animWheelRadius1 1.67
+animWheelRadius2 1.67
+animWheelRadius3 0.67
+animWheelRadius4 0.00
 animWheelRadius5 0.00
 animWheelRadius6 0.00
 animWheelRadius7 0.00
 animWheelRadius8 0.00
 animGearMaxComp1 0.62
-animGearMaxComp2 0.25
+animGearMaxComp2 0.62
 animGearMaxComp3 0.39
-animGearMaxComp4 0.39
+animGearMaxComp4 0.00
 animGearMaxComp5 0.00
 animGearMaxComp6 0.00
 animGearMaxComp7 0.00
