@@ -14,57 +14,43 @@
 # EMPTY AC
 # xGC Loc yGC Loc zGC Loc (ft relative to noze) GC of the plane empty
 #
--6.0 0 0.0
+-20.0 0 0.0
 #
 # DESIGNED GC
 #
 # xGC Loc yGC Loc zGC Loc (ft relative to noze) GC of the plane stability design
--6.0 0 0.0
+-20.0 0 0.0
 #
 # LOD center position (ft relative to noze)
--6.0 0 0.0
+-20.0 0 0.0
 #
 5.00 # Mean Chord (ft)
 16.0 # Span (ft)
 100 # Reference Area (ft^2)
-5600 # Ixx inertia (lbs / ft ^2) / CG axis
-40000 # Iyy inertia / CG axis
-37200 # Izz inertia / CG axis
-2726 # Ixz inertia / CG axis
+215084 # 5600 # Ixx inertia (lbs / ft ^2) / CG axis
+2104437  # 40000 # Iyy inertia / CG axis
+2033011  # 37200 # Izz inertia / CG axis
+27260 # 2726 # Ixz inertia / CG axis
 #
 #
 #
 14 # Nrb of fuel tanks (including drop tanks) - Keep 9 internal.
 #
 # xGC (300Gal) XGC (600Gal) Loc yGC Loc zGC Qty
-#
--6.00 -6.00 0.5 0 40 # GC Fuel FWD Res
-#
--6.00 -6.00 -0.5 0 25 # GC Fuel AFT Res
-#
--6.00 -6.00 0 0 1200 # GC Fuel FWD 1
-#
--6.00 -6.00 0 0 1 # GC Fuel FWD 2
-#
--6.00 -6.00 0 0 1176 # GC Fuel AFT 1
-#
--6.00 -6.00 1 0 0 # GC Fuel LEFT Wing
-#
--6.00 -6.00 -1 0 0 # GC Fuel RIGHT Wing
-#
--6.00 -6.00 0 0 0 # GCfuelexT-1 FWD
-#
--6.00 -6.00 0 0 0 # GCfuelexT-1 CTR
-#
--6.00 -6.00 0 0 0 # GCfuelexT-1 AFT
-#
--6.00 -6.00 0 0 0 # GCfuelext-2 FWD
-#
--6.00 -6.00 0 0 0 # GCfuelext-2 CTR
-#
--6.00 -6.00 0 0 0 # GCfuelext-2 AFT
-#
--6.00 -6.00 0 0 0 # GC Fuel External Center
+-20.00 -20.00 0.5 0 40 # GC Fuel FWD Res
+-20.00 -20.00 -0.5 0 25 # GC Fuel AFT Res
+-20.00 -20.00 0 0 1200 # GC Fuel FWD 1
+-20.00 -20.00 0 0 1 # GC Fuel FWD 2
+-20.00 -20.00 0 0 1176 # GC Fuel AFT 1
+-20.00 -20.00 1 0 0 # GC Fuel LEFT Wing
+-20.00 -20.00 -1 0 0 # GC Fuel RIGHT Wing
+-20.00 -20.00 0 0 0 # GCfuelexT-1 FWD
+-20.00 -20.00 0 0 0 # GCfuelexT-1 CTR
+-20.00 -20.00 0 0 0 # GCfuelexT-1 AFT
+-20.00 -20.00 0 0 0 # GCfuelext-2 FWD
+-20.00 -20.00 0 0 0 # GCfuelext-2 CTR
+-20.00 -20.00 0 0 0 # GCfuelext-2 AFT
+-20.00 -20.00 0 0 0 # GC Fuel External Center
 #
 #
 3 # Nbr of Landing Gear
@@ -72,19 +58,21 @@
 # GEAR GEOMETRY
 #
 # XpositDOWN YpositDOWN ZpositDOWN XpositUP YpositUP ZpositUP Excentricity
--0.000	     -15.00      15.00     -6.000    -15.00  15.00    0
--0.000       +15.00      15.00     -6.000    +15.00  15.00    0
--45.000	     +0.00	     15.00     -45.000   +0.00   15.00    0
+-10.00	     +0.00      +16.00     -10.000  +0.00  +16.00    0
+-38.000      +8.00      +16.00     -38.000  +8.00  +16.00    0
+-38.000	     -8.00	    +16.00     -38.000  -8.00  +16.00    0
 #
 # MaxDispl # ExtendBreak # AccelMax # PreStress # Stiffness 1 (K) # Elasticity (C) # Elasticity (D) # Stiffness 2 (K2) # DefZone 1 # LatFriction
 #
 # SlipPct # WheelFrict # BrakeFric # AngSlip # AngBreak # TireLatElasticity # TireLongElasticity
 #
-1.5 1.51 12.0 0.0 50000 2750 1250 88425 0.80 0.035 0.75 0.022 0.38 5.0 18.0 0.0005 500
+2.0 2.2 30.0 0.0 15560 1500 1000 35000 0.2 0.020 0.75 0.003 0 130 140 0.0005 500
 #
-1.5 1.51 12.0 0.0 50000 2750 1250 88425 0.80 0.035 0.75 0.022 0.38 5.0 18.0 0.0005 500
+#3.5 3.55 30.0 0.0 25500 2000 2000 20000 0.2 0.035 0.75 0.003 0.5 5.0 140.0 0.0005 500
 #
-1.5 1.51 12.0 0.0 50000 2750 1250 88425 0.80 0.035 0.75 0.022 0.38 5.0 18.0 0.0005 500
+3.5 3.55 30.0 0.0 20000 2000 2000 2000 0.2 0.035 0.75 0.003 0.5 5.0 140.0 0.0005 500
+#
+3.5 3.55 30.0 0.0 20000 2000 2000 2000 0.2 0.035 0.75 0.003 0.5 5.0 140.0 0.0005 500
 #
 #
 7 # Nbr of NWS Breakpoints
@@ -110,7 +98,7 @@
 #
 180 # V Catapultage
 #
-11 # Nbr of Ground pollision points
+1 # Nbr of Ground pollision points
 #
 #
 1500 # Amort collision
@@ -123,27 +111,28 @@
 #
 # Xposit Yposit Zposit
 #
-0.0 0.0 0.53
+0.0 0.0 0.00
+#0.0 0.0 0.53
 #
--12.90 0.0 -3.92
+#-12.90 0.0 -3.92
 #
--45.72 0.0 -11.11
+#-45.72 0.0 -11.11
 #
--31.68 -15.78 -0.16
+#-31.68 -15.78 -0.16
 #
--31.68 15.78 -0.16
+#-31.68 15.78 -0.16
 #
--44.35 -9.51 1.05
+#-44.35 -9.51 1.05
 #
--44.35 9.51 1.05
+#-44.35 9.51 1.05
 #
--33.83 -2.05 4.19
+#-33.83 -2.05 4.19
 #
--33.83 2.05 4.19
+#-33.83 2.05 4.19
 #
--45.76 0.0 1.53
+#-45.76 0.0 1.53
 #
--18.11 0.0 2.84
+#-18.11 0.0 2.84
 #
 #
 #

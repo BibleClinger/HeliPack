@@ -29,21 +29,35 @@
              +0.000000  # Min Vcas
            +197.000000  # Max Vcas
            +143.000000  # Corner Vcas
-            +13.000000  # Theta Max
+            +45.000000  # Theta Max
              +3.000000  # Num Gear
 #
 #Gear    xPos [ft]      yPos [ft]     zPos [ft]      Extent [deg]
-         +0.00          -10.00         +15.00         +90.00
-         +0.00          +10.00         +15.00         +90.00
-         +45.0          +0.00          +15.00         +90.00
+#         +16.00          -2.00         +15.00       +190.00
+#         +16.00          +2.00         +15.00       +190.00
+#         +45.00          +0.00         +15.00       +90.00
+#         +10.32         +0.00         +18.18        +190.00
+##         +38.20         +0.00         +15.18       +90.00
+#         +38.20         -8.24         +18.18        +90.00
+#         +38.20         +8.24         +18.18        +90.00
+
+###############
+#         +10.32         +8.24         +16.18        +190.00
+#         +10.32         -8.24         +16.18        +190.00
+#         +38.20         +0.00         +16.18        +90.00
+#
+		 +10.32         +0.00         +16.18         +190.00
+         +38.20         +8.24         +16.18         +90.00
+         +38.20         -8.24         +16.18         +90.00
+
 #-----------------------------------------------------
 # Physical data
 #-----------------------------------------------------
-             +6.000000 # CG Loc
+             +20.00000 # CG Loc
             +49.000000  # Length
             +16.000000  # Span
              +3.300000  # Fus Radius
-            +12.000000  # Tail Ht
+             +1.000000  # Tail Ht
 #
 # End of Airframe data
 
@@ -598,9 +612,9 @@ animGearAngleAFM5 0.00
 animGearAngleAFM6 0.00
 animGearAngleAFM7 0.00
 animGearAngleAFM8 0.00
-animWheelRadius1 1.67
-animWheelRadius2 1.67
-animWheelRadius3 0.67
+animWheelRadius1 100.67
+animWheelRadius2 100.67
+animWheelRadius3 100.67
 animWheelRadius4 0.00
 animWheelRadius5 0.00
 animWheelRadius6 0.00
@@ -608,15 +622,19 @@ animWheelRadius7 0.00
 animWheelRadius8 0.00
 animGearMaxComp1 0.62
 animGearMaxComp2 0.62
-animGearMaxComp3 0.39
+#animGearMaxComp3 0.39
+animGearMaxComp3 0.62
 animGearMaxComp4 0.00
 animGearMaxComp5 0.00
 animGearMaxComp6 0.00
 animGearMaxComp7 0.00
 animGearMaxComp8 0.00
+#animGearMaxExt1 0.07
+#animGearMaxExt2 0.44
+#animGearMaxExt3 0.08
 animGearMaxExt1 0.07
-animGearMaxExt2 0.44
-animGearMaxExt3 0.08
+animGearMaxExt2 0.07
+animGearMaxExt3 0.07
 animGearMaxExt4 0.08
 animGearMaxExt5 0.00
 animGearMaxExt6 0.00
