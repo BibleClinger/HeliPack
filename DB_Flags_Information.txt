@@ -1,0 +1,20 @@
+Feature Flags:
+
+0x0001	=	1	= Enemy Can Repair
+0x0002	=	2	= Virtual
+0x0004	=	4	= Has Lights
+0x0008	=	8	= Smoke Stack
+0x0010	=	16	= Do Not Evaluate
+0x0020	= 	32	= Point Trackable
+0x0040	=	64	= Is Tacan
+0x0080	=	128	= <Not evaluated>
+
+0x0100	=	256	= Is Flat Container
+0x0200	=	512	= Is Elevated Container
+0x0400	=	1024	= Can Explode
+0x0800	=	2048	= Can Burn
+0x1000	=	4096	= Can Smoke
+0x2000	=	8192	= Can Collapse
+0x4000	=	16384	= Container Top
+0x8000	=	32768	= Next Is Top
+0x10000	=	65536	= <Not evaluated>
