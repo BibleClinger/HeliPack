@@ -24,13 +24,14 @@
 # LOD center position (ft relative to noze)
 -20.0 0 0.0
 #
-5.00 # Mean Chord (ft)
-16.0 # Span (ft)
-100 # Reference Area (ft^2)
-215084 # 5600 # Ixx inertia (lbs / ft ^2) / CG axis
-2104437  # 40000 # Iyy inertia / CG axis
-2033011  # 37200 # Izz inertia / CG axis
-27260 # 2726 # Ixz inertia / CG axis
+5.00		# Mean Chord (ft)
+16.0		# Span (ft)
+100			# Reference Area (ft^2)
+#
+215084 		# 5600 # Ixx inertia (lbs / ft ^2) / CG axis
+2104437  	# 40000 # Iyy inertia / CG axis
+2033011  	# 37200 # Izz inertia / CG axis
+27260 		# 2726 # Ixz inertia / CG axis
 #
 #
 #
