@@ -1,4 +1,4 @@
-# Title: HeliPack AH-64A
+# Title: HeliPack AH-64E
 # Author: BMS (AV-88 parts). Modified by BibleClinger.
 # Revision: Pre-alpha. Don't ask.
 #-----------------------------------------------------
@@ -14,21 +14,21 @@
 #-----------------------------------------------------
 # INPUT MASS AND GEOMETRIC PROPERTIES
 #-----------------------------------------------------
-         +11387.000000  # Empty Weight (lbs)
+         +11800.000000  # Empty Weight (lbs)
            +100.000000  # Reference Area
           +2442.000000  # Internal Fuel
 #-----------------------------------------------------
 # ANGLE OF ATTACK AND SIDESLIP LIMITS
 #-----------------------------------------------------
-            +30.000000  # AOA Max
-            -10.000000  # AOA Min
-            +20.000000  # Beta Max
-            -20.000000  # Beta Min
+            +180.000000  # AOA Max
+            -180.000000  # AOA Min
+            +45.000000  # Beta Max
+            -45.000000  # Beta Min
              +8.000000  # Max G
            +190.000000  # Max Roll
-           +180.000000  # Min Vcas
-          +1200.000000  # Max Vcas
-           +450.000000  # Corner Vcas
+             +0.000000  # Min Vcas
+           +197.000000  # Max Vcas
+           +143.000000  # Corner Vcas
             +13.000000  # Theta Max
              +4.000000  # Num Gear
 #
@@ -76,7 +76,7 @@
 #-----------------------------------------------------
 #     LIFT COEFFICIENT  CL
 #-----------------------------------------------------
-+1.000000   # Table Multiplier
++3.000000   # Table Multiplier
 #
 # Mach: 0
   -0.850600  -0.629000  -0.193000  -0.092100  +0.010000  +0.120000  +0.230000  +0.390000  +0.510000  +0.630000
@@ -141,7 +141,7 @@
 # ENGINE OPTIONS MUST BE LISTED HERE
 engopt fuelflow
 #
-      +0.250000   # Thrust multiplier
+      +0.350000   # Thrust multiplier
       +0.250000   # Fuel Flow Multiplier
 #-----------------------------------------------------
 # MACH BREAKPOINTS
@@ -404,8 +404,8 @@ engopt fuelflow
 #-----------------------------------------------------
 typeAC 0
 isComplex 1
-irSignature 1
-visSignature 1
+irSignature 0.8
+visSignature 0.8
 #-----------------------------------------------------
 # Engine
 #-----------------------------------------------------
@@ -417,7 +417,7 @@ engine3Location -1.86 2.80 1.10
 engine4Location -1.86 -2.80 1.10
 hasATC 1
 engineSmokes 0
-normSpoolRate 4.0
+normSpoolRate 5.0
 abSpoolRate 7.0
 SecRpmVar 0.00
 FlcsBitRpmVar 0.00
@@ -724,8 +724,8 @@ fuelWingAlRate 0.000
 fuelWingFrRate 0.000
 fuelClineRate 0.000
 fuelWingExtRate 0.000
-fuelMinFwd 400
-fuelMinAft 250
+fuelMinFwd 40
+fuelMinAft 25
 #-----------------------------------------------------
 # Fuel Leak
 #-----------------------------------------------------
@@ -1069,9 +1069,9 @@ TFR_GammaCorrMult 1.5 #10-12-2014
 #-----------------------------------------------------
 #Switch: 0 - No TGP, 1 - Internal TGP, 2 - External TGP
 TGP_Type 1 #Added Falcas 14/06/2014
-TGPCameraXOff 14.00
+TGPCameraXOff 16.00
 TGPCameraYOff 0.00
-TGPCameraZOff 12.00
+TGPCameraZOff 20.00
 #-----------------------------------------------------
 # HTS
 #-----------------------------------------------------
