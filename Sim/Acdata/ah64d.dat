@@ -1069,9 +1069,9 @@ TFR_GammaCorrMult 1.5 #10-12-2014
 #-----------------------------------------------------
 #Switch: 0 - No TGP, 1 - Internal TGP, 2 - External TGP
 TGP_Type 1 #Added Falcas 14/06/2014
-TGPCameraXOff 16
-TGPCameraYOff 0
-TGPCameraZOff 20
+TGPCameraXOff 16.00
+TGPCameraYOff 0.00
+TGPCameraZOff 20.00
 #-----------------------------------------------------
 # HTS
 #-----------------------------------------------------
