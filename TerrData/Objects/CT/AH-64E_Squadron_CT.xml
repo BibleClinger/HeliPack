@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CTRecords>
-    <CT Num="2067">
+    <CT Num="2199">
         <Id>60395</Id>
         <CollisionType>0</CollisionType>
         <CollisionRadius>0.000</CollisionRadius>
         <Domain>2</Domain>
-        <Class>7</Class>
-        <Type>1</Type>
-        <SubType>2</SubType>
-        <Specific>41</Specific>
+        <Class>6</Class>
+        <Type>3</Type>
+        <SubType>3</SubType>
+        <Specific>40</Specific>
         <Owner>0</Owner>
-        <Class_6>0</Class_6>
-        <Class_7>0</Class_7>
-        <UpdateRate>5000</UpdateRate>
-        <UpdateTolerance>5000</UpdateTolerance>
-        <FineUpdateRange>60761.000</FineUpdateRange>
-        <FineUpdateForceRange>200.000</FineUpdateForceRange>
+        <Class_6>255</Class_6>
+        <Class_7>255</Class_7>
+        <UpdateRate>60000</UpdateRate>
+        <UpdateTolerance>60000</UpdateTolerance>
+        <FineUpdateRange>0.000</FineUpdateRange>
+        <FineUpdateForceRange>0.000</FineUpdateForceRange>
         <FineUpdateMultiplier>1.000</FineUpdateMultiplier>
         <DamageSeed>0</DamageSeed>
         <HitPoints>0</HitPoints>
@@ -29,15 +29,15 @@
         <Collidable>0</Collidable>
         <Global>0</Global>
         <Persistent>0</Persistent>
-        <GraphicsNormal>1774</GraphicsNormal>
+        <GraphicsNormal>0</GraphicsNormal>
         <GraphicsRepaired>0</GraphicsRepaired>
         <GraphicsDamaged>0</GraphicsDamaged>
         <GraphicsDestroyed>0</GraphicsDestroyed>
         <GraphicsLeftDestroyed>0</GraphicsLeftDestroyed>
         <GraphicsRightDestroyed>0</GraphicsRightDestroyed>
         <GraphicsBothDestroyed>0</GraphicsBothDestroyed>
-        <MoverDefinitionData>189</MoverDefinitionData>
-        <EntityType>5</EntityType>
-        <EntityIdx>204</EntityIdx>
+        <MoverDefinitionData>0</MoverDefinitionData>
+        <EntityType>4</EntityType>
+        <EntityIdx>320</EntityIdx>
     </CT>
 </CTRecords>
