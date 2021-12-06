@@ -3,7 +3,7 @@
 #------------------
 
 # shown in the pick list
-name HeliPack 0.1
+name HeliPack 0.2
 
 # Title shown on theater page
 desc HeliPack Theater of Operations - WARNING: Restart BMS after any theatre change.
