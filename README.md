@@ -13,7 +13,7 @@ We're aiming to get the following done:
 - AH-64A (Implemented, but subject to CTDs with AGM-114s)
 - AH-64D (Implemented)
 - AH-64E (Implemented, but not tested)
-- AH-1S (Implemented, but not tested)
+- AH-1S (Implemented, but not tested, and subject to CTDs with AGM-114s and BGM-TOWs)
 - KA-52 (Implemented)
 - KA-52K (Implemented, but not tested)
 
@@ -21,14 +21,17 @@ We are not interested in doing other helicopters at the moment, since it seems t
 
 # How do I install this?
 
-You have two options. You can either download the release directly, or else you can hook up your local copy of git to this repo. The former will get you setup with a particular version right away. The latter sets you up for switching versions, updating, and whatever else you'd like to do. It is by far the most tech savvy way of setting up this theater.
+You have two options. You can either download manually, or else you can hook up your local copy of git to this repo. The former will get you setup with a particular version right away. The latter sets you up for switching versions, updating, and whatever else you'd like to do. It is by far the most tech savvy way of setting up this theater.
 
-## Download the Release
+## Manual Download
 
-1. Download the latest release.
+1. Download the latest release, or download the master branch.
 2. Extract the directory from the zip file.
 3. Place the directory in question inside "\Falcon BMS 4.35\Data".
 4. Rename the directory to "Add-on Helipack" without the quotes if it's not already named that.
+
+If this is the first time you are installing the theater,
+
 5. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
 6. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
 
@@ -39,10 +42,15 @@ If you'd like to clone the entire repository and get the latest version on the m
 1. Open a cmd prompt to "\Falcon BMS 4.35\Data"
 2. Enter the command "git clone https://github.com/BibleClinger/HeliPack.git" without quotes.
 3. Rename the downloaded directory to "Add-on Helipack" if if it's not already named that.
-4. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
-5. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
+
+If this is the first time you are installing the theater,
+
+5. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
+6. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
 
 This will have you download the master branch. To switch to a specific version, you can checkout a new branch based on the version tag. For example: "git checkout tags/v0.1-alpha -b v0.1-alpha" will checkout version v0.1-alpha into a branch of its own name.
+
+There are plenty of options for using git. This is just a sample of what can be done.
 
 # How do I help?
 
