@@ -46,8 +46,8 @@ If you'd like to clone the entire repository and get the latest version on the m
 
 If this is the first time you are installing the theater,
 
-5. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
-6. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
+4. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
+5. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
 
 This will have you download the master branch. To switch to a specific version, you can checkout a new branch based on the version tag. For example: "git checkout tags/v0.1-alpha -b v0.1-alpha" will checkout version v0.1-alpha into a branch of its own name.
 
