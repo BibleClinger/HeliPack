@@ -27,7 +27,7 @@
              +8.000000  # Max G
            +190.000000  # Max Roll
              +0.000000  # Min Vcas
-           +197.000000  # Max Vcas
+           +190.000000  # Max Vcas
            +143.000000  # Corner Vcas
             +13.000000  # Theta Max
              +4.000000  # Num Gear
