@@ -55,9 +55,28 @@ There are plenty of options for using git. This is just a sample of what can be 
 
 # How do I help?
 
-If you're savvy enough with Git and Github, download the repo directly to your Falcon BMS "data" directory through git and don't bother with manually downloading the official releases. Swap branches as you need. Make your own branches. Play around with the flight models. If you discover how to fix a problem, let us know. Send us a pull request, but try to keep it simple and in accordinance with our philosophy.
+If you're savvy enough with Git and Github, download the repo directly to your Falcon BMS "data" directory through git and don't bother with manually downloading the official releases. Swap branches as you need. Make your own branches. Play around with the flight models. The type of challenges we face are as follows:
 
-Otherwise, just test it. We need feedback.
+1. Flight Models
+2. Graphics
+3. Problems
+4. Testing
+
+## 1. Flight Models
+
+There are plenty of challenges in getting the flight model correct. If you identify a way of improving one of the flight models, send us a Pull Request with some information on what you changed and why.
+
+## 2. Graphics
+
+Can you make a 3D cockpit? We'd love to implement it. We're not looking for realistic pits, however. We're looking for hybrid cockpits that look like helicopter cockpits, but have full F-16 functionality.
+
+## 3. Problems
+
+Have a look through the Trello. If you discover how to fix one of the "Problems," let us know. Send us a pull request with some information on what you changed and why.
+
+## 4. Testing
+
+Can't do anything technical beyond install and run the theater? That's fine. Try it out and provide some feedback.
 
 # Status
 
@@ -72,3 +91,7 @@ This is a major work in progress. It is in the early stages of development. We h
 
 - BibleClinger: Project Manager
 - OldCraig: Crash Test Dummy
+
+# References
+
+- Trello: https://trello.com/b/C5C9tWjD/helipack
