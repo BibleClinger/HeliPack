@@ -64,7 +64,7 @@ This is a major work in progress. It is in the early stages of development. We h
 
 # Known Bugs/Issues
 
-- The AH-64A is prone to crashing if you bring AGM-114s. This is because Falcon BMS has a bug where Maverick weapons expect your aircraft to have a radar, crashing the game if your aircraft doesn't have a radar.
+- The AH-64A and AH-1S are prone to crashing if you bring AGM-114s or BGM-71 TOWs. This is because Falcon BMS has a bug where Maverick weapons expect your aircraft to have a radar, crashing the game if your aircraft doesn't have a radar.
 - The flight models are wrong. We're working on them. Nothing stops you from flying without VTOL. Nothing stops you from exceeding the speed limits. We are aware. Help us fix them if you can.
 
 # Credits
