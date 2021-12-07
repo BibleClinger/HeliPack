@@ -27,8 +27,9 @@ You have two options. You can either download manually, or else you can hook up 
 
 1. Download the latest release, or download the master branch.
 2. Extract the directory from the zip file.
-3. Place the directory in question inside "\Falcon BMS 4.35\Data".
-4. Rename the directory to "Add-on Helipack" without the quotes if it's not already named that.
+3. Rename or delete any old copy of the Helipack mod.
+4. Place the directory in question inside "\Falcon BMS 4.35\Data".
+5. Rename the directory to "Add-on Helipack" without the quotes if it's not already named that.
 
 If this is the first time you are installing the theater,
 
