@@ -84,7 +84,7 @@
         <HighAltLethality>0.85</HighAltLethality>
         <LowAltLethality>0.85</LowAltLethality>
         <DetectionRange>9.3</DetectionRange>
-        <BeamWidth>9.0</BeamWidth>
+        <BeamWidth>30.0</BeamWidth>
         <ScanWidth>120.0</ScanWidth>
         <SweepRate>12.0</SweepRate>
         <CoastTime>3.0</CoastTime>
@@ -730,7 +730,7 @@
         <HighAltLethality>0.85</HighAltLethality>
         <LowAltLethality>0.85</LowAltLethality>
         <DetectionRange>11.1</DetectionRange>
-        <BeamWidth>9.0</BeamWidth>
+        <BeamWidth>45.0</BeamWidth>
         <ScanWidth>120.0</ScanWidth>
         <SweepRate>12.0</SweepRate>
         <CoastTime>3.0</CoastTime>
@@ -1205,7 +1205,7 @@
         <HighAltLethality>0.85</HighAltLethality>
         <LowAltLethality>0.85</LowAltLethality>
         <DetectionRange>7.4</DetectionRange>
-        <BeamWidth>9.0</BeamWidth>
+        <BeamWidth>30.0</BeamWidth>
         <ScanWidth>120.0</ScanWidth>
         <SweepRate>12.0</SweepRate>
         <CoastTime>3.0</CoastTime>
