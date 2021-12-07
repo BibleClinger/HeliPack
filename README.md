@@ -23,7 +23,7 @@ We are not interested in doing other helicopters at the moment, since it seems t
 
 You have two options. You can either download manually, or else you can hook up your local copy of git to this repo. The former will get you setup with a particular version right away. The latter sets you up for switching versions, updating, and whatever else you'd like to do. It is by far the most tech savvy way of setting up this theater.
 
-## Manual Download
+## Option A: Manual Download
 
 1. Download the latest release, or download the master branch.
 2. Rename or delete any old copy of the Helipack mod.
@@ -36,7 +36,7 @@ If this is the first time you are installing the theater,
 5. Open the file "\Falcon BMS 4.35\Data\TerrData\TheaterDefinition\theater.lst".
 6. Append "Add-On Helipack\Terrdata\theaterdefinition\Helipack.tdf" at the end of the file on its own line.
 
-## Use Git
+## Option B: Use Git
 
 If you'd like to clone the entire repository and get the latest version on the master branch, you can do the following:
 
