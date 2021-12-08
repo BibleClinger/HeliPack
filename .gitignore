@@ -5,6 +5,8 @@
 #######################################
 ## Editor backup files that end with ~
 *.*~
+## Lock files from LibreOffice
+.~lock.*\#
 
 #######################################
 ## Campaign stuff
