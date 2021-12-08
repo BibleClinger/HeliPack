@@ -1212,6 +1212,12 @@ SpotLight1OuterConeDeg 35.000 # outer cone angle in degrees
 #-----------------------------------------------------
 # Spot Lights Taxi
 #-----------------------------------------------------
+SpotTaxiLight1Color 0.25 0.25 0.24 # color of the light
+SpotTaxiLight1Position 11.60 0.00 2.50 # the light's position
+SpotTaxiLight1LookAt 50.18 0.00 9.45 # position in model space at which the light should point
+SpotTaxiLight1Attenuation 0.000400 # attenuation of the light
+SpotTaxiLight1InnerConeDeg 10.000 # inner cone angle in degrees
+SpotTaxiLight1OuterConeDeg 25.000 # outer cone angle in degrees
 #-----------------------------------------------------
 # Additionals that are not included in FMM.
 #-----------------------------------------------------
