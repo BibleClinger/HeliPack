@@ -1,0 +1,18 @@
+// Delay for init to complete
+WAIT 10
+
+// Setup
+SetColor 0xff00ff00
+SetFontBGColor 0x00000000
+SetTextBoxed 2
+SetFont 1
+SetTextOrientation 0
+SetFlash 0
+SetCursor -0.98 0.08
+
+// Main Script
+Print 10 "Helipack Training 01: Flight"
+MoveCursor 0 -0.05
+WaitPrint 10 "See the Helipack Manual for a walkthrough of this mission."
+MoveCursor 0 0.05
+Print 10 "You're airborne! Congratulations!"
