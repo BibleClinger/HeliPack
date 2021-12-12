@@ -15,4 +15,4 @@ Print 10 "Helipack Training 04: Naval"
 MoveCursor 0 -0.05
 WaitPrint 10 "See the Helipack Manual for a walkthrough of this mission."
 MoveCursor 0 0.05
-Print 10 "Show the Americans that the Alligator is a formidable attack force, comrade."
+Print 10 "Show the Americans that you can handle carrier ops, comrade."
