@@ -1,0 +1,76 @@
+// Delay for init to complete
+WAIT 10
+
+// Setup
+SetColor 0xff00ff00
+SetFontBGColor 0x00000000
+SetTextBoxed 2
+SetFont 1
+SetTextOrientation 0
+SetFlash 0
+SetCursor -0.98 0.080
+
+// Main Script
+Print 10 "Helipack Training 03: NOE"
+MoveCursor 0 -0.05
+WaitPrint 10 "See the Helipack Manual for a walkthrough of this mission."
+MoveCursor 0 0.05
+Print 10 "Be pro! Stay low! You have 30 minutes!"
+
+// Timer Stuff. Much advanced. Very spiffy. Wow.
+SetTextOrientation 2
+SetCursor 0.75 0.9
+Print 1800 "Objective: Land at Choongwon Airbase in "
+SetTextOrientation 0
+WaitPrint 60 "30 min(s)."
+WaitPrint 60 "29 min(s)."
+WaitPrint 60 "28 min(s)."
+WaitPrint 60 "27 min(s)."
+WaitPrint 60 "26 min(s)."
+WaitPrint 60 "25 min(s)."
+WaitPrint 60 "24 min(s)."
+WaitPrint 60 "23 min(s)."
+WaitPrint 60 "22 min(s)."
+WaitPrint 60 "21 min(s)."
+WaitPrint 60 "20 min(s)."
+WaitPrint 60 "19 min(s)."
+WaitPrint 60 "18 min(s)."
+WaitPrint 60 "17 min(s)."
+WaitPrint 60 "16 min(s)."
+WaitPrint 60 "15 min(s)."
+WaitPrint 60 "14 min(s)."
+WaitPrint 60 "13 min(s)."
+WaitPrint 60 "12 min(s)."
+WaitPrint 60 "11 min(s)."
+WaitPrint 60 "10 min(s)."
+WaitPrint 60 "09 min(s)."
+WaitPrint 60 "08 min(s)."
+WaitPrint 60 "07 min(s)."
+WaitPrint 60 "06 min(s)."
+WaitPrint 60 "05 min(s)."
+WaitPrint 60 "04 min(s)."
+WaitPrint 60 "03 min(s)."
+WaitPrint 60 "02 min(s)."
+WaitPrint 60 "01 min(s)."
+WaitPrint 60 "50 sec(s)."
+WaitPrint 60 "40 sec(s)."
+WaitPrint 60 "30 sec(s)."
+WaitPrint 60 "20 sec(s)."
+WaitPrint 1 "10 sec(s)."
+WaitPrint 1 "09 sec(s)."
+WaitPrint 1 "08 sec(s)."
+WaitPrint 1 "07 sec(s)."
+WaitPrint 1 "06 sec(s)."
+WaitPrint 1 "05 sec(s)."
+WaitPrint 1 "04 sec(s)."
+WaitPrint 1 "03 sec(s)."
+WaitPrint 1 "02 sec(s)."
+WaitPrint 1 "01 sec(s)."
+WaitPrint 1 "00 sec(s)."
+
+Clear
+SetFontColor 0xffff0000
+SetFontBGColor 0x00000000
+SetCursor 0.75 0.9
+SetTextOrientation 2
+Print 1800 "Objective: Land at Choongwon Airbase."
