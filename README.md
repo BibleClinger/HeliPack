@@ -53,6 +53,7 @@ This will have you download the master branch. To switch to a specific version, 
 
 There are plenty of options for using git. This is just a sample of what can be done.
 
+
 # How do I help?
 
 If you're savvy enough with Git and Github, download the repo directly to your Falcon BMS "data" directory through git and don't bother with manually downloading the official releases. Swap branches as you need. Make your own branches. Play around with the flight models. The type of challenges we face are as follows:
@@ -77,6 +78,10 @@ Have a look through the Trello. If you discover how to fix one of the "Problems,
 ## 4. Testing
 
 Can't do anything technical beyond install and run the theater? That's fine. Try it out and provide some feedback.
+
+# How can a theater dev add these helicopters to their own theater?
+
+Oh, that's a long topic better suited for the wiki perhaps. We'll hopefully get there with more documentation at a later date.
 
 # Status
 
