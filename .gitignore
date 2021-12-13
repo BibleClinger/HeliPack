@@ -28,3 +28,5 @@ Campaign/tmp*.*
 # Exceptions
 #!Campaign/save*
 #!Campaign/AH-64*
+Campaign/Back03
+Terrdata/Objects/_FCD
