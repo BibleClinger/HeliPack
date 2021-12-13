@@ -6,9 +6,9 @@
         <CollisionRadius>0.000</CollisionRadius>
         <Domain>2</Domain>
         <Class>7</Class>
-        <Type>5</Type>
-        <SubType>1</SubType>
-        <Specific>10</Specific>
+        <Type>1</Type>
+        <SubType>2</SubType>
+        <Specific>41</Specific>
         <Owner>0</Owner>
         <Class_6>0</Class_6>
         <Class_7>0</Class_7>
@@ -36,7 +36,7 @@
         <GraphicsLeftDestroyed>0</GraphicsLeftDestroyed>
         <GraphicsRightDestroyed>0</GraphicsRightDestroyed>
         <GraphicsBothDestroyed>0</GraphicsBothDestroyed>
-        <MoverDefinitionData>21</MoverDefinitionData>
+        <MoverDefinitionData>189</MoverDefinitionData>
         <EntityType>5</EntityType>
         <EntityIdx>204</EntityIdx>
     </CT>

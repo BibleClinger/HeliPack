@@ -1,3 +1,0 @@
-Current DB Source is 4.35.3
-
-FALCON4_ACD.XML and FALCON4_SWD.XML are the only edited DB files.

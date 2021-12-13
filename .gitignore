@@ -5,6 +5,8 @@
 #######################################
 ## Editor backup files that end with ~
 *.*~
+## Lock files from LibreOffice
+.~lock.*\#
 
 #######################################
 ## Campaign stuff
@@ -26,3 +28,5 @@ Campaign/tmp*.*
 # Exceptions
 #!Campaign/save*
 #!Campaign/AH-64*
+Campaign/Back03
+Terrdata/Objects/_FCD

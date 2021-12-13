@@ -1,0 +1,12 @@
+Helis are reassigned as Attack aircraft starting at Specific # 39.
+	- AH-64A
+	- AH-64D
+	- AH-64E
+	- AH-1S
+	- KA-52
+	- KA-52K
+Their entries in VALIDAC.ACT and teplanes.lst must be edited to reflect their values. Note: Mission Commander will not understand that they are valid entries.
+
+Terrdata\Objects\DB_Source.txt explains which parts of the DB have been edited.
+
+BOMBDATA and ACDATA have been edited in their respective directories.
