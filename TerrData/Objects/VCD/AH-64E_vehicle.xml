@@ -16,7 +16,7 @@
         <MinAlt>1</MinAlt>
         <CruiseAlt>2</CruiseAlt>
         <MaxSpeed>296</MaxSpeed>
-        <RadarIdx>0</RadarIdx>
+        <RadarIdx>13</RadarIdx>
         <NumberOfCrew>2</NumberOfCrew>
         <RackFlags>126</RackFlags>
         <VisibleFlags>126</VisibleFlags>
