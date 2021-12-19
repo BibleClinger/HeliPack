@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WCDRecords>
+    <WCD Num="513">
+        <CtIdx>217</CtIdx>
+        <Strength>26</Strength>
+        <DamageType>2</DamageType>
+        <Range>2</Range>
+        <Flags>35880</Flags>
+        <Name>30mm M230</Name>
+        <Hit_NoMove>22</Hit_NoMove>
+        <Hit_Foot>20</Hit_Foot>
+        <Hit_Wheeled>10</Hit_Wheeled>
+        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_LowAir>5</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>5</Hit_Rail>
+        <FireRate>3</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>2</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>0</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>16</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>25</SimWeaponDataIdx>
+        <MaxAlt>3</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>1</BulletTTL>
+        <BulletVelocity>10</BulletVelocity>
+        <BulletDispersion>24</BulletDispersion>
+        <BulletRoundsPerSec>10</BulletRoundsPerSec>
+    </WCD>
+</WCDRecords>

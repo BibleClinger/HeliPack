@@ -54,20 +54,22 @@
         <Det_Air>20</Det_Air>
         <Det_Naval>20</Det_Naval>
         <Det_Rail>20</Det_Rail>
-        <WpnOrHpIdx_0>513</WpnOrHpIdx_0>
+        <WpnOrHpIdx_0>0</WpnOrHpIdx_0>
         <WpnOrHpIdx_1>9</WpnOrHpIdx_1>
         <WpnOrHpIdx_2>24</WpnOrHpIdx_2>
         <WpnOrHpIdx_3>24</WpnOrHpIdx_3>
         <WpnOrHpIdx_4>24</WpnOrHpIdx_4>
         <WpnOrHpIdx_5>24</WpnOrHpIdx_5>
         <WpnOrHpIdx_6>9</WpnOrHpIdx_6>
-        <WpnCount_0>120</WpnCount_0>
+        <WpnOrHpIdx_7>513</WpnOrHpIdx_7>
+        <WpnCount_0>0</WpnCount_0>
         <WpnCount_1>255</WpnCount_1>
         <WpnCount_2>255</WpnCount_2>
         <WpnCount_3>255</WpnCount_3>
         <WpnCount_4>255</WpnCount_4>
         <WpnCount_5>255</WpnCount_5>
         <WpnCount_6>255</WpnCount_6>
+        <WpnCount_7>120</WpnCount_7>
         <Dam_None>100</Dam_None>
         <Dam_Penetration>50</Dam_Penetration>
         <Dam_HighExplosive>100</Dam_HighExplosive>

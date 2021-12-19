@@ -10,3 +10,7 @@ Their entries in VALIDAC.ACT and teplanes.lst must be edited to reflect their va
 Terrdata\Objects\DB_Source.txt explains which parts of the DB have been edited.
 
 BOMBDATA and ACDATA have been edited in their respective directories.
+
+////
+
+Gun Specifics start at Specific 70.
