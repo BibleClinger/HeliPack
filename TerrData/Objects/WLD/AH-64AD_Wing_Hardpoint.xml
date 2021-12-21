@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WLDRecords>
+    <WLD Num="24">
+        <Name>AH-64A/D Wing</Name>
+        <WpnIdx_0>131</WpnIdx_0>
+        <WpnIdx_1>428</WpnIdx_1>
+        <WpnIdx_2>429</WpnIdx_2>
+        <WpnIdx_3>513</WpnIdx_3>
+        <WpnCount_0>4</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
+        <WpnCount_3>19</WpnCount_3>
+    </WLD>
+</WLDRecords>

@@ -5200,13 +5200,13 @@
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
         <Area>0.300</Area>
-        <EjectX>3000.000</EjectX>
+        <EjectX>0.000</EjectX>
         <EjectY>0.000</EjectY>
         <EjectZ>0.000</EjectZ>
         <WpnName>30MM</WpnName>
         <WpnClass>6</WpnClass>
         <Domain>2</Domain>
-        <WpnType>11</WpnType>
+        <WpnType>14</WpnType>
         <WpnDatIdx>206</WpnDatIdx>
     </SWD>
 </SWDRecords>
