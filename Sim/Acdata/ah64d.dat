@@ -815,7 +815,7 @@ maxAutopilotMach 0.95
 #-----------------------------------------------------
 # Locations
 #-----------------------------------------------------
-PilotEyePos 15.10 0.00 -2.10
+PilotEyePos 2.0 0.0 5.0
 wingTipLocation -6.15 14.80 1.20
 #-----------------------------------------------------
 # Counter measure
@@ -1163,37 +1163,19 @@ Light1Position -6.9 -6.8 5.0
 Light1Color 0.40 0.00 0.00
 Light1Type 3
 Light1Radius 30 
-Light1Attenuation 0.149
+Light1Attenuation 0.001
 
 Light2Position -6.9 6.8 5.0
 Light2Color 0.00 0.40 0.00
 Light2Type 3
 Light2Radius 30 
-Light2Attenuation 0.149
+Light2Attenuation 0.001
 
 Light3Position -31.00 0.00 -1.70 
 Light3Color 0.20 0.20 0.50 
 Light3Type 1
 Light3Radius 28
-Light3Attenuation 0.100
-
-Light4Position -22.30 0.00 -2.07
-Light4Color 0.50 0.50 0.50
-Light4Type 1
-Light4Radius 90
-Light4Attenuation 0.112
-
-Light5Position 15.40 0.00 4.75
-Light5Color 0.50 0.50 0.50
-Light5Type 4
-Light5Radius 80
-Light5Attenuation 0.900
-
-Light6Position 9.50 1.96 3.60
-Light6Color 1.00 0.75 0.33
-Light6Type 20
-Light6Radius 60
-Light6Attenuation 0.181
+Light3Attenuation 0.001
 
 animStrobeOnTime 0.020
 animStrobeOffTime 1.000
