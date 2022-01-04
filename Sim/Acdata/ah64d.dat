@@ -1163,19 +1163,19 @@ Light1Position -6.9 -6.8 5.0
 Light1Color 0.40 0.00 0.00
 Light1Type 3
 Light1Radius 30 
-Light1Attenuation 0.001
+Light1Attenuation 0.149
 
 Light2Position -6.9 6.8 5.0
 Light2Color 0.00 0.40 0.00
 Light2Type 3
 Light2Radius 30 
-Light2Attenuation 0.001
+Light2Attenuation 0.149
 
 Light3Position -31.00 0.00 -1.70 
 Light3Color 0.20 0.20 0.50 
 Light3Type 1
 Light3Radius 28
-Light3Attenuation 0.001
+Light3Attenuation 0.149
 
 animStrobeOnTime 0.020
 animStrobeOffTime 1.000

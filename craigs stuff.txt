@@ -1,0 +1,3 @@
+blue=forward and backward from nose to tail +nose -tail
+pink=left to right from center point of aircraft
+yellow=z axis CRAIG IF IT SAYS NEGATIVE IT REALLY MEANS IT IS HIGH UP IN THE FUCKING AIR STOP FORGETTING THIS.

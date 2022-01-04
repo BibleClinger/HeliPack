@@ -1177,24 +1177,6 @@ Light3Type 1
 Light3Radius 28
 Light3Attenuation 0.100
 
-Light4Position -22.30 0.00 -1.07
-Light4Color 0.50 0.50 0.50
-Light4Type 1
-Light4Radius 90
-Light4Attenuation 0.112
-
-Light5Position 15.40 0.00 4.75
-Light5Color 0.50 0.50 0.50
-Light5Type 4
-Light5Radius 80
-Light5Attenuation 0.900
-
-Light6Position 9.50 1.96 3.60
-Light6Color 1.00 0.75 0.33
-Light6Type 20
-Light6Radius 60
-Light6Attenuation 0.181
-
 animStrobeOnTime 0.020
 animStrobeOffTime 1.000
 animWingFlashOnTime 0.040
