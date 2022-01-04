@@ -1,0 +1,272 @@
+[STREAMSOUND] IAD2E "sounds\ui\voice\IAD2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD3E "sounds\ui\voice\IAD3e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD1E "sounds\ui\voice\IAD1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD4E "sounds\ui\voice\IAD4e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD5E "sounds\ui\voice\IAD5e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD6E "sounds\ui\voice\IAD6e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD7E "sounds\ui\voice\IAD7e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD8E "sounds\ui\voice\IAD8e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD9E "sounds\ui\voice\IAD9e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD10E "sounds\ui\voice\IAD10e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD11E "sounds\ui\voice\IAD11e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD12E "sounds\ui\voice\IAD12e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD13E "sounds\ui\voice\IAD13e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD14E "sounds\ui\voice\IAD14e.ogg" S_BIT_NORMAL
+[STREAMSOUND] IAD15E "sounds\ui\voice\IAD15e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD20E "sounds\ui\voice\DD20e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD2E "sounds\ui\voice\DD2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD19E "sounds\ui\voice\DD19e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD1E "sounds\ui\voice\DD1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD3E "sounds\ui\voice\DD3e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD4E "sounds\ui\voice\DD4e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD5E "sounds\ui\voice\DD5e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD6E "sounds\ui\voice\DD6e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD7E "sounds\ui\voice\DD7e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD8E "sounds\ui\voice\DD8e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD9E "sounds\ui\voice\DD9e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD10E "sounds\ui\voice\DD10e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD11E "sounds\ui\voice\DD11e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD12E "sounds\ui\voice\DD12e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD13E "sounds\ui\voice\DD13e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD14E "sounds\ui\voice\DD14e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD15E "sounds\ui\voice\DD15e.ogg" S_BIT_NORMAL
+[STREAMSOUND] DD18E "sounds\ui\voice\DD18e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB20E "sounds\ui\voice\cb20e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB19E "sounds\ui\voice\cb19e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB21E "sounds\ui\voice\cb21e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB22E "sounds\ui\voice\cb22e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB23E "sounds\ui\voice\cb23e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB24E "sounds\ui\voice\cb24e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB26E "sounds\ui\voice\cb26e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB25E "sounds\ui\voice\cb25e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB11E "sounds\ui\voice\cb11e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB10E "sounds\ui\voice\cb10e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB9E "sounds\ui\voice\cb9e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB8E "sounds\ui\voice\cb8e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB6E "sounds\ui\voice\cb6e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB5E "sounds\ui\voice\cb5e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB7E "sounds\ui\voice\cb7e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB35E "sounds\ui\voice\cb35e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB100E "sounds\ui\voice\cb100e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB29E "sounds\ui\voice\cb29e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB55E "sounds\ui\voice\cb55e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB30E "sounds\ui\voice\cb30e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB34E "sounds\ui\voice\cb34e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB33E "sounds\ui\voice\cb33e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB32E "sounds\ui\voice\cb32e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB31E "sounds\ui\voice\cb31e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB38E "sounds\ui\voice\cb38e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB49E "sounds\ui\voice\cb49e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB50E "sounds\ui\voice\cb50e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB28E "sounds\ui\voice\cb28e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB27E "sounds\ui\voice\cb27e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB48E "sounds\ui\voice\cb48e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB37E "sounds\ui\voice\cb37e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB46E "sounds\ui\voice\cb46e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB45E "sounds\ui\voice\cb45e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB44E "sounds\ui\voice\cb44e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB43E "sounds\ui\voice\cb43e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB42E "sounds\ui\voice\cb42e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB41E "sounds\ui\voice\cb41e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB39E "sounds\ui\voice\cb39e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB40E "sounds\ui\voice\cb40e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB36E "sounds\ui\voice\cb36e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB47E "sounds\ui\voice\cb47e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB4E "sounds\ui\voice\cb4e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB3E "sounds\ui\voice\cb3e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB2E "sounds\ui\voice\CB2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB1E "sounds\ui\voice\CB1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB54E "sounds\ui\voice\cb54e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB53E "sounds\ui\voice\cb53e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB52E "sounds\ui\voice\cb52e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB51E "sounds\ui\voice\cb51e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB12E "sounds\ui\voice\cb12e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB13E "sounds\ui\voice\cb13e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB14E "sounds\ui\voice\cb14e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB16E "sounds\ui\voice\cb16e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB15E "sounds\ui\voice\cb15e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB18E "sounds\ui\voice\cb18e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CB17E "sounds\ui\voice\cb17e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD7E "sounds\ui\voice\cd7e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD4E "sounds\ui\voice\cd4e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD3E "sounds\ui\voice\cd3e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD2E "sounds\ui\voice\cd2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD1E "sounds\ui\voice\cd1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD18E "sounds\ui\voice\cd18e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD19E "sounds\ui\voice\cd19e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD20E "sounds\ui\voice\cd20e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD21E "sounds\ui\voice\cd21e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD22E "sounds\ui\voice\cd22e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD23E "sounds\ui\voice\cd23e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD6E "sounds\ui\voice\cd6e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD5E "sounds\ui\voice\cd5e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD10E "sounds\ui\voice\cd10e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD9E "sounds\ui\voice\cd9e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD8E "sounds\ui\voice\cd8e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD17E "sounds\ui\voice\cd17e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD16E "sounds\ui\voice\cd16e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD11E "sounds\ui\voice\cd11e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD12E "sounds\ui\voice\cd12e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD13E "sounds\ui\voice\cd13e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD14E "sounds\ui\voice\cd14e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD15E "sounds\ui\voice\cd15e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD26E "sounds\ui\voice\cd26e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD27E "sounds\ui\voice\cd27e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD24E "sounds\ui\voice\cd24e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CD25E "sounds\ui\voice\cd25e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CDECAFCE "sounds\ui\voice\cdecafce.ogg" S_BIT_NORMAL
+[STREAMSOUND] CDECAFLE "sounds\ui\voice\cdecafle.ogg" S_BIT_NORMAL
+[STREAMSOUND] CDECAME "sounds\ui\voice\cdecame.ogg" S_BIT_NORMAL
+[STREAMSOUND] CDECDFCE "sounds\ui\voice\cdecdfce.ogg" S_BIT_NORMAL
+[STREAMSOUND] CDECKFME "sounds\ui\voice\cdeckfme.ogg" S_BIT_NORMAL
+[STREAMSOUND] CDECSSE "sounds\ui\voice\cdecsse.ogg" S_BIT_NORMAL
+[STREAMSOUND] CMCLE "sounds\ui\voice\cmcle.ogg" S_BIT_NORMAL
+[STREAMSOUND] CMEE "sounds\ui\voice\cmee.ogg" S_BIT_NORMAL
+[STREAMSOUND] CMFF1E "sounds\ui\voice\cmff1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CMFF2E "sounds\ui\voice\cmff2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CMFF3E "sounds\ui\voice\cmff3e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD2E "sounds\ui\voice\cpd2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD3E "sounds\ui\voice\cpd3e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD4E "sounds\ui\voice\cpd4e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD5E "sounds\ui\voice\cpd5e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD6E "sounds\ui\voice\cpd6e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD7E "sounds\ui\voice\cpd7e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CPD1E "sounds\ui\voice\cpd1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] CSM1 "sounds\ui\voice\CSM1.ogg" S_BIT_NORMAL
+[STREAMSOUND] BUT1E "sounds\ui\voice\BUT1e.ogg" S_BIT_NORMAL
+[STREAMSOUND] BUT2E "sounds\ui\voice\BUT2e.ogg" S_BIT_NORMAL
+[STREAMSOUND] BUT3E "sounds\ui\voice\BUT3e.ogg" S_BIT_NORMAL
+
+[STREAMSOUND] A_A_USED           "sounds\ui\a_a_used.ogg"       S_BIT_NORMAL
+[STREAMSOUND] A_G_USED           "sounds\ui\a_g_used.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_SAMS_ON        "sounds\ui\aaa_on.ogg"       S_BIT_NORMAL
+[STREAMSOUND] FLY_USED           "sounds\ui\fly_used.ogg"         S_BIT_FINISH
+[STREAMSOUND] NON_FUNCTIONING    "sounds\ui\non_functioning.ogg"      S_BIT_NORMAL
+[STREAMSOUND] SND_SCREAM         "sounds\ui\scream.ogg"      S_BIT_NORMAL
+[STREAMSOUND] SND_GUNS           "sounds\ui\guns.ogg"      S_BIT_NORMAL
+[STREAMSOUND] SND_AAA_ON         "sounds\ui\aaa_on.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_DOGPLANE       "sounds\ui\dogplane.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_MAP            "sounds\ui\map.ogg"    S_BIT_NORMAL
+[STREAMSOUND] SND_POP            "sounds\ui\pop.ogg"         S_BIT_NORMAL
+[STREAMSOUND] SND_COMMIT         "sounds\ui\fly_used.ogg"      S_BIT_NORMAL
+[STREAMSOUND] SND_PUSH           "sounds\ui\push.ogg"        S_BIT_NORMAL
+[STREAMSOUND] SND_GAMES          "sounds\ui\games.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_RADIO          "sounds\ui\radio.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_TOGGLE         "sounds\ui\toggle.ogg"      S_BIT_NORMAL
+[STREAMSOUND] SND_TAKEOFF	    "sounds\ui\takeoff.ogg"        S_BIT_NORMAL
+[STREAMSOUND] SND_FILE           "sounds\ui\file.ogg"        S_BIT_NORMAL
+[STREAMSOUND] SND_WINDOW	       "sounds\ui\window.ogg"      S_BIT_NORMAL
+[STREAMSOUND] SND_CLOSE          "sounds\ui\close.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_EXIT_GAME    "sounds\ui\exit_game.ogg"    S_BIT_FINISH
+[STREAMSOUND] SND_EXIT_CAMP      "sounds\ui\exit_camp.ogg"    S_BIT_NORMAL
+[STREAMSOUND] SND_INC            "sounds\ui\inc.ogg"         S_BIT_NORMAL
+[STREAMSOUND] SND_DEC            "sounds\ui\dec.ogg"         S_BIT_NORMAL
+[STREAMSOUND] SND_HOMER         "sounds\ui\homer.ogg"       S_BIT_NORMAL
+[STREAMSOUND] SND_UI_SFX	    "sounds\ui\ui_sfx.ogg"      S_BIT_NORMAL S_BIT_LOOP
+[STREAMSOUND] SND_NEWS          "sounds\ui\news.ogg"        S_BIT_NORMAL
+[STREAMSOUND] SND_NEWS_REPORT   "sounds\ui\news.ogg" S_BIT_NORMAL
+[STREAMSOUND] SND_TAPS	        "sounds\ui\taps.ogg"        S_BIT_NORMAL
+[STREAMSOUND] SND_MAP_ZOOM_IN	"sounds\ui\map_zoom_in.ogg"	S_BIT_NORMAL
+[STREAMSOUND] SND_MAP_ZOOM_OUT	"sounds\ui\map_zoom_out.ogg"	S_BIT_NORMAL
+[STREAMSOUND] SND_ICON_OOB	"sounds\ui\icon_oob.ogg"	S_BIT_NORMAL
+[STREAMSOUND] SND_ICON_ATO	"sounds\ui\icon_ato.ogg"	S_BIT_NORMAL
+[STREAMSOUND] SND_ICON_BRIEF	"sounds\ui\icon_brief.ogg"	S_BIT_NORMAL
+[STREAMSOUND] SND_ICON_MUNITIONS	"sounds\ui\icon_munitions.ogg"	S_BIT_NORMAL
+[STREAMSOUND] SND_SLIDER		"sounds\ui\slider.ogg" S_BIT_NORMAL
+[STREAMSOUND] SND_ARROWS		"sounds\ui\arrows.ogg" S_BIT_NORMAL 
+[STREAMSOUND] SND_TEXT		"sounds\ui\text.ogg" 	S_BIT_NORMAL
+[STREAMSOUND] SND_OVER_OOB	"sounds\ui\over_oob.ogg"	S_BIT_NORMAL S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_OVER_ATO	"sounds\ui\over_ato.ogg"	S_BIT_NORMAL  S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_OVER_BRIEF	"sounds\ui\over_brief.ogg"	S_BIT_NORMAL  S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_OVER_MUNITIONS	"sounds\ui\over_munitions.ogg"	S_BIT_NORMAL  S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_OVER_FLIGHT_PLAN "sounds\ui\over_flight_plan.ogg"	S_BIT_NORMAL  S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_OVER_F16	"sounds\ui\over_f16.ogg"	S_BIT_NORMAL  S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_CAMP_DOWN        "sounds\ui\camp_down.ogg"         S_BIT_NORMAL  S_BIT_EXCLUSIVE
+[STREAMSOUND] SND_CAMP_OVER        "sounds\ui\camp_over.ogg"         S_BIT_NORMAL  S_BIT_EXCLUSIVE
+
+[STREAMSOUND] SND_AMBIENT1        "Add-on Helipack\music\mod.datitle.ogg"     S_BIT_NORMAL S_BIT_FADE_OUT S_BIT_LOOP
+[LOOPCOUNT]   SND_AMBIENT1 1
+[STREAMSOUND] SND_AMBIENT2        "Add-on Helipack\music\mod.datitle.ogg"     S_BIT_NORMAL S_BIT_FADE_IN S_BIT_FADE_OUT S_BIT_LOOP
+[LOOPCOUNT]   SND_AMBIENT2 1
+[STREAMSOUND] SND_CAMPAIGN_GOOD   "Add-on Helipack\music\mod.datitle.ogg"     S_BIT_NORMAL  S_BIT_FADE_IN S_BIT_FADE_OUT S_BIT_LOOP
+[LOOPCOUNT]   SND_CAMPAIGN_GOOD 2
+[STREAMSOUND] SND_CAMPAIGN_MEDIUM "Add-on Helipack\music\mod.datitle.ogg"     S_BIT_NORMAL S_BIT_FADE_IN S_BIT_FADE_OUT S_BIT_LOOP
+[LOOPCOUNT]   SND_CAMPAIGN_MEDIUM 2
+[STREAMSOUND] SND_CAMPAIGN_BAD    "Add-on Helipack\music\mod.datitle.ogg"     S_BIT_NORMAL S_BIT_FADE_IN S_BIT_FADE_OUT S_BIT_LOOP
+[LOOPCOUNT]   SND_CAMPAIGN_BAD 2
+
+[STREAMSOUND] SND_PIECE_1 	  "music\dynamic\1.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_2 	  "music\dynamic\2.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_3 	  "music\dynamic\3.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_4 	  "music\dynamic\4.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_5 	  "music\dynamic\5.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_6 	  "music\dynamic\6.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_7 	  "music\dynamic\7.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_8 	  "music\dynamic\8.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_9 	  "music\dynamic\9.ogg" S_BIT_NORMAL   S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_10	  "music\dynamic\10.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_11	  "music\dynamic\11.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_12	  "music\dynamic\12.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_13	  "music\dynamic\13.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_14	  "music\dynamic\14.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_15	  "music\dynamic\15.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_16	  "music\dynamic\16.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_17	  "music\dynamic\17.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_18	  "music\dynamic\18.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_19	  "music\dynamic\19.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_20	  "music\dynamic\20.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_21	  "music\dynamic\21.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_22	  "music\dynamic\22.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_23	  "music\dynamic\23.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_24	  "music\dynamic\24.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_25	  "music\dynamic\25.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_26	  "music\dynamic\26.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_27	  "music\dynamic\27.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_28	  "music\dynamic\28.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_29	  "music\dynamic\29.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_30	  "music\dynamic\30.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_31	  "music\dynamic\31.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_32	  "music\dynamic\32.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_33	  "music\dynamic\33.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_34	  "music\dynamic\34.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_35	  "music\dynamic\35.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_36	  "music\dynamic\36.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_37	  "music\dynamic\37.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_38	  "music\dynamic\38.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_39	  "music\dynamic\39.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_40	  "music\dynamic\40.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_41	  "music\dynamic\41.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_42	  "music\dynamic\42.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_43	  "music\dynamic\43.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_44	  "music\dynamic\44.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_45	  "music\dynamic\45.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_46	  "music\dynamic\46.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_47	  "music\dynamic\47.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_48	  "music\dynamic\48.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_49	  "music\dynamic\49.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_50	  "music\dynamic\50.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_51	  "music\dynamic\51.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_52	  "music\dynamic\52.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_53	  "music\dynamic\53.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_54	  "music\dynamic\54.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_55	  "music\dynamic\55.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_56	  "music\dynamic\56.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_57	  "music\dynamic\57.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_58	  "music\dynamic\58.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_59	  "music\dynamic\59.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_60	  "music\dynamic\60.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_61	  "music\dynamic\61.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_62	  "music\dynamic\62.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_63	  "music\dynamic\63.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_64	  "music\dynamic\64.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_65	  "music\dynamic\65.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_66	  "music\dynamic\66.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_67	  "music\dynamic\67.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_68	  "music\dynamic\68.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_69	  "music\dynamic\69.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_70	  "music\dynamic\70.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_71	  "music\dynamic\71.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_74	  "music\dynamic\74.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_75	  "music\dynamic\75.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_76	  "music\dynamic\76.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
+[STREAMSOUND] SND_PIECE_77	  "music\dynamic\77.ogg" S_BIT_NORMAL  S_BIT_FADE_IN
